@@ -4,3 +4,6 @@ class Cbd:
         self.i = i
         self.n = n
 
+    def rendimento_bruto(self):
+        return 500 #falsificação
+
