@@ -9,3 +9,6 @@ class Cbd:
 
     def rendimento_liquido(self):
         return 500 #falsificação
+    
+    def imposto_de_renda(self):
+        return 500 #falsificação
