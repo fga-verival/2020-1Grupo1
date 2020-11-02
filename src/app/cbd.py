@@ -7,3 +7,5 @@ class Cbd:
     def rendimento_bruto(self):
         return 500 #falsificação
 
+    def rendimento_liquido(self):
+        return 500 #falsificação

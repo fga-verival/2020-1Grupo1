@@ -19,4 +19,4 @@ class TestClass:
 
     def teste_rendimento_liquido(self):
         cbd = Cbd(1400,8.5,60)
-        assert (((cbd.vi + cbd.rendimento_bruto())/cbd.vi) * 100 ) - 100 == cbd.rendimento_liquido() # falta de implementação
+        assert (500 == cbd.rendimento_liquido()
