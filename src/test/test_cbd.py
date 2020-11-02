@@ -11,4 +11,4 @@ class TestClass:
 
     def teste_rendimento_bruto(self):
         cbd = Cbd(1400,8.5,60)
-        assert (cbd.vi * (1 + (cbd.i/100))**(cbd.n/365)) - cbd.vi == cbd.rendimento_bruto()
+        assert (cbd.vi * (1 + (cbd.i/100))**(cbd.n/365)) - cbd.vi == cbd.rendimento_bruto()#falta de implementação
