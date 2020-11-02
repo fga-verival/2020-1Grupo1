@@ -12,3 +12,7 @@ class TestClass:
     def teste_rendimento_bruto(self):
         cbd = Cbd(1400,8.5,60)
         assert (500 == cbd.rendimento_bruto())
+
+    def teste_rendimento_bruto_2(self):
+        cbd = Cbd(1400, 8.5, 60)
+        assert (600 == cbd.rendimento_bruto())
