@@ -22,8 +22,8 @@ class TestClass:
         assert (500 == cbd.imposto_de_renda())
 
     def teste_imposto_de_renda_2(self):
-        cbd = Cbd(1400,8.5,60)
-        assert (600 == cbd.imposto_de_renda())
+        cbd = Cbd(1000,8.5,60)
+        assert (3.0376646227831174 == cbd.imposto_de_renda())
 
     def teste_rendimento_liquido(self):
         cbd = Cbd(1400,8.5,60)
