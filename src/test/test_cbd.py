@@ -26,5 +26,5 @@ class TestClass:
         assert (500 == cbd.rendimento_liquido())
 
     def teste_rendimento_liquido_2(self):
-        cbd = Cbd(1400,8.5,60)
-        assert (600 == cbd.rendimento_liquido())
+        cbd = Cbd(1000,8.5,60)
+        assert (1.3500731656813798 == cbd.rendimento_liquido())

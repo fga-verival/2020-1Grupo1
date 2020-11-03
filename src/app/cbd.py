@@ -7,8 +7,10 @@ class Cbd:
     def rendimento_bruto(self):
         return 500 #falsificação
 
-    def rendimento_liquido(self):
-        return 500 #falsificação
-    
     def imposto_de_renda(self):
         return 500 #falsificação
+
+    def rendimento_liquido(self):
+        # rl = rendimento liquido
+        rl = (((self.vi + self.rendimento_bruto())/self.vi) * 100 ) - 100
+        return rl
