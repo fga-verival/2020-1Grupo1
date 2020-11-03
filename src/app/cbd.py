@@ -3,9 +3,11 @@ class Cbd:
         self.vi = vi
         self.i = i
         self.n = n
-
+  
     def rendimento_bruto(self):
-        return 500 #falsificação
+        valor_rendido = self.vi * (1 + (self.i/100))**(self.n/365)
+        rb = valor_rendido - self.vi
+        return rb
 
     def imposto_de_renda(self):
         return 500 #falsificação

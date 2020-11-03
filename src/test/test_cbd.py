@@ -14,8 +14,8 @@ class TestClass:
         assert (18.90102 == round(cbd.rendimento_bruto(), 5)) # utilizando round para testar com 5 casas decimais
 
     def teste_rendimento_bruto_2(self):
-        cbd = Cbd(1200, 8.5, 60)
-        assert (16.20088 == round(cbd.rendimento_bruto(), 5)) # utilizando round para testar com 5 casas decimais
+        cbd = Cbd(1000,8.5,60)
+        assert (13.500731656813855 == cbd.rendimento_bruto()) # utilizando round para testar com 5 casas decimais
 
     def teste_imposto_de_renda(self):
         cbd = Cbd(1400,8.5,60)
