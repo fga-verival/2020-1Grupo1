@@ -16,6 +16,11 @@ class TestClass:
     def teste_rendimento_bruto_2(self):
         cbd = Cbd(1000,8.5,60)
         assert (13.500731656813855 == cbd.rendimento_bruto()) # utilizando round para testar com 5 casas decimais
+    
+    def teste_rendimento_bruto_3(self):
+        cbd = Cbd(1000,8.5,60)
+        cbd2 = Cbd(1400,8.5,60)
+        assert (32,40175597635323 == cbd.rendimento_bruto() + cbd2.rendimento_bruto()) # utilizando round para testar com 5 casas decimais
 
     def teste_imposto_de_renda(self):
         cbd = Cbd(1400,8.5,60)
