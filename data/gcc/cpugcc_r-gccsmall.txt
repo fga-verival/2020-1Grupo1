@@ -1,0 +1,2800 @@
+     163   4.1%   4.1%      167   4.2% pthread_attr_setschedparam
+      90   2.3%   6.4%       90   2.3% __nss_database_lookup
+      72   1.8%   8.2%       72   1.8% bitmap_find_bit (inline)
+      60   1.5%   9.7%       60   1.5% bmp_iter_set (inline)
+      51   1.3%  11.0%       95   2.4% bitmap_ior_into
+      51   1.3%  12.2%       90   2.3% df_note_bb_compute (inline)
+      41   1.0%  13.3%       51   1.3% bitmap_copy
+      41   1.0%  14.3%       53   1.3% bitmap_element_allocate (inline)
+      39   1.0%  15.3%       92   2.3% htab_find_slot_with_hash
+      37   0.9%  16.2%       53   1.3% bitmap_ior_and_compl
+      35   0.9%  17.1%       80   2.0% bitmap_set_bit
+      35   0.9%  18.0%       75   1.9% dce_process_block
+      33   0.8%  18.8%       53   1.3% df_lr_bb_local_compute
+      31   0.8%  19.6%       40   1.0% ggc_alloc_stat
+      29   0.7%  20.3%       50   1.3% constrain_operands
+      29   0.7%  21.0%      181   4.5% df_worklist_propagate_forward (inline)
+      28   0.7%  21.7%       32   0.8% bitmap_and
+      27   0.7%  22.4%       29   0.7% bitmap_and_into
+      27   0.7%  23.1%       62   1.6% bitmap_bit_p
+      26   0.7%  23.7%      192   4.8% compute_transp
+      26   0.7%  24.4%      129   3.2% df_worklist_propagate_backward (inline)
+      25   0.6%  25.0%       77   1.9% bitmap_elt_ior (inline)
+      25   0.6%  25.6%       37   0.9% get_ref_base_and_extent
+      24   0.6%  26.2%       38   1.0% find_reloads
+      23   0.6%  26.8%       29   0.7% extract_insn
+      22   0.6%  27.4%      133   3.3% cse_insn
+      22   0.6%  27.9%       50   1.3% find_base_term
+      22   0.6%  28.5%       26   0.7% record_reg_classes.constprop.0
+      22   0.6%  29.0%       57   1.4% walk_tree_1
+      21   0.5%  29.6%      108   2.7% __libc_malloc
+      20   0.5%  30.1%       30   0.8% bitmap_clear_bit
+      19   0.5%  30.5%       19   0.5% bitmap_elt_clear_from (inline)
+      19   0.5%  31.0%       24   0.6% canon_rtx
+      19   0.5%  31.5%       66   1.7% memset (inline)
+      18   0.5%  32.0%       18   0.5% find_reg_note (inline)
+      18   0.5%  32.4%       24   0.6% note_stores
+      18   0.5%  32.9%       41   1.0% pool_alloc
+      17   0.4%  33.3%       17   0.4% bitmap_first_set_bit
+      17   0.4%  33.7%       29   0.7% ei_cond (inline)
+      17   0.4%  34.1%       23   0.6% htab_delete
+      16   0.4%  34.5%       18   0.5% gimple_ops (inline)
+      15   0.4%  34.9%       55   1.4% bitmap_elt_copy (inline)
+      15   0.4%  35.3%       23   0.6% delegitimize_mem_from_attrs
+      15   0.4%  35.7%       27   0.7% et_splay
+      15   0.4%  36.0%       49   1.2% init_alias_analysis
+      15   0.4%  36.4%       16   0.4% inverted_post_order_compute
+      15   0.4%  36.8%       15   0.4% value_member
+      14   0.4%  37.2%       14   0.4% rtx_equal_for_memref_p
+      14   0.4%  37.5%       16   0.4% sbitmap_vector_alloc
+      13   0.3%  37.8%       13   0.3% SET_BIT (inline)
+      13   0.3%  38.2%       14   0.4% count_reg_usage
+      13   0.3%  38.5%       13   0.3% ei_next (inline)
+      13   0.3%  38.8%       14   0.4% hash_rtx_cb
+      13   0.3%  39.1%       36   0.9% ix86_delegitimize_address
+      13   0.3%  39.5%       18   0.5% post_order_compute
+      13   0.3%  39.8%       25   0.6% regstat_bb_compute_ri (inline)
+      12   0.3%  40.1%       44   1.1% bitmap_elt_insert_after
+      12   0.3%  40.4%       12   0.3% ix86_decompose_address (inline)
+      12   0.3%  40.7%       15   0.4% mark_all_vars_used_1
+      12   0.3%  41.0%       15   0.4% operand_equal_p
+      12   0.3%  41.3%       12   0.3% rtx_equal_p
+      12   0.3%  41.6%       12   0.3% volatile_refs_p
+      11   0.3%  41.9%       11   0.3% bmp_iter_set_init (inline)
+      11   0.3%  42.2%       13   0.3% cselib_invalidate_regno
+      11   0.3%  42.4%       26   0.7% for_each_rtx_1
+      11   0.3%  42.7%       11   0.3% gimple_code (inline)
+      11   0.3%  43.0%       32   0.8% memrefs_conflict_p.constprop.0
+      11   0.3%  43.3%       22   0.6% spec_qsort
+      11   0.3%  43.5%       37   0.9% try_forward_edges (inline)
+      10   0.3%  43.8%       10   0.3% VEC_edge_base_length (inline)
+      10   0.3%  44.0%       11   0.3% calc_dfs_tree_nonrec
+      10   0.3%  44.3%       39   1.0% df_lr_confluence_n
+      10   0.3%  44.5%       15   0.4% df_simulate_find_defs (inline)
+      10   0.3%  44.8%       11   0.3% df_simulate_uses
+      10   0.3%  45.0%       12   0.3% gsi_start_phis (inline)
+      10   0.3%  45.3%       15   0.4% iterative_hash_expr
+      10   0.3%  45.5%       10   0.3% mark_jump_label_1
+      10   0.3%  45.8%       13   0.3% preprocess_constraints
+      10   0.3%  46.0%       47   1.2% sched_analyze_insn
+      10   0.3%  46.3%       10   0.3% side_effects_p
+       9   0.2%  46.5%       16   0.4% delete_unmarked_insns
+       9   0.2%  46.7%       33   0.8% df_get_call_refs (inline)
+       9   0.2%  47.0%        9   0.2% df_live_bb_local_compute
+       9   0.2%  47.2%       19   0.5% df_ref_create_structure (inline)
+       9   0.2%  47.4%       26   0.7% find_reg_note
+       9   0.2%  47.7%        9   0.2% find_used_regs
+       9   0.2%  47.9%       44   1.1% fold_binary_loc
+       9   0.2%  48.1%        9   0.2% handled_component_p (inline)
+       9   0.2%  48.3%        9   0.2% insn_constraint_len (inline)
+       9   0.2%  48.6%        9   0.2% pool_free
+       8   0.2%  48.8%        8   0.2% VEC_edge_base_index (inline)
+       8   0.2%  49.0%      171   4.3% canon_true_dependence
+       8   0.2%  49.2%        8   0.2% cfree
+       8   0.2%  49.4%       41   1.0% cselib_lookup_1 (inline)
+       8   0.2%  49.6%        8   0.2% df_install_refs (inline)
+       8   0.2%  49.8%       18   0.5% general_operand
+       8   0.2%  50.0%       17   0.4% get_alias_set
+       8   0.2%  50.2%        9   0.2% mark_dfs_back_edges
+       8   0.2%  50.4%        8   0.2% next_dom_son
+       8   0.2%  50.6%        8   0.2% set_noop_p
+       8   0.2%  50.8%       33   0.8% sorted_array_from_bitmap_set.isra.0
+       8   0.2%  51.0%       63   1.6% try_optimize_cfg (inline)
+       7   0.2%  51.1%        8   0.2% df_ref_change_reg_with_loc_1.isra.0
+       7   0.2%  51.3%        7   0.2% df_reorganize_refs_by_reg_by_reg (inline)
+       7   0.2%  51.5%       12   0.3% df_simulate_defs
+       7   0.2%  51.7%       19   0.5% df_sort_and_compress_refs
+       7   0.2%  51.8%        9   0.2% df_uses_record
+       7   0.2%  52.0%        7   0.2% end_hard_regno (inline)
+       7   0.2%  52.2%        7   0.2% find_reg_equal_equiv_note
+       7   0.2%  52.4%        8   0.2% ht_lookup_with_hash
+       7   0.2%  52.5%       10   0.3% htab_find_with_hash
+       7   0.2%  52.7%        7   0.2% last_stmt
+       7   0.2%  52.9%        8   0.2% process_defs
+       7   0.2%  53.1%       50   1.3% refs_may_alias_p_1
+       7   0.2%  53.3%      137   3.4% reload
+       7   0.2%  53.4%        7   0.2% tree_nop_conversion (inline)
+       6   0.2%  53.6%        6   0.2% alloc_INSN_LIST
+       6   0.2%  53.7%        7   0.2% bb_has_eh_pred (inline)
+       6   0.2%  53.9%        6   0.2% bitmap_equal_p
+       6   0.2%  54.0%       16   0.4% calc_idoms
+       6   0.2%  54.2%       71   1.8% calculate_dominance_info
+       6   0.2%  54.3%        6   0.2% copy_rtx_if_shared_1
+       6   0.2%  54.5%       23   0.6% delete_trivially_dead_insns
+       6   0.2%  54.6%       55   1.4% df_insn_refs_collect
+       6   0.2%  54.8%        8   0.2% df_kill_notes (inline)
+       6   0.2%  54.9%        6   0.2% df_ref_compare
+       6   0.2%  55.1%       19   0.5% df_ref_record.constprop.1
+       6   0.2%  55.2%      339   8.5% df_worklist_dataflow_doublequeue (inline)
+       6   0.2%  55.4%       30   0.8% fold_rtx
+       6   0.2%  55.5%        7   0.2% get_expr_value_id
+       6   0.2%  55.7%        6   0.2% get_use_from_ptr (inline)
+       6   0.2%  55.8%        6   0.2% ggc_free
+       6   0.2%  56.0%       10   0.3% gimple_assign_rhs_code (inline)
+       6   0.2%  56.1%       24   0.6% gimplify_expr
+       6   0.2%  56.3%        6   0.2% htab_traverse_noresize
+       6   0.2%  56.4%       11   0.3% insert_with_costs
+       6   0.2%  56.6%        6   0.2% ira_allocno_conflict_iter_cond (inline)
+       6   0.2%  56.7%       23   0.6% mark_irreducible_loops
+       6   0.2%  56.9%       10   0.3% nonzero_bits1 (inline)
+       6   0.2%  57.0%        6   0.2% reg_scan_mark_refs
+       6   0.2%  57.2%       28   0.7% reload_cse_simplify_operands
+       6   0.2%  57.3%        6   0.2% sbitmap_intersection_of_preds
+       5   0.1%  57.5%       59   1.5% __libc_calloc
+       5   0.1%  57.6%        5   0.1% active_insn_p (inline)
+       5   0.1%  57.7%        5   0.1% any_condjump_p
+       5   0.1%  57.8%        5   0.1% assign_dfs_numbers
+       5   0.1%  58.0%        5   0.1% bb_seq (inline)
+       5   0.1%  58.1%        6   0.2% df_def_record_1
+       5   0.1%  58.2%        5   0.1% df_live_get_bb_info (inline)
+       5   0.1%  58.4%        8   0.2% df_rd_bb_local_compute_process_def
+       5   0.1%  58.5%       12   0.3% df_scan_free_internal
+       5   0.1%  58.6%        5   0.1% dominated_by_p
+       5   0.1%  58.7%        5   0.1% et_recomp_min (inline)
+       5   0.1%  58.9%        5   0.1% find_empty_slot_for_expand (inline)
+       5   0.1%  59.0%       37   0.9% flow_loops_find
+       5   0.1%  59.1%        5   0.1% get_immediate_dominator
+       5   0.1%  59.2%        5   0.1% get_reg_known_value (inline)
+       5   0.1%  59.4%        5   0.1% host_integerp
+       5   0.1%  59.5%       20   0.5% invalidate
+       5   0.1%  59.6%        5   0.1% is_gimple_variable (inline)
+       5   0.1%  59.7%        5   0.1% iterative_hash_hashval_t
+       5   0.1%  59.9%       19   0.5% ix86_legitimate_address_p
+       5   0.1%  60.0%        5   0.1% mark_ref_live (inline)
+       5   0.1%  60.1%        5   0.1% may_trap_p_1
+       5   0.1%  60.2%        7   0.2% pointer_map_contains
+       5   0.1%  60.4%       23   0.6% prescan_insns_for_dce
+       5   0.1%  60.5%        5   0.1% register_operand
+       5   0.1%  60.6%        5   0.1% rtx_cost
+       5   0.1%  60.7%        5   0.1% sbitmap_a_or_b
+       5   0.1%  60.9%       39   1.0% scan_one_insn (inline)
+       5   0.1%  61.0%        5   0.1% set_depth_add (inline)
+       5   0.1%  61.1%        8   0.2% tree_strip_sign_nop_conversions
+       5   0.1%  61.2%       64   1.6% try_combine
+       5   0.1%  61.4%       13   0.3% walk_stmt_load_store_addr_ops
+       4   0.1%  61.5%        4   0.1% VEC_pre_expr_base_index (inline)
+       4   0.1%  61.6%        4   0.1% __write
+       4   0.1%  61.7%        4   0.1% _init
+       4   0.1%  61.8%       15   0.4% ao_ref_from_mem
+       4   0.1%  61.9%       24   0.6% ao_ref_from_mem (inline)
+       4   0.1%  62.0%        4   0.1% array_ref_low_bound
+       4   0.1%  62.1%        4   0.1% bitmap_element_free (inline)
+       4   0.1%  62.2%        9   0.2% bitmap_obstack_alloc_stat
+       4   0.1%  62.3%        4   0.1% bmp_iter_next (inline)
+       4   0.1%  62.4%       20   0.5% build_insn_chain (inline)
+       4   0.1%  62.5%       10   0.3% build_int_cst_wide
+       4   0.1%  62.6%       33   0.8% calculate_needs_all_insns
+       4   0.1%  62.7%        4   0.1% component_ref_field_offset
+       4   0.1%  62.8%       17   0.4% compute_available
+       4   0.1%  62.9%       62   1.6% compute_partial_antic_aux
+       4   0.1%  63.0%        4   0.1% const_int_htab_eq
+       4   0.1%  63.1%       11   0.3% cselib_hash_rtx
+       4   0.1%  63.2%       49   1.2% cselib_record_sets
+       4   0.1%  63.3%       38   1.0% df_live_transfer_function
+       4   0.1%  63.4%        4   0.1% df_lr_get_bb_info (inline)
+       4   0.1%  63.5%        4   0.1% df_ref_equal_p (inline)
+       4   0.1%  63.6%        4   0.1% df_scan_get_bb_info (inline)
+       4   0.1%  63.7%       11   0.3% eliminate (inline)
+       4   0.1%  63.8%        4   0.1% exp_equiv_p
+       4   0.1%  63.9%       51   1.3% find_costs_and_classes
+       4   0.1%  64.0%        9   0.2% find_unreachable_blocks
+       4   0.1%  64.1%        7   0.2% flags_from_decl_or_type
+       4   0.1%  64.2%       18   0.5% fold_comparison
+       4   0.1%  64.3%        4   0.1% gimple_phi_arg (inline)
+       4   0.1%  64.4%        4   0.1% gimple_seq_first (inline)
+       4   0.1%  64.5%        4   0.1% gsi_next (inline)
+       4   0.1%  64.6%        4   0.1% gsi_stmt (inline)
+       4   0.1%  64.7%        4   0.1% htab_mod_1 (inline)
+       4   0.1%  64.8%        4   0.1% insert_aux (inline)
+       4   0.1%  64.9%        4   0.1% internal_state_transition
+       4   0.1%  65.0%        6   0.2% invalidate_for_call (inline)
+       4   0.1%  65.1%       12   0.3% is_gimple_reg
+       4   0.1%  65.2%        4   0.1% is_global_var (inline)
+       4   0.1%  65.3%        4   0.1% iterative_hash_host_wide_int
+       4   0.1%  65.4%        4   0.1% ix86_find_base_term
+       4   0.1%  65.5%       11   0.3% mem_attrs_htab_eq
+       4   0.1%  65.6%        8   0.2% memcpy (inline)
+       4   0.1%  65.7%       10   0.3% push_allocnos_to_stack (inline)
+       4   0.1%  65.8%       32   0.8% record_operand_costs.constprop.0
+       4   0.1%  65.9%       15   0.4% record_set (inline)
+       4   0.1%  66.0%        4   0.1% refers_to_regno_p
+       4   0.1%  66.1%        4   0.1% reg_mentioned_p.part.0
+       4   0.1%  66.2%        6   0.2% regstat_bb_compute_calls_crossed (inline)
+       4   0.1%  66.3%       46   1.2% remove_unused_locals
+       4   0.1%  66.4%       25   0.6% rtx_alloc_stat
+       4   0.1%  66.5%        9   0.2% rtx_equal_for_cselib_p
+       4   0.1%  66.6%        7   0.2% simplify_binary_operation_1
+       4   0.1%  66.7%        5   0.1% splay_tree_splay.part.0
+       4   0.1%  66.8%        4   0.1% stmt_could_throw_p
+       4   0.1%  66.9%       41   1.0% subst
+       4   0.1%  67.0%        8   0.2% tree_strip_nop_conversions
+       4   0.1%  67.1%       20   0.5% walk_aliased_vdefs_1.constprop.0
+       4   0.1%  67.2%       87   2.2% walk_dominator_tree
+       3   0.1%  67.3%        3   0.1% RESET_BIT (inline)
+       3   0.1%  67.3%        3   0.1% VEC_vn_ssa_aux_t_base_index (inline)
+       3   0.1%  67.4%        3   0.1% VN_INFO
+       3   0.1%  67.5%       58   1.5% base_alias_check
+       3   0.1%  67.6%        3   0.1% bitmap_and_compl_into
+       3   0.1%  67.6%       12   0.3% bitmap_clear
+       3   0.1%  67.7%        3   0.1% bitmap_initialize_stat (inline)
+       3   0.1%  67.8%       22   0.6% bitmap_ior
+       3   0.1%  67.9%        7   0.2% bitmap_obstack_free
+       3   0.1%  67.9%        7   0.2% c_common_get_alias_set
+       3   0.1%  68.0%       14   0.4% calc_dfs_tree
+       3   0.1%  68.1%        4   0.1% change_address_1 (inline)
+       3   0.1%  68.2%       15   0.4% check_mem_read_rtx
+       3   0.1%  68.2%        3   0.1% check_promoted_subreg
+       3   0.1%  68.3%       13   0.3% choose_reload_regs
+       3   0.1%  68.4%       94   2.4% combine_instructions (inline)
+       3   0.1%  68.5%        5   0.1% commutative_operand_precedence (inline)
+       3   0.1%  68.6%        5   0.1% compare_values_warnv
+       3   0.1%  68.6%        9   0.2% compute_dominance_frontiers_1 (inline)
+       3   0.1%  68.7%        6   0.2% compute_use_by_pseudos
+       3   0.1%  68.8%        5   0.1% count_pseudo
+       3   0.1%  68.9%        3   0.1% create_log_links (inline)
+       3   0.1%  68.9%        4   0.1% create_outofssa_var_map
+       3   0.1%  69.0%        3   0.1% cse_prescan_path (inline)
+       3   0.1%  69.1%        4   0.1% cselib_subst_to_values
+       3   0.1%  69.2%       12   0.3% delete_unreachable_blocks
+       3   0.1%  69.2%       52   1.3% deps_analyze_insn
+       3   0.1%  69.3%        3   0.1% df_add_refs_to_table (inline)
+       3   0.1%  69.4%        9   0.2% df_get_bb_dirty
+       3   0.1%  69.5%        8   0.2% df_insn_delete.part.0
+       3   0.1%  69.5%        6   0.2% df_live_confluence_n
+       3   0.1%  69.6%        5   0.1% df_rd_simulate_one_insn
+       3   0.1%  69.7%       21   0.5% df_refs_add_to_chains
+       3   0.1%  69.8%        5   0.1% df_reg_chain_unlink (inline)
+       3   0.1%  69.8%        4   0.1% df_simulate_defs (inline)
+       3   0.1%  69.9%        6   0.2% df_simulate_initialize_backwards
+       3   0.1%  70.0%       13   0.3% do_regular_insertion (inline)
+       3   0.1%  70.1%       70   1.8% dse_step1 (inline)
+       3   0.1%  70.1%        8   0.2% empty_alloc_pool (inline)
+       3   0.1%  70.2%        3   0.1% estimate_num_insns
+       3   0.1%  70.3%     3798  95.4% execute_one_pass
+       3   0.1%  70.4%        4   0.1% exp_equiv_p.constprop.0
+       3   0.1%  70.4%        3   0.1% extract_asm_operands
+       3   0.1%  70.5%       16   0.4% find_assert_locations_1
+       3   0.1%  70.6%        3   0.1% find_dfsnum_interval (inline)
+       3   0.1%  70.7%        7   0.2% fold_convert_loc
+       3   0.1%  70.7%        3   0.1% free_list (inline)
+       3   0.1%  70.8%        4   0.1% get_expr_operands
+       3   0.1%  70.9%        3   0.1% get_ssa_name_ann (inline)
+       3   0.1%  71.0%        6   0.2% gimple_has_ops (inline)
+       3   0.1%  71.0%        3   0.1% gimple_plf (inline)
+       3   0.1%  71.1%        3   0.1% gimple_set_visited (inline)
+       3   0.1%  71.2%        3   0.1% hash1 (inline)
+       3   0.1%  71.3%       16   0.4% indirect_ref_may_alias_decl_p (inline)
+       3   0.1%  71.3%       14   0.4% initialize_uninitialized_regs (inline)
+       3   0.1%  71.4%       52   1.3% insert_aux
+       3   0.1%  71.5%        3   0.1% insn_extract
+       3   0.1%  71.6%        4   0.1% insn_nothrow_p
+       3   0.1%  71.6%        3   0.1% integer_onep
+       3   0.1%  71.7%        6   0.2% invalid_mode_change_p
+       3   0.1%  71.8%        5   0.1% invalidate_memory (inline)
+       3   0.1%  71.9%        3   0.1% ira_allocno_set_iter_cond (inline)
+       3   0.1%  71.9%        7   0.2% lookup_expression_id (inline)
+       3   0.1%  72.0%       18   0.5% mark_all_labels (inline)
+       3   0.1%  72.1%        4   0.1% mark_operand_necessary (inline)
+       3   0.1%  72.2%        5   0.1% maybe_canonicalize_comparison (inline)
+       3   0.1%  72.2%        3   0.1% maybe_hot_frequency_p (inline)
+       3   0.1%  72.3%        3   0.1% mode_for_size
+       3   0.1%  72.4%        3   0.1% nonoverlapping_component_refs_p (inline)
+       3   0.1%  72.5%        8   0.2% noop_move_p
+       3   0.1%  72.5%       26   0.7% note_uses
+       3   0.1%  72.6%        8   0.2% op_iter_next_tree (inline)
+       3   0.1%  72.7%        5   0.1% op_iter_next_use (inline)
+       3   0.1%  72.8%        3   0.1% phi_nodes (inline)
+       3   0.1%  72.8%        3   0.1% pointer_map_traverse
+       3   0.1%  72.9%        5   0.1% pre_and_rev_post_order_compute
+       3   0.1%  73.0%       10   0.3% prune_unused_phi_nodes
+       3   0.1%  73.1%        5   0.1% psiginfo
+       3   0.1%  73.1%        3   0.1% push_reload
+       3   0.1%  73.2%       12   0.3% realloc
+       3   0.1%  73.3%       11   0.3% recog_memoized (inline)
+       3   0.1%  73.4%        4   0.1% record_last_reg_set_info (inline)
+       3   0.1%  73.4%        8   0.2% record_value_for_reg
+       3   0.1%  73.5%        3   0.1% remove_from_table
+       3   0.1%  73.6%        7   0.2% remove_range_assertions (inline)
+       3   0.1%  73.7%        4   0.1% rtl_split_edge
+       3   0.1%  73.8%        3   0.1% sbitmap_union_of_diff_cg
+       3   0.1%  73.8%        3   0.1% sd_resolve_dep
+       3   0.1%  73.9%       18   0.5% simplify_const_relational_operation
+       3   0.1%  74.0%        3   0.1% special_function_p (inline)
+       3   0.1%  74.1%        4   0.1% symbol_marked_for_renaming (inline)
+       3   0.1%  74.1%        3   0.1% symbolic_reference_mentioned_p
+       3   0.1%  74.2%        3   0.1% tree_int_cst_lt
+       3   0.1%  74.3%       12   0.3% update_equiv_regs (inline)
+       3   0.1%  74.4%        3   0.1% update_table_tick
+       3   0.1%  74.4%        3   0.1% variably_modified_type_p
+       3   0.1%  74.5%        6   0.2% vn_reference_lookup_2
+       2   0.1%  74.6%        2   0.1% VEC_df_ref_base_index (inline)
+       2   0.1%  74.6%        2   0.1% VEC_pre_expr_heap_reserve (inline)
+       2   0.1%  74.7%        2   0.1% _cpp_clean_line
+       2   0.1%  74.7%       10   0.3% _cpp_lex_direct
+       2   0.1%  74.8%        2   0.1% active_insn_p
+       2   0.1%  74.8%        4   0.1% add_use_op (inline)
+       2   0.1%  74.9%        2   0.1% array_ref_element_size
+       2   0.1%  74.9%        4   0.1% avoid_constant_pool_reference
+       2   0.1%  75.0%        8   0.2% bitmap_clear (inline)
+       2   0.1%  75.0%        2   0.1% bitmap_clear_range
+       2   0.1%  75.1%        7   0.2% bitmap_set_contains_value (inline)
+       2   0.1%  75.1%        9   0.2% bitmap_set_subtract.isra.0
+       2   0.1%  75.2%        2   0.1% bmp_iter_and_compl (inline)
+       2   0.1%  75.2%        6   0.2% build1_stat
+       2   0.1%  75.3%        6   0.2% build2_stat
+       2   0.1%  75.3%        4   0.1% build_binary_op
+       2   0.1%  75.4%        5   0.1% canon_reg
+       2   0.1%  75.4%        5   0.1% ccp_fold_stmt
+       2   0.1%  75.5%        3   0.1% cgraph_edge_badness
+       2   0.1%  75.5%        2   0.1% check_for_label_ref
+       2   0.1%  75.6%       24   0.6% cleanup_control_expr_graph (inline)
+       2   0.1%  75.6%       65   1.6% cleanup_tree_cfg_1 (inline)
+       2   0.1%  75.7%       34   0.9% combine_simplify_rtx
+       2   0.1%  75.7%        2   0.1% commutative_constraint_p (inline)
+       2   0.1%  75.8%       30   0.8% compute_avail
+       2   0.1%  75.8%       24   0.6% compute_hash_table_work (inline)
+       2   0.1%  75.9%        3   0.1% condense_visit
+       2   0.1%  75.9%       26   0.7% copy_bb (inline)
+       2   0.1%  76.0%        2   0.1% copy_insn_1
+       2   0.1%  76.0%        3   0.1% copy_reference_ops_from_ref
+       2   0.1%  76.1%        5   0.1% copy_tree_r
+       2   0.1%  76.1%       26   0.7% copyprop_hardreg_forward_1 (inline)
+       2   0.1%  76.2%        2   0.1% count_ptr_derefs
+       2   0.1%  76.2%       12   0.3% cpp_get_token
+       2   0.1%  76.3%        2   0.1% create_insn_allocnos
+       2   0.1%  76.3%        3   0.1% cse_cc_succs
+       2   0.1%  76.4%       20   0.5% cselib_invalidate_rtx_note_stores (inline)
+       2   0.1%  76.4%       42   1.1% cselib_lookup
+       2   0.1%  76.5%       14   0.4% cselib_lookup_mem
+       2   0.1%  76.5%        2   0.1% def_blocks_eq
+       2   0.1%  76.6%       32   0.8% dep_cost_1
+       2   0.1%  76.6%        7   0.2% df_chain_create_bb_process_use.constprop.0
+       2   0.1%  76.7%        5   0.1% df_free_ref (inline)
+       2   0.1%  76.7%        2   0.1% df_get_live_out (inline)
+       2   0.1%  76.8%        2   0.1% df_grow_bb_info
+       2   0.1%  76.8%        2   0.1% df_ignore_stack_reg (inline)
+       2   0.1%  76.9%       56   1.4% df_insn_rescan
+       2   0.1%  76.9%       18   0.5% df_install_refs
+       2   0.1%  77.0%        9   0.2% df_md_bb_local_compute (inline)
+       2   0.1%  77.0%       22   0.6% df_process_deferred_rescans
+       2   0.1%  77.1%        2   0.1% df_rd_confluence_n
+       2   0.1%  77.1%        6   0.2% df_refs_verify
+       2   0.1%  77.2%       63   1.6% df_scan_blocks
+       2   0.1%  77.2%        2   0.1% df_set_bb_info (inline)
+       2   0.1%  77.3%      383   9.6% df_worklist_dataflow
+       2   0.1%  77.3%        9   0.2% dfa_insn_code (inline)
+       2   0.1%  77.4%        2   0.1% do_SUBST
+       2   0.1%  77.4%        2   0.1% ei_container (inline)
+       2   0.1%  77.5%        9   0.2% ei_edge (inline)
+       2   0.1%  77.5%       12   0.3% ei_end_p (inline)
+       2   0.1%  77.6%        2   0.1% ei_one_before_end_p (inline)
+       2   0.1%  77.6%        3   0.1% ei_safe_edge (inline)
+       2   0.1%  77.7%        2   0.1% eliminate_regs_1
+       2   0.1%  77.7%        7   0.2% emit_move_insn
+       2   0.1%  77.8%        7   0.2% equiv_constant
+       2   0.1%  77.8%        5   0.1% et_free_tree_force
+       2   0.1%  77.9%       10   0.3% et_nca
+       2   0.1%  77.9%        5   0.1% et_new_occ (inline)
+       2   0.1%  78.0%        3   0.1% execute_fixup_cfg
+       2   0.1%  78.0%     3742  94.0% execute_pass_list
+       2   0.1%  78.1%        5   0.1% exp_equiv_p (inline)
+       2   0.1%  78.1%        2   0.1% extract_asm_operands (inline)
+       2   0.1%  78.2%       27   0.7% extract_constrain_insn_cached
+       2   0.1%  78.2%      120   3.0% fast_dce.constprop.0
+       2   0.1%  78.3%       48   1.2% final
+       2   0.1%  78.3%        8   0.2% finalize_ssa_uses (inline)
+       2   0.1%  78.4%       23   0.6% find_func_aliases
+       2   0.1%  78.4%        2   0.1% find_subregs_of_mode
+       2   0.1%  78.5%        5   0.1% find_uses_to_rename_use (inline)
+       2   0.1%  78.5%       18   0.5% fix_tick_ready (inline)
+       2   0.1%  78.6%        2   0.1% fixed_base_plus_p (inline)
+       2   0.1%  78.6%        2   0.1% fixed_scalar_and_varying_struct_p
+       2   0.1%  78.7%       13   0.3% fixup_reorder_chain (inline)
+       2   0.1%  78.7%        2   0.1% flow_bb_inside_loop_p (inline)
+       2   0.1%  78.8%        4   0.1% flow_loop_nodes_find
+       2   0.1%  78.8%        3   0.1% fold
+       2   0.1%  78.9%        4   0.1% fold_convert_const
+       2   0.1%  78.9%       24   0.6% for_each_rtx
+       2   0.1%  79.0%        2   0.1% for_each_rtx (inline)
+       2   0.1%  79.0%        3   0.1% forwarder_block_p
+       2   0.1%  79.1%        4   0.1% free_deps
+       2   0.1%  79.1%        5   0.1% fully_constant_expression
+       2   0.1%  79.2%        2   0.1% function_and_variable_visibility
+       2   0.1%  79.2%        2   0.1% get_addr
+       2   0.1%  79.3%       16   0.4% get_attr_memory
+       2   0.1%  79.3%        2   0.1% get_attr_unit
+       2   0.1%  79.4%        2   0.1% get_bb_avail_insn (inline)
+       2   0.1%  79.4%        4   0.1% get_cse_reg_info (inline)
+       2   0.1%  79.5%        2   0.1% get_cse_reg_info_1 (inline)
+       2   0.1%  79.5%        4   0.1% get_expr_value_id (inline)
+       2   0.1%  79.6%        5   0.1% get_or_alloc_expr_for_name (inline)
+       2   0.1%  79.6%        3   0.1% get_value (inline)
+       2   0.1%  79.7%        3   0.1% get_value_range
+       2   0.1%  79.7%        2   0.1% get_var_ann (inline)
+       2   0.1%  79.8%        2   0.1% gimple_assign_single_p (inline)
+       2   0.1%  79.8%        6   0.2% gimple_call_fndecl (inline)
+       2   0.1%  79.9%        2   0.1% gimple_in_ssa_p (inline)
+       2   0.1%  79.9%        4   0.1% gimple_purge_dead_eh_edges
+       2   0.1%  80.0%        7   0.2% gimple_redirect_edge_and_branch
+       2   0.1%  80.0%        2   0.1% gimple_seq_empty_p (inline)
+       2   0.1%  80.1%        2   0.1% gimple_set_modified
+       2   0.1%  80.1%        2   0.1% gsi_start (inline)
+       2   0.1%  80.2%       17   0.4% gsi_start_phis
+       2   0.1%  80.2%        2   0.1% gss_for_code (inline)
+       2   0.1%  80.3%       15   0.4% hash_rtx (inline)
+       2   0.1%  80.3%        2   0.1% higher_prime_index (inline)
+       2   0.1%  80.4%        2   0.1% htab_empty
+       2   0.1%  80.4%       14   0.4% htab_expand
+       2   0.1%  80.5%        2   0.1% htab_find
+       2   0.1%  80.5%        2   0.1% init_label_info (inline)
+       2   0.1%  80.6%        2   0.1% init_value_data (inline)
+       2   0.1%  80.6%        2   0.1% insert_expr_in_table@2e0900
+       2   0.1%  80.7%       17   0.4% insert_updated_phi_nodes_for
+       2   0.1%  80.7%        7   0.2% int_const_binop
+       2   0.1%  80.8%        2   0.1% integer_zerop
+       2   0.1%  80.8%        3   0.1% invalidate_any_buried_refs
+       2   0.1%  80.9%        2   0.1% is_gimple_constant (inline)
+       2   0.1%  80.9%        4   0.1% is_gimple_min_invariant
+       2   0.1%  81.0%        2   0.1% iterative_hash
+       2   0.1%  81.0%        3   0.1% ix86_attr_length_address_default
+       2   0.1%  81.1%        2   0.1% ix86_preferred_reload_class
+       2   0.1%  81.1%        2   0.1% kill_value_one_regno (inline)
+       2   0.1%  81.2%        4   0.1% kill_value_regno (inline)
+       2   0.1%  81.2%        2   0.1% label_rtx_for_bb (inline)
+       2   0.1%  81.3%       11   0.3% label_visit
+       2   0.1%  81.3%        4   0.1% last_stmt (inline)
+       2   0.1%  81.4%        2   0.1% link_roots (inline)
+       2   0.1%  81.4%       27   0.7% local_cprop_pass (inline)
+       2   0.1%  81.5%        3   0.1% lookup
+       2   0.1%  81.5%        2   0.1% lookup_for_remove (inline)
+       2   0.1%  81.6%        2   0.1% lookup_set (inline)
+       2   0.1%  81.6%        4   0.1% make_compound_operation
+       2   0.1%  81.7%        2   0.1% make_early_clobber_and_input_conflicts (inline)
+       2   0.1%  81.7%        5   0.1% mark_block_for_update (inline)
+       2   0.1%  81.8%        2   0.1% mark_hard_reg_early_clobbers
+       2   0.1%  81.8%       15   0.4% mark_jump_label (inline)
+       2   0.1%  81.9%        2   0.1% mark_reg_dependencies (inline)
+       2   0.1%  81.9%       10   0.3% mark_stmt_if_obviously_necessary (inline)
+       2   0.1%  82.0%        2   0.1% mark_used_regs_combine
+       2   0.1%  82.0%        2   0.1% max_reg_num
+       2   0.1%  82.1%        5   0.1% maybe_hot_bb_p (inline)
+       2   0.1%  82.1%        4   0.1% merge_phi_nodes
+       2   0.1%  82.2%        2   0.1% mul_double_with_sign
+       2   0.1%  82.2%        2   0.1% new_basic_block (inline)
+       2   0.1%  82.3%        2   0.1% new_insn_chain
+       2   0.1%  82.3%        2   0.1% next_dom_son (inline)
+       2   0.1%  82.4%        2   0.1% next_htab_element (inline)
+       2   0.1%  82.4%        2   0.1% normalize (inline)
+       2   0.1%  82.5%       33   0.8% output_asm_insn.part.0
+       2   0.1%  82.5%       14   0.4% peephole2_optimize (inline)
+       2   0.1%  82.6%       29   0.7% phi_translate_1 (inline)
+       2   0.1%  82.6%        7   0.2% pointer_map_insert
+       2   0.1%  82.7%        4   0.1% pre_expr_reaches_here_p_work
+       2   0.1%  82.7%       19   0.5% priority.part.0
+       2   0.1%  82.8%       24   0.6% process_bb_node_lives
+       2   0.1%  82.8%        3   0.1% process_uses
+       2   0.1%  82.9%        6   0.2% recog_2.isra.0
+       2   0.1%  82.9%        9   0.2% recog_32
+       2   0.1%  83.0%        2   0.1% ref_may_be_aliased
+       2   0.1%  83.0%        3   0.1% reg_nonzero_bits_for_combine
+       2   0.1%  83.1%        2   0.1% remove_unused_scope_block_p
+       2   0.1%  83.1%        2   0.1% repl_map_eq
+       2   0.1%  83.2%        2   0.1% reset_used_flags
+       2   0.1%  83.2%        2   0.1% rtx_renumbered_equal_p
+       2   0.1%  83.3%       50   1.3% run_scc_vn
+       2   0.1%  83.3%        5   0.1% same_type_for_tbaa (inline)
+       2   0.1%  83.4%        2   0.1% scan_paradoxical_subregs
+       2   0.1%  83.4%        2   0.1% scc_visit
+       2   0.1%  83.5%       23   0.6% schedule_insn
+       2   0.1%  83.5%        8   0.2% sd_find_dep_between_no_cache
+       2   0.1%  83.6%        3   0.1% sd_iterator_cond (inline)
+       2   0.1%  83.6%        3   0.1% sd_lists_size (inline)
+       2   0.1%  83.7%        2   0.1% set_next (inline)
+       2   0.1%  83.7%        4   0.1% setup_save_areas
+       2   0.1%  83.8%        9   0.2% shorten_branches
+       2   0.1%  83.8%        2   0.1% simplify_relational_operation_1
+       2   0.1%  83.9%       31   0.8% simulate_stmt
+       2   0.1%  83.9%        2   0.1% single_set_2.part.0
+       2   0.1%  84.0%        2   0.1% special_function_p
+       2   0.1%  84.0%       10   0.3% split_4.isra.0
+       2   0.1%  84.1%       18   0.5% split_all_insns
+       2   0.1%  84.1%        5   0.1% stmt_can_throw_internal
+       2   0.1%  84.2%        2   0.1% strtoll_l
+       2   0.1%  84.3%       17   0.4% substitute_and_fold
+       2   0.1%  84.3%        7   0.2% topo_visit
+       2   0.1%  84.4%        4   0.1% translate_vuse_through_block (inline)
+       2   0.1%  84.4%        3   0.1% tree_forwarder_block_p
+       2   0.1%  84.5%       11   0.3% tree_ssa_forward_propagate_single_use_vars
+       2   0.1%  84.5%        9   0.2% try_crossjump_bb (inline)
+       2   0.1%  84.6%        2   0.1% twoval_comparison_p
+       2   0.1%  84.6%        7   0.2% unshare_all_rtl_in_chain (inline)
+       2   0.1%  84.7%       14   0.4% valid_in_sets
+       2   0.1%  84.7%        2   0.1% validate_change
+       2   0.1%  84.8%        7   0.2% vec_heap_o_reserve
+       2   0.1%  84.8%       34   0.9% visit_use
+       2   0.1%  84.9%        4   0.1% vn_nary_op_compute_hash
+       2   0.1%  84.9%       22   0.6% walk_gimple_op
+       1   0.0%  84.9%        1   0.0% VEC_basic_block_base_index (inline)
+       1   0.0%  85.0%        1   0.0% VEC_ce_s_base_iterate (inline)
+       1   0.0%  85.0%        3   0.1% VEC_ce_s_heap_reserve (inline)
+       1   0.0%  85.0%        2   0.1% VEC_constraint_t_base_lower_bound (inline)
+       1   0.0%  85.0%        1   0.0% VEC_df_ref_base_iterate (inline)
+       1   0.0%  85.1%        1   0.0% VEC_df_ref_base_quick_push (inline)
+       1   0.0%  85.1%        1   0.0% VEC_edge_base_iterate (inline)
+       1   0.0%  85.1%        1   0.0% VEC_edge_base_unordered_remove (inline)
+       1   0.0%  85.1%        4   0.1% VEC_int_heap_reserve (inline)
+       1   0.0%  85.2%        1   0.0% VEC_location_t_base_quick_push (inline)
+       1   0.0%  85.2%        1   0.0% VEC_tree_base_index (inline)
+       1   0.0%  85.2%        1   0.0% VEC_tree_base_quick_push (inline)
+       1   0.0%  85.2%        1   0.0% VEC_unsigned_base_space (inline)
+       1   0.0%  85.3%        1   0.0% VEC_vn_reference_op_s_base_length (inline)
+       1   0.0%  85.3%        1   0.0% VEC_vn_reference_op_s_base_quick_push (inline)
+       1   0.0%  85.3%        4   0.1% VN_INFO (inline)
+       1   0.0%  85.3%        1   0.0% _IO_default_xsputn
+       1   0.0%  85.4%        3   0.1% _IO_file_xsputn
+       1   0.0%  85.4%        1   0.0% _IO_putc
+       1   0.0%  85.4%        4   0.1% _IO_ungetc
+       1   0.0%  85.4%        7   0.2% _obstack_newchunk
+       1   0.0%  85.5%        4   0.1% add_copies
+       1   0.0%  85.5%        3   0.1% add_dependence_list_and_free (inline)
+       1   0.0%  85.5%        2   0.1% add_mem_for_addr
+       1   0.0%  85.5%        1   0.0% add_noreturn_fake_exit_edges
+       1   0.0%  85.6%        3   0.1% add_referenced_var
+       1   0.0%  85.6%        1   0.0% add_ssa_edge
+       1   0.0%  85.6%        2   0.1% add_stmt_operand
+       1   0.0%  85.6%        2   0.1% add_to_allocno_conflicts
+       1   0.0%  85.7%        2   0.1% add_to_exp_gen (inline)
+       1   0.0%  85.7%        1   0.0% add_to_hard_reg_set (inline)
+       1   0.0%  85.7%        3   0.1% add_to_value
+       1   0.0%  85.7%        1   0.0% add_used_regs_1
+       1   0.0%  85.8%        1   0.0% addr_side_effect_eval (inline)
+       1   0.0%  85.8%        4   0.1% alias_set_subset_of
+       1   0.0%  85.8%        3   0.1% alias_sets_conflict_p
+       1   0.0%  85.8%        2   0.1% alias_sets_conflict_p (inline)
+       1   0.0%  85.9%        3   0.1% all_uses_available_at
+       1   0.0%  85.9%        1   0.0% alloc_EXPR_LIST
+       1   0.0%  85.9%        1   0.0% alloc_aux_for_blocks
+       1   0.0%  85.9%        1   0.0% alloc_aux_for_edge
+       1   0.0%  86.0%        9   0.2% alloc_page (inline)
+       1   0.0%  86.0%        2   0.1% allocate_phi_node (inline)
+       1   0.0%  86.0%        1   0.0% allocno_spill_priority (inline)
+       1   0.0%  86.0%        1   0.0% allocnos_have_intersected_live_ranges_p (inline)
+       1   0.0%  86.1%        8   0.2% analyze_scalar_evolution_1.part.0
+       1   0.0%  86.1%       31   0.8% ao_ref_base
+       1   0.0%  86.1%        1   0.0% approx_reg_cost_1
+       1   0.0%  86.1%        6   0.2% assign_hard_reg.constprop.0
+       1   0.0%  86.2%        1   0.0% assign_parm_find_data_types
+       1   0.0%  86.2%        1   0.0% automatically_generated_chrec_p (inline)
+       1   0.0%  86.2%        8   0.2% avail_expr_hash
+       1   0.0%  86.2%        1   0.0% basevar_index (inline)
+       1   0.0%  86.3%        1   0.0% bb_to_key.part.0
+       1   0.0%  86.3%        1   0.0% best_gain_for_invariant (inline)
+       1   0.0%  86.3%        5   0.1% bitmap_and_compl
+       1   0.0%  86.3%        1   0.0% bitmap_hash
+       1   0.0%  86.4%        1   0.0% bitmap_intersect_p
+       1   0.0%  86.4%        1   0.0% bitmap_ior_and_into
+       1   0.0%  86.4%        1   0.0% bmp_iter_and_compl_init (inline)
+       1   0.0%  86.4%        1   0.0% brk
+       1   0.0%  86.5%        3   0.1% build_conflict_bit_table (inline)
+       1   0.0%  86.5%        1   0.0% build_pointer_type_for_mode (inline)
+       1   0.0%  86.5%        2   0.1% build_pointer_type_for_mode.part.0
+       1   0.0%  86.5%        3   0.1% build_qualified_type
+       1   0.0%  86.6%        3   0.1% build_succ_graph (inline)
+       1   0.0%  86.6%        4   0.1% bypass_conditional_jumps (inline)
+       1   0.0%  86.6%        6   0.2% c_fully_fold_internal
+       1   0.0%  86.6%       19   0.5% c_lex_with_flags
+       1   0.0%  86.7%       11   0.3% c_parser_postfix_expression
+       1   0.0%  86.7%       10   0.3% cached_nonzero_bits (inline)
+       1   0.0%  86.7%        4   0.1% can_combine_p.isra.0
+       1   0.0%  86.7%        1   0.0% can_compare_p
+       1   0.0%  86.8%       19   0.5% canon_address
+       1   0.0%  86.8%        4   0.1% canon_list_insert
+       1   0.0%  86.8%        5   0.1% ccp_fold
+       1   0.0%  86.8%        1   0.0% cfg_blocks_add (inline)
+       1   0.0%  86.9%        3   0.1% cfg_layout_delete_block
+       1   0.0%  86.9%        2   0.1% cgraph_create_edge
+       1   0.0%  86.9%        1   0.0% cgraph_estimate_growth.part.0
+       1   0.0%  86.9%        2   0.1% cgraph_mark_inline (inline)
+       1   0.0%  87.0%        3   0.1% cgraph_node
+       1   0.0%  87.0%        1   0.0% change_regs
+       1   0.0%  87.0%        1   0.0% check_cond_move_block.isra.0
+       1   0.0%  87.0%        1   0.0% check_qualified_type (inline)
+       1   0.0%  87.1%        6   0.2% choose_reload_regs_init
+       1   0.0%  87.1%        1   0.0% chrec_contains_symbols_defined_in_loop.part.0
+       1   0.0%  87.1%        2   0.1% cleanup_dead_labels
+       1   0.0%  87.1%       49   1.2% cleanup_tree_cfg_bb.part.0
+       1   0.0%  87.2%        2   0.1% clear_aux_for_edges
+       1   0.0%  87.2%        1   0.0% clear_bb_flags
+       1   0.0%  87.2%        1   0.0% clear_tree_used (inline)
+       1   0.0%  87.2%        1   0.0% coalesced_pseudo_reg_freq_compare
+       1   0.0%  87.3%        1   0.0% coalesced_pseudo_reg_slot_compare
+       1   0.0%  87.3%        2   0.1% combinable_i3pat.isra.0
+       1   0.0%  87.3%        1   0.0% combine_validate_cost (inline)
+       1   0.0%  87.3%        1   0.0% commutative_tree_code
+       1   0.0%  87.4%        7   0.2% compact_blocks
+       1   0.0%  87.4%        1   0.0% compare_ops
+       1   0.0%  87.4%        2   0.1% compare_range_with_value
+       1   0.0%  87.4%       41   1.0% compute_antic_aux
+       1   0.0%  87.5%        1   0.0% compute_argument_block_size (inline)
+       1   0.0%  87.5%        1   0.0% compute_call_stmt_bb_frequency
+       1   0.0%  87.5%        6   0.2% compute_dom_fast_query (inline)
+       1   0.0%  87.5%        1   0.0% compute_earliest (inline)
+       1   0.0%  87.6%       25   0.6% compute_hash_table
+       1   0.0%  87.6%        2   0.1% compute_insert_delete (inline)
+       1   0.0%  87.6%       21   0.5% compute_local_properties (inline)
+       1   0.0%  87.6%        1   0.0% connect_traces (inline)
+       1   0.0%  87.7%        1   0.0% const_or_frame_p (inline)
+       1   0.0%  87.7%        1   0.0% constraint_less (inline)
+       1   0.0%  87.7%        1   0.0% constraint_satisfied_p
+       1   0.0%  87.7%        1   0.0% contributes_to_priority_p (inline)
+       1   0.0%  87.8%        3   0.1% convert
+       1   0.0%  87.8%        1   0.0% convert_no_conversion
+       1   0.0%  87.8%        1   0.0% convert_to_pointer
+       1   0.0%  87.8%        1   0.0% copy_cost (inline)
+       1   0.0%  87.9%        7   0.2% copy_edges_for_bb (inline)
+       1   0.0%  87.9%        1   0.0% copy_if_shared_r
+       1   0.0%  87.9%        2   0.1% copy_prop_visit_phi_node
+       1   0.0%  87.9%        1   0.0% copy_prop_visit_stmt
+       1   0.0%  88.0%        5   0.1% copy_rtx
+       1   0.0%  88.0%        2   0.1% copy_rtx_if_shared
+       1   0.0%  88.0%        1   0.0% cpp_num_sign_extend
+       1   0.0%  88.0%       11   0.3% cprop_insn (inline)
+       1   0.0%  88.1%        1   0.0% cprop_into_stmt (inline)
+       1   0.0%  88.1%        1   0.0% create_deps_list (inline)
+       1   0.0%  88.1%        2   0.1% create_preheader
+       1   0.0%  88.1%      151   3.8% cse_extended_basic_block (inline)
+       1   0.0%  88.2%      254   6.4% cse_main
+       1   0.0%  88.2%        4   0.1% cselib_expand_value_rtx_1 (inline)
+       1   0.0%  88.2%       12   0.3% cselib_invalidate_mem
+       1   0.0%  88.2%       57   1.4% cselib_process_insn
+       1   0.0%  88.3%        1   0.0% cselib_reg_set_mode
+       1   0.0%  88.3%        1   0.0% current_ir_type
+       1   0.0%  88.3%        1   0.0% cuserid
+       1   0.0%  88.3%        1   0.0% decl_attributes
+       1   0.0%  88.4%        1   0.0% default_addr_space_legitimate_address_p
+       1   0.0%  88.4%        1   0.0% default_function_array_conversion
+       1   0.0%  88.4%        1   0.0% default_have_conditional_execution
+       1   0.0%  88.4%        1   0.0% degenerate_phi_result
+       1   0.0%  88.5%       15   0.4% deletable_insn_p
+       1   0.0%  88.5%       10   0.3% deletable_insn_p (inline)
+       1   0.0%  88.5%        1   0.0% delete_dead_jumptables
+       1   0.0%  88.5%        1   0.0% delete_dep_node (inline)
+       1   0.0%  88.6%        1   0.0% delink_imm_use (inline)
+       1   0.0%  88.6%       33   0.8% dep_cost (inline)
+       1   0.0%  88.6%      752  18.9% df_analyze
+       1   0.0%  88.6%       59   1.5% df_bb_refs_record
+       1   0.0%  88.7%        1   0.0% df_bb_regno_last_def_find
+       1   0.0%  88.7%       20   0.5% df_canonize_collection_rec
+       1   0.0%  88.7%        2   0.1% df_chain_remove_problem
+       1   0.0%  88.7%        1   0.0% df_clear_flags
+       1   0.0%  88.8%        6   0.2% df_compact_blocks
+       1   0.0%  88.8%       23   0.6% df_compute_regs_ever_live
+       1   0.0%  88.8%        1   0.0% df_count_refs (inline)
+       1   0.0%  88.8%        6   0.2% df_create_unused_note
+       1   0.0%  88.9%        1   0.0% df_create_unused_note (inline)
+       1   0.0%  88.9%        7   0.2% df_defs_record (inline)
+       1   0.0%  88.9%        5   0.1% df_get_artificial_defs (inline)
+       1   0.0%  88.9%        1   0.0% df_get_live_out
+       1   0.0%  89.0%        1   0.0% df_live_free
+       1   0.0%  89.0%       10   0.3% df_live_local_compute
+       1   0.0%  89.0%       54   1.4% df_lr_local_compute
+       1   0.0%  89.0%        1   0.0% df_lr_transfer_function
+       1   0.0%  89.1%        7   0.2% df_md_bb_local_compute_process_def.isra.0
+       1   0.0%  89.1%        3   0.1% df_ref_record
+       1   0.0%  89.1%        1   0.0% df_regs_ever_live_p
+       1   0.0%  89.1%        4   0.1% df_reorganize_refs_by_insn_bb
+       1   0.0%  89.2%        5   0.1% df_reorganize_refs_by_reg_by_insn (inline)
+       1   0.0%  89.2%        4   0.1% df_set_bb_dirty
+       1   0.0%  89.2%        3   0.1% df_set_bb_dirty (inline)
+       1   0.0%  89.2%       16   0.4% df_simulate_one_insn_forwards
+       1   0.0%  89.3%        2   0.1% df_simulate_uses (inline)
+       1   0.0%  89.3%       34   0.9% df_update_entry_exit_and_calls (inline)
+       1   0.0%  89.3%       23   0.6% do_partial_partial_insertion (inline)
+       1   0.0%  89.3%        3   0.1% do_sd_constraint (inline)
+       1   0.0%  89.4%        1   0.0% do_warn_unused_result
+       1   0.0%  89.4%        1   0.0% dom_info_available_p
+       1   0.0%  89.4%        1   0.0% dominated_by_p (inline)
+       1   0.0%  89.4%        5   0.1% dse_step3_scan (inline)
+       1   0.0%  89.5%        1   0.0% dse_step6 (inline)
+       1   0.0%  89.5%        1   0.0% dump_initialized_p
+       1   0.0%  89.5%        1   0.0% duplicate_eh_regions
+       1   0.0%  89.6%        1   0.0% duplicate_ssa_name_ptr_info (inline)
+       1   0.0%  89.6%        5   0.1% eliminate_partially_redundant_loads (inline)
+       1   0.0%  89.6%        8   0.2% eliminate_regs_in_insn
+       1   0.0%  89.6%        9   0.2% eliminate_unnecessary_stmts (inline)
+       1   0.0%  89.7%        1   0.0% emit_insn_before
+       1   0.0%  89.7%        2   0.1% emit_insn_before_setloc
+       1   0.0%  89.7%        6   0.2% entry_and_rtx_equal_p (inline)
+       1   0.0%  89.7%        1   0.0% eq_node
+       1   0.0%  89.8%        3   0.1% equiv_class_label_eq
+       1   0.0%  89.8%        9   0.2% estimate_bb_frequencies
+       1   0.0%  89.8%        6   0.2% et_new_tree
+       1   0.0%  89.8%       10   0.3% et_set_father
+       1   0.0%  89.9%        8   0.2% et_split
+       1   0.0%  89.9%        1   0.0% eval (inline)
+       1   0.0%  89.9%      278   7.0% execute_todo
+       1   0.0%  89.9%       11   0.3% execute_update_addresses_taken
+       1   0.0%  90.0%       35   0.9% expand_expr_real_1
+       1   0.0%  90.0%        6   0.2% expand_expr_real_2
+       1   0.0%  90.0%        1   0.0% expand_field_assignment
+       1   0.0%  90.0%        5   0.1% expand_one_var
+       1   0.0%  90.1%        1   0.0% expand_simple_operations
+       1   0.0%  90.1%        6   0.2% expand_used_vars
+       1   0.0%  90.1%        1   0.0% expr_pred_trans_eq (inline)
+       1   0.0%  90.1%       41   1.0% extract_and_process_scc_for_name (inline)
+       1   0.0%  90.2%        3   0.1% extract_range_from_assignment (inline)
+       1   0.0%  90.2%        2   0.1% extract_true_false_edges_from_block
+       1   0.0%  90.2%        1   0.0% fill_sons_in_loop
+       1   0.0%  90.2%        1   0.0% find (inline)
+       1   0.0%  90.3%        1   0.0% find_allocno_copy (inline)
+       1   0.0%  90.3%        2   0.1% find_bb_boundaries (inline)
+       1   0.0%  90.3%        4   0.1% find_conditional_asserts (inline)
+       1   0.0%  90.3%        4   0.1% find_equivalent_node
+       1   0.0%  90.4%        2   0.1% find_exits (inline)
+       1   0.0%  90.4%        5   0.1% find_if_case_1 (inline)
+       1   0.0%  90.4%       23   0.6% find_if_header (inline)
+       1   0.0%  90.4%        7   0.2% find_implicit_sets (inline)
+       1   0.0%  90.5%       14   0.4% find_matches (inline)
+       1   0.0%  90.5%       14   0.4% find_reload_regs (inline)
+       1   0.0%  90.5%        1   0.0% find_tail_calls
+       1   0.0%  90.5%        8   0.2% find_uses_to_rename_bb
+       1   0.0%  90.6%        2   0.1% find_vars_r
+       1   0.0%  90.6%        1   0.0% find_what_var_points_to (inline)
+       1   0.0%  90.6%        6   0.2% fini_copy_prop (inline)
+       1   0.0%  90.6%        9   0.2% finish_spills
+       1   0.0%  90.7%        1   0.0% floor_log2
+       1   0.0%  90.7%        2   0.1% flow_dfs_compute_reverse_execute (inline)
+       1   0.0%  90.7%        1   0.0% fold_call_expr
+       1   0.0%  90.7%        1   0.0% fold_const_aggregate_ref
+       1   0.0%  90.8%        2   0.1% fold_convert_const_int_from_int (inline)
+       1   0.0%  90.8%        6   0.2% fold_gimple_assign (inline)
+       1   0.0%  90.8%        2   0.1% fold_read_from_constant_string
+       1   0.0%  90.8%        3   0.1% fold_unary_loc
+       1   0.0%  90.9%        1   0.0% foll_in_subgraph (inline)
+       1   0.0%  90.9%        3   0.1% follow_ssa_edge
+       1   0.0%  90.9%        1   0.0% for_each_eh_label
+       1   0.0%  90.9%        1   0.0% force_fit_type_double
+       1   0.0%  91.0%        6   0.2% force_nonfallthru_and_redirect
+       1   0.0%  91.0%        1   0.0% force_var_cost (inline)
+       1   0.0%  91.0%        1   0.0% form_loop_tree (inline)
+       1   0.0%  91.0%        1   0.0% forward_propagate_addr_expr_1 (inline)
+       1   0.0%  91.1%        9   0.2% forward_propagate_and_simplify (inline)
+       1   0.0%  91.1%        6   0.2% fputs
+       1   0.0%  91.1%        1   0.0% free_INSN_LIST_node
+       1   0.0%  91.1%        1   0.0% free_bb_for_insn (inline)
+       1   0.0%  91.2%        1   0.0% free_dependence_relation
+       1   0.0%  91.2%        3   0.1% free_graph
+       1   0.0%  91.2%        1   0.0% free_lim_aux_data (inline)
+       1   0.0%  91.2%        4   0.1% free_scc_vn
+       1   0.0%  91.3%       49   1.2% fwprop
+       1   0.0%  91.3%       50   1.3% fwprop_addr
+       1   0.0%  91.3%        1   0.0% gate_copyrename
+       1   0.0%  91.3%        1   0.0% gate_handle_machine_reorg
+       1   0.0%  91.4%        1   0.0% gen_addsi3
+       1   0.0%  91.4%        1   0.0% gen_aux_info_record
+       1   0.0%  91.4%        3   0.1% gen_rtx_fmt_e_stat
+       1   0.0%  91.4%       12   0.3% gen_rtx_fmt_ee_stat
+       1   0.0%  91.5%        4   0.1% generate_summary@5160d0
+       1   0.0%  91.5%        1   0.0% get_addr (inline)
+       1   0.0%  91.5%        4   0.1% get_all_dominated_blocks
+       1   0.0%  91.5%        1   0.0% get_attr_length_address
+       1   0.0%  91.6%        1   0.0% get_attr_length_immediate
+       1   0.0%  91.6%        1   0.0% get_attr_prefix_0f
+       1   0.0%  91.6%        1   0.0% get_attr_prefix_rep
+       1   0.0%  91.6%        1   0.0% get_back_and_forw_lists (inline)
+       1   0.0%  91.7%        3   0.1% get_base_address
+       1   0.0%  91.7%        3   0.1% get_base_loadstore (inline)
+       1   0.0%  91.7%        1   0.0% get_callee_fndecl
+       1   0.0%  91.7%        7   0.2% get_condition
+       1   0.0%  91.8%       14   0.4% get_constraint_for_ssa_var
+       1   0.0%  91.8%        1   0.0% get_current_def (inline)
+       1   0.0%  91.8%        1   0.0% get_default_value.isra.0
+       1   0.0%  91.8%        1   0.0% get_deref_alias_set_1 (inline)
+       1   0.0%  91.9%        1   0.0% get_ebb_head_tail
+       1   0.0%  91.9%        1   0.0% get_gimple_rhs_class (inline)
+       1   0.0%  91.9%       10   0.3% get_inner_reference
+       1   0.0%  91.9%        1   0.0% get_last_value
+       1   0.0%  92.0%        1   0.0% get_last_value (inline)
+       1   0.0%  92.0%        1   0.0% get_loop_body_in_if_conv_order (inline)
+       1   0.0%  92.0%        1   0.0% get_name
+       1   0.0%  92.0%        2   0.1% get_or_alloc_expr_for_constant (inline)
+       1   0.0%  92.1%        1   0.0% get_phi_state (inline)
+       1   0.0%  92.1%        2   0.1% get_qualified_type
+       1   0.0%  92.1%       14   0.4% ggc_alloc_cleared_stat
+       1   0.0%  92.1%        6   0.2% gimple_assign_rhs1 (inline)
+       1   0.0%  92.2%        1   0.0% gimple_assign_rhs_code
+       1   0.0%  92.2%        1   0.0% gimple_assign_single_p
+       1   0.0%  92.2%        1   0.0% gimple_block_label
+       1   0.0%  92.2%        2   0.1% gimple_build_call_from_tree
+       1   0.0%  92.3%        5   0.1% gimple_call_flags
+       1   0.0%  92.3%        1   0.0% gimple_call_num_args (inline)
+       1   0.0%  92.3%        1   0.0% gimple_could_trap_p
+       1   0.0%  92.3%        1   0.0% gimple_debug_bind_p (inline)
+       1   0.0%  92.4%        1   0.0% gimple_execute_on_shrinking_pred
+       1   0.0%  92.4%        1   0.0% gimple_expr_type (inline)
+       1   0.0%  92.4%        3   0.1% gimple_op_ptr (inline)
+       1   0.0%  92.4%        3   0.1% gimple_seq_add_stmt
+       1   0.0%  92.5%        1   0.0% gimple_set_bb
+       1   0.0%  92.5%        1   0.0% gimple_set_plf (inline)
+       1   0.0%  92.5%        1   0.0% gimple_use_ops (inline)
+       1   0.0%  92.5%        1   0.0% gimplify_seq_add_seq (inline)
+       1   0.0%  92.6%        3   0.1% glb_enum_p
+       1   0.0%  92.6%        5   0.1% graphds_dfs (inline)
+       1   0.0%  92.6%        5   0.1% gsi_commit_edge_inserts
+       1   0.0%  92.6%        1   0.0% gsi_for_stmt
+       1   0.0%  92.7%        2   0.1% gsi_insert_after_without_update (inline)
+       1   0.0%  92.7%        1   0.0% gsi_insert_seq_nodes_after
+       1   0.0%  92.7%        1   0.0% haifa_finish_h_i_d (inline)
+       1   0.0%  92.7%        6   0.2% haifa_note_dep
+       1   0.0%  92.8%        4   0.1% haifa_note_mem_dep
+       1   0.0%  92.8%        1   0.0% haifa_note_reg_use
+       1   0.0%  92.8%        1   0.0% has_zero_uses (inline)
+       1   0.0%  92.8%        9   0.2% hash_scan_insn (inline)
+       1   0.0%  92.9%        1   0.0% have_insn_for
+       1   0.0%  92.9%        1   0.0% ht_expand (inline)
+       1   0.0%  92.9%        4   0.1% htab_find_slot
+       1   0.0%  92.9%        2   0.1% htab_mod_m2 (inline)
+       1   0.0%  93.0%        1   0.0% ideal_phi_node_len (inline)
+       1   0.0%  93.0%        4   0.1% if_then_else_cond
+       1   0.0%  93.0%        1   0.0% immediate_operand
+       1   0.0%  93.0%        2   0.1% init_graph (inline)
+       1   0.0%  93.1%        1   0.0% init_insns_in_bb (inline)
+       1   0.0%  93.1%        3   0.1% init_subregs_of_mode
+       1   0.0%  93.1%        2   0.1% init_vars_expansion (inline)
+       1   0.0%  93.1%        1   0.0% init_walk_dominator_tree
+       1   0.0%  93.2%        1   0.0% initialize_expr_from_cond (inline)
+       1   0.0%  93.2%        3   0.1% inline_forbidden_p_stmt
+       1   0.0%  93.2%        2   0.1% insert_regs
+       1   0.0%  93.2%        1   0.0% insn_contains_asm_1
+       1   0.0%  93.3%        8   0.2% insn_cost
+       1   0.0%  93.3%       16   0.4% insn_default_latency
+       1   0.0%  93.3%        2   0.1% insn_rtx_cost
+       1   0.0%  93.3%        3   0.1% instantiate_scev_r
+       1   0.0%  93.4%        9   0.2% instantiate_virtual_regs
+       1   0.0%  93.4%        1   0.0% int_cst_hash_eq
+       1   0.0%  93.4%        7   0.2% internal_dfa_insn_code
+       1   0.0%  93.4%        1   0.0% invariant_group_base_hash
+       1   0.0%  93.5%        1   0.0% invoke_plugin_callbacks
+       1   0.0%  93.5%        1   0.0% ipa_analyze_params_uses
+       1   0.0%  93.5%        1   0.0% ipa_is_called_with_var_arguments (inline)
+       1   0.0%  93.5%        1   0.0% ira_allocno_set_iter_next (inline)
+       1   0.0%  93.6%        1   0.0% ira_free_allocno_updated_costs
+       1   0.0%  93.6%        1   0.0% ira_get_may_move_cost (inline)
+       1   0.0%  93.6%        1   0.0% ira_hard_reg_not_in_set_p (inline)
+       1   0.0%  93.6%        6   0.2% ira_loop_edge_freq
+       1   0.0%  93.7%        7   0.2% ira_sort_regnos_for_alter_reg
+       1   0.0%  93.7%       92   2.3% ira_traverse_loop_tree
+       1   0.0%  93.7%        1   0.0% is_gimple_reg_type (inline)
+       1   0.0%  93.7%        1   0.0% is_new_name (inline)
+       1   0.0%  93.8%        1   0.0% iterative_hash_hashval_t (inline)
+       1   0.0%  93.8%        1   0.0% iv_ca_extend
+       1   0.0%  93.8%       12   0.3% ix86_adjust_cost
+       1   0.0%  93.8%        2   0.1% ix86_attr_length_immediate_default
+       1   0.0%  93.9%        1   0.0% ix86_binary_operator_ok
+       1   0.0%  93.9%        1   0.0% ix86_decompose_address
+       1   0.0%  93.9%        4   0.1% lex_identifier
+       1   0.0%  93.9%        1   0.0% lex_number.isra.0
+       1   0.0%  94.0%        1   0.0% likely_eliminated_by_inlining_p (inline)
+       1   0.0%  94.0%        1   0.0% link_imm_use_stmt (inline)
+       1   0.0%  94.0%        1   0.0% link_use_stmts_after
+       1   0.0%  94.0%        4   0.1% live_track_add_partition (inline)
+       1   0.0%  94.1%        1   0.0% locator_location (inline)
+       1   0.0%  94.1%        1   0.0% lookup (inline)
+       1   0.0%  94.1%        1   0.0% lookup_constraint
+       1   0.0%  94.1%        1   0.0% lookup_stmt_eh_lp
+       1   0.0%  94.2%        3   0.1% loop_optimizer_finalize
+       1   0.0%  94.2%        1   0.0% lowpart_bitmask (inline)
+       1   0.0%  94.2%        1   0.0% make_new_qty (inline)
+       1   0.0%  94.2%       11   0.3% make_node_stat
+       1   0.0%  94.3%        2   0.1% make_ssa_name_fn
+       1   0.0%  94.3%        2   0.1% make_ssa_name_fn (inline)
+       1   0.0%  94.3%        6   0.2% mark_def_sites_block (inline)
+       1   0.0%  94.3%        1   0.0% mark_loop_exit_edges
+       1   0.0%  94.4%        3   0.1% mark_nonreg_stores (inline)
+       1   0.0%  94.4%        2   0.1% mark_ref_dead (inline)
+       1   0.0%  94.4%        1   0.0% mark_reg_dead
+       1   0.0%  94.4%        1   0.0% mark_stmt_necessary (inline)
+       1   0.0%  94.5%        3   0.1% mark_symbols_for_renaming
+       1   0.0%  94.5%        1   0.0% marked_insn_p (inline)
+       1   0.0%  94.5%        1   0.0% may_assign_reg_p (inline)
+       1   0.0%  94.5%        1   0.0% may_trap_or_fault_p
+       1   0.0%  94.6%        6   0.2% may_trap_p_1 (inline)
+       1   0.0%  94.6%        2   0.1% maybe_canonicalize_comparison_1.constprop.0
+       1   0.0%  94.6%        2   0.1% maybe_duplicate_eh_stmt
+       1   0.0%  94.6%        6   0.2% maybe_fold_reference
+       1   0.0%  94.7%        1   0.0% med3 (inline)
+       1   0.0%  94.7%        8   0.2% mem_attrs_htab_hash
+       1   0.0%  94.7%        1   0.0% mem_ref_alloc (inline)
+       1   0.0%  94.8%        3   0.1% memory_address_addr_space
+       1   0.0%  94.8%        1   0.0% memory_address_length (inline)
+       1   0.0%  94.8%       11   0.3% memory_operand
+       1   0.0%  94.8%        1   0.0% mems_in_disjoint_alias_sets_p (inline)
+       1   0.0%  94.9%        2   0.1% mention_regs
+       1   0.0%  94.9%        2   0.1% merge_node_constraints (inline)
+       1   0.0%  94.9%       20   0.5% min_insn_size
+       1   0.0%  94.9%       19   0.5% min_insn_size (inline)
+       1   0.0%  95.0%        1   0.0% modified_between_p
+       1   0.0%  95.0%        4   0.1% mostly_copy_tree_r
+       1   0.0%  95.0%        1   0.0% move2add_note_store
+       1   0.0%  95.0%        8   0.2% nearest_common_dominator_for_set
+       1   0.0%  95.1%        7   0.2% nearest_common_dominator_for_set (inline)
+       1   0.0%  95.1%        1   0.0% next_nonnote_insn
+       1   0.0%  95.1%       12   0.3% noce_find_if_block (inline)
+       1   0.0%  95.1%        4   0.1% nonimmediate_operand
+       1   0.0%  95.2%        4   0.1% nonoverlapping_memrefs_p
+       1   0.0%  95.2%        1   0.0% nonzero_address_p
+       1   0.0%  95.2%        2   0.1% nonzero_bits.part.0
+       1   0.0%  95.2%        3   0.1% num_sign_bit_copies
+       1   0.0%  95.3%      170   4.3% one_cprop_pass (inline)
+       1   0.0%  95.3%        3   0.1% op_iter_init (inline)
+       1   0.0%  95.3%        1   0.0% op_iter_next_def (inline)
+       1   0.0%  95.3%        1   0.0% optimize_insn_for_size_p
+       1   0.0%  95.4%       11   0.3% optimize_stmt (inline)
+       1   0.0%  95.4%        7   0.2% parse_ssa_operands (inline)
+       1   0.0%  95.4%        1   0.0% pc_set
+       1   0.0%  95.4%        5   0.1% phi_trans_lookup (inline)
+       1   0.0%  95.5%       37   0.9% phi_translate
+       1   0.0%  95.5%       37   0.9% phi_translate_set (inline)
+       1   0.0%  95.5%        1   0.0% plus_constant.part.0
+       1   0.0%  95.5%        2   0.1% pointer_map_destroy
+       1   0.0%  95.6%        2   0.1% pointer_set_contains
+       1   0.0%  95.6%        2   0.1% pop_scope
+       1   0.0%  95.6%       11   0.3% prepare_block_for_update
+       1   0.0%  95.6%        1   0.0% prepare_call_address
+       1   0.0%  95.7%        2   0.1% prepare_cmp_insn
+       1   0.0%  95.7%        9   0.2% prepare_names_to_update (inline)
+       1   0.0%  95.7%       19   0.5% print_operand
+       1   0.0%  95.7%       10   0.3% print_operand_address
+       1   0.0%  95.8%       20   0.5% process_assert_insertions (inline)
+       1   0.0%  95.8%        4   0.1% process_constraint
+       1   0.0%  95.8%        2   0.1% process_ssa_edge_worklist (inline)
+       1   0.0%  95.8%        7   0.2% prologue_epilogue_contains
+       1   0.0%  95.9%        1   0.0% promote_debug_loc (inline)
+       1   0.0%  95.9%        1   0.0% propagate_allocno_info (inline)
+       1   0.0%  95.9%        4   0.1% propagate_freq
+       1   0.0%  95.9%       33   0.8% propagate_necessity (inline)
+       1   0.0%  96.0%        1   0.0% ptr_deref_may_alias_decl_p
+       1   0.0%  96.0%        1   0.0% ptr_derefs_may_alias_p
+       1   0.0%  96.0%        3   0.1% push_allocno_to_stack
+       1   0.0%  96.0%        1   0.0% push_operand
+       1   0.0%  96.1%        1   0.0% ready_remove_first
+       1   0.0%  96.1%        3   0.1% reassociate_bb
+       1   0.0%  96.1%        3   0.1% recog
+       1   0.0%  96.1%        1   0.0% recog_3.isra.0
+       1   0.0%  96.2%        2   0.1% recompute_tree_invariant_for_addr_expr
+       1   0.0%  96.2%        1   0.0% record_address_regs.isra.0
+       1   0.0%  96.2%        5   0.1% record_cond
+       1   0.0%  96.2%        1   0.0% record_dead_and_set_regs
+       1   0.0%  96.3%        2   0.1% record_effective_endpoints (inline)
+       1   0.0%  96.3%        5   0.1% record_equivalences_from_incoming_edge (inline)
+       1   0.0%  96.3%       16   0.4% record_set
+       1   0.0%  96.3%       17   0.4% record_store
+       1   0.0%  96.4%        1   0.0% record_temporary_equivalences_from_phis (inline)
+       1   0.0%  96.4%        1   0.0% redirect_jump_2
+       1   0.0%  96.4%        1   0.0% refers_to_regno_for_reload_p
+       1   0.0%  96.4%        1   0.0% refine_bounds_using_guard (inline)
+       1   0.0%  96.5%        1   0.0% reg_attrs_htab_eq
+       1   0.0%  96.5%        1   0.0% reg_fits_class_p (inline)
+       1   0.0%  96.5%        1   0.0% reg_is_remote_constant_p (inline)
+       1   0.0%  96.5%        5   0.1% reg_overlap_mentioned_p
+       1   0.0%  96.6%        3   0.1% reg_referenced_p
+       1   0.0%  96.6%        7   0.2% reg_set_to_hard_reg_set
+       1   0.0%  96.6%        1   0.0% regclass_for_constraint
+       1   0.0%  96.6%        2   0.1% register_new_assert_for.isra.0.constprop.0
+       1   0.0%  96.7%       17   0.4% regmove_backward_pass
+       1   0.0%  96.7%        1   0.0% regmove_forward_pass (inline)
+       1   0.0%  96.7%       27   0.7% regstat_compute_ri
+       1   0.0%  96.7%        1   0.0% regstat_init_n_sets_and_refs
+       1   0.0%  96.8%        5   0.1% rehash_using_reg
+       1   0.0%  96.8%        1   0.0% release_recorded_exits
+       1   0.0%  96.8%        1   0.0% release_ssa_name (inline)
+       1   0.0%  96.8%        1   0.0% relink_block_chain
+       1   0.0%  96.9%       36   0.9% reload_as_needed (inline)
+       1   0.0%  96.9%        8   0.2% reload_cse_simplify_set
+       1   0.0%  96.9%        1   0.0% reload_reg_free_for_value_p.constprop.0
+       1   0.0%  96.9%        3   0.1% remap_ssa_name
+       1   0.0%  97.0%        2   0.1% remove_dead_phis (inline)
+       1   0.0%  97.0%        5   0.1% remove_insn
+       1   0.0%  97.0%        1   0.0% remove_node_data
+       1   0.0%  97.0%        1   0.0% remove_predictions_associated_with_edge
+       1   0.0%  97.1%        1   0.0% remove_preds_and_fake_succs (inline)
+       1   0.0%  97.1%        2   0.1% remove_some_program_points_and_update_live_ranges (inline)
+       1   0.0%  97.1%        5   0.1% rename_ssa_copies
+       1   0.0%  97.1%        1   0.0% replace_oldest_value_addr
+       1   0.0%  97.2%        1   0.0% replace_ssa_name_symbol
+       1   0.0%  97.2%       52   1.3% rest_of_handle_ud_dce
+       1   0.0%  97.2%        1   0.0% reversed_comparison_code
+       1   0.0%  97.2%        8   0.2% rewrite_update_enter_block
+       1   0.0%  97.3%        1   0.0% rewrite_update_leave_block
+       1   0.0%  97.3%        1   0.0% rewrite_update_phi_arguments (inline)
+       1   0.0%  97.3%        1   0.0% rtl_profile_for_bb
+       1   0.0%  97.3%       65   1.6% rtx_refs_may_alias_p
+       1   0.0%  97.4%        1   0.0% same_line_p (inline)
+       1   0.0%  97.4%        5   0.1% save_call_clobbered_regs
+       1   0.0%  97.4%        1   0.0% sbitmap_a_and_b
+       1   0.0%  97.4%        1   0.0% sbitmap_a_or_b_and_c_cg
+       1   0.0%  97.5%        1   0.0% sbitmap_difference
+       1   0.0%  97.5%        1   0.0% sbitmap_intersection_of_succs
+       1   0.0%  97.5%        1   0.0% sbitmap_iter_cond (inline)
+       1   0.0%  97.5%        2   0.1% sbitmap_zero
+       1   0.0%  97.6%        1   0.0% scan_initializer_for_static_refs
+       1   0.0%  97.6%       39   1.0% scan_insn (inline)
+       1   0.0%  97.6%        5   0.1% scan_reads_nospill.isra.0
+       1   0.0%  97.6%        2   0.1% scan_stmt_for_static_refs (inline)
+       1   0.0%  97.7%       17   0.4% sched_analyze_1
+       1   0.0%  97.7%        7   0.2% sched_analyze_2
+       1   0.0%  97.7%        4   0.1% sched_analyze_reg
+       1   0.0%  97.7%        4   0.1% sched_free_deps
+       1   0.0%  97.8%        1   0.0% sched_has_condition_p (inline)
+       1   0.0%  97.8%        1   0.0% sched_is_disabled_for_current_region_p (inline)
+       1   0.0%  97.8%        1   0.0% sd_next_list
+       1   0.0%  97.8%        1   0.0% sd_next_list (inline)
+       1   0.0%  97.9%        2   0.1% searchc
+       1   0.0%  97.9%        1   0.0% set_allocno_live (inline)
+       1   0.0%  97.9%        4   0.1% set_decl_rtl
+       1   0.0%  97.9%        1   0.0% set_even_probabilities
+       1   0.0%  98.0%        3   0.1% set_is_used (inline)
+       1   0.0%  98.0%        1   0.0% set_iv (inline)
+       1   0.0%  98.0%        1   0.0% set_mem_addr_space
+       1   0.0%  98.0%        2   0.1% set_nonzero_bits_and_sign_copies (inline)
+       1   0.0%  98.1%        3   0.1% set_of_1 (inline)
+       1   0.0%  98.1%        1   0.0% set_page_table_entry
+       1   0.0%  98.1%        1   0.0% set_position_unneeded (inline)
+       1   0.0%  98.1%        1   0.0% set_prev (inline)
+       1   0.0%  98.2%        1   0.0% set_uids_in_ptset (inline)
+       1   0.0%  98.2%        1   0.0% set_value_varying (inline)
+       1   0.0%  98.2%        1   0.0% setup_min_max_conflict_allocno_ids (inline)
+       1   0.0%  98.2%        2   0.1% simplify_binary_operation
+       1   0.0%  98.3%        8   0.2% simplify_binary_operation (inline)
+       1   0.0%  98.3%        1   0.0% simplify_const_binary_operation
+       1   0.0%  98.3%        1   0.0% simplify_const_unary_operation
+       1   0.0%  98.3%       17   0.4% simplify_relational_operation
+       1   0.0%  98.4%        3   0.1% simplify_shift_const_1
+       1   0.0%  98.4%        7   0.2% simplify_ternary_operation
+       1   0.0%  98.4%       21   0.5% single_def_use_enter_block
+       1   0.0%  98.4%        2   0.1% single_pred_p (inline)
+       1   0.0%  98.5%        1   0.0% single_set_2
+       1   0.0%  98.5%        1   0.0% size_binop_loc (inline)
+       1   0.0%  98.5%        1   0.0% skip_insns_after_block (inline)
+       1   0.0%  98.5%        1   0.0% skip_whitespace (inline)
+       1   0.0%  98.6%        1   0.0% splay_tree_compare_ints
+       1   0.0%  98.6%        2   0.1% split_tree
+       1   0.0%  98.6%        1   0.0% sreal_add
+       1   0.0%  98.6%        2   0.1% sreal_mul
+       1   0.0%  98.7%        2   0.1% start_decl
+       1   0.0%  98.7%        1   0.0% stdarg_p
+       1   0.0%  98.7%        9   0.2% stmt_ends_bb_p
+       1   0.0%  98.7%        1   0.0% stmt_may_generate_copy (inline)
+       1   0.0%  98.8%        6   0.2% swap_commutative_operands_p
+       1   0.0%  98.8%        1   0.0% temp_slots_at_level
+       1   0.0%  98.8%        1   0.0% tree_binary_nonzero_warnv_p
+       1   0.0%  98.8%        2   0.1% tree_expr_nonzero_p
+       1   0.0%  98.9%        1   0.0% tree_expr_nonzero_warnv_p (inline)
+       1   0.0%  98.9%        1   0.0% tree_int_cst_equal
+       1   0.0%  98.9%        1   0.0% tree_int_cst_sgn (inline)
+       1   0.0%  98.9%        1   0.0% tree_low_cst
+       1   0.0%  99.0%        1   0.0% tree_operand_length (inline)
+       1   0.0%  99.0%        7   0.2% tree_swap_operands_p
+       1   0.0%  99.0%        1   0.0% trunc_int_for_mode
+       1   0.0%  99.0%        6   0.2% try_crossjump_to_edge
+       1   0.0%  99.1%        3   0.1% try_redirect_by_replacing_jump
+       1   0.0%  99.1%        2   0.1% try_simplify_condjump (inline)
+       1   0.0%  99.1%        1   0.0% type_could_have_pointers (inline)
+       1   0.0%  99.1%        1   0.0% types_compatible_p
+       1   0.0%  99.2%        1   0.0% update_bb_for_insn
+       1   0.0%  99.2%        1   0.0% update_call_notes_after_inlining (inline)
+       1   0.0%  99.2%        1   0.0% update_conflict_hard_regno_costs.constprop.0
+       1   0.0%  99.2%        1   0.0% update_properties_after_pass (inline)
+       1   0.0%  99.3%       18   0.5% update_stmt_operands
+       1   0.0%  99.3%        1   0.0% use_register_for_decl (inline)
+       1   0.0%  99.3%        1   0.0% useless_type_conversion_p
+       1   0.0%  99.3%        4   0.1% validate_canon_reg (inline)
+       1   0.0%  99.4%        1   0.0% validate_change_1 (inline)
+       1   0.0%  99.4%        2   0.1% validate_unshare_change
+       1   0.0%  99.4%        5   0.1% value_dies_in_block_x (inline)
+       1   0.0%  99.4%        1   0.0% var_ann (inline)
+       1   0.0%  99.5%        3   0.1% vec_gc_o_reserve_1 (inline)
+       1   0.0%  99.5%        3   0.1% vec_gc_p_reserve
+       1   0.0%  99.5%       11   0.3% vec_heap_p_reserve
+       1   0.0%  99.5%        1   0.0% vec_stack_free
+       1   0.0%  99.6%        1   0.0% vec_stack_p_reserve_exact_1
+       1   0.0%  99.6%        1   0.0% vinfo_for_stmt (inline)
+       1   0.0%  99.6%        1   0.0% vn_nary_may_trap
+       1   0.0%  99.6%        7   0.2% vn_reference_compute_hash
+       1   0.0%  99.7%        2   0.1% vn_reference_eq
+       1   0.0%  99.7%        1   0.0% vn_reference_eq (inline)
+       1   0.0%  99.7%       26   0.7% vn_reference_lookup
+       1   0.0%  99.7%        6   0.2% vn_reference_op_compute_hash (inline)
+       1   0.0%  99.8%        1   0.0% vro_valid_in_sets (inline)
+       1   0.0%  99.8%        1   0.0% vrp_evaluate_conditional_warnv_with_ops_using_ranges
+       1   0.0%  99.8%       15   0.4% vrp_finalize (inline)
+       1   0.0%  99.8%        6   0.2% vrp_visit_phi_node
+       1   0.0%  99.9%       21   0.5% walk_aliased_vdefs
+       1   0.0%  99.9%        1   0.0% walk_alter_subreg
+       1   0.0%  99.9%        2   0.1% wrap_constant (inline)
+       1   0.0%  99.9%       60   1.5% xcalloc
+       1   0.0% 100.0%       98   2.5% xmalloc
+       1   0.0% 100.0%       26   0.7% xrealloc
+       0   0.0% 100.0%       43   1.1% DFS (inline)
+       0   0.0% 100.0%        1   0.0% VEC_basic_block_heap_alloc (inline)
+       0   0.0% 100.0%        2   0.1% VEC_basic_block_heap_reserve (inline)
+       0   0.0% 100.0%        2   0.1% VEC_basic_block_heap_safe_push (inline)
+       0   0.0% 100.0%        1   0.0% VEC_bitmap_set_t_heap_reserve_exact (inline)
+       0   0.0% 100.0%        1   0.0% VEC_bitmap_set_t_heap_safe_grow (inline)
+       0   0.0% 100.0%        1   0.0% VEC_bitmap_set_t_heap_safe_grow_cleared (inline)
+       0   0.0% 100.0%        3   0.1% VEC_ce_s_heap_safe_push (inline)
+       0   0.0% 100.0%        4   0.1% VEC_constraint_t_heap_reserve (inline)
+       0   0.0% 100.0%        1   0.0% VEC_constraint_t_heap_safe_insert (inline)
+       0   0.0% 100.0%        3   0.1% VEC_constraint_t_heap_safe_push (inline)
+       0   0.0% 100.0%        1   0.0% VEC_df_ref_stack_alloc1 (inline)
+       0   0.0% 100.0%        1   0.0% VEC_df_ref_stack_free (inline)
+       0   0.0% 100.0%        1   0.0% VEC_df_ref_stack_safe_push (inline)
+       0   0.0% 100.0%        2   0.1% VEC_edge_gc_reserve (inline)
+       0   0.0% 100.0%        2   0.1% VEC_edge_gc_safe_push (inline)
+       0   0.0% 100.0%        1   0.0% VEC_edge_var_map_heap_free (inline)
+       0   0.0% 100.0%        1   0.0% VEC_gimple_heap_alloc (inline)
+       0   0.0% 100.0%        1   0.0% VEC_haifa_deps_insn_data_def_heap_reserve_exact (inline)
+       0   0.0% 100.0%        1   0.0% VEC_haifa_deps_insn_data_def_heap_safe_grow (inline)
+       0   0.0% 100.0%        1   0.0% VEC_haifa_deps_insn_data_def_heap_safe_grow_cleared (inline)
+       0   0.0% 100.0%        4   0.1% VEC_haifa_insn_data_def_heap_safe_grow_cleared (inline)
+       0   0.0% 100.0%        1   0.0% VEC_int_heap_free (inline)
+       0   0.0% 100.0%        4   0.1% VEC_int_heap_safe_push (inline)
+       0   0.0% 100.0%        2   0.1% VEC_location_t_heap_reserve (inline)
+       0   0.0% 100.0%        3   0.1% VEC_location_t_heap_safe_push (inline)
+       0   0.0% 100.0%        1   0.0% VEC_loop_p_gc_reserve (inline)
+       0   0.0% 100.0%        2   0.1% VEC_pre_expr_heap_safe_push (inline)
+       0   0.0% 100.0%        1   0.0% VEC_reg_stat_type_heap_safe_grow_cleared (inline)
+       0   0.0% 100.0%        1   0.0% VEC_tree_gc_alloc (inline)
+       0   0.0% 100.0%        4   0.1% VEC_tree_heap_alloc (inline)
+       0   0.0% 100.0%        5   0.1% VEC_tree_heap_free (inline)
+       0   0.0% 100.0%        4   0.1% VEC_tree_heap_reserve (inline)
+       0   0.0% 100.0%        3   0.1% VEC_tree_heap_safe_push (inline)
+       0   0.0% 100.0%        1   0.0% VEC_unsigned_heap_reserve (inline)
+       0   0.0% 100.0%        1   0.0% VEC_varinfo_t_heap_reserve (inline)
+       0   0.0% 100.0%        1   0.0% VEC_varinfo_t_heap_safe_push (inline)
+       0   0.0% 100.0%        2   0.1% VEC_vn_reference_op_s_heap_copy (inline)
+       0   0.0% 100.0%        1   0.0% VEC_vn_reference_op_s_heap_safe_push (inline)
+       0   0.0% 100.0%        4   0.1% _IO_do_write
+       0   0.0% 100.0%        3   0.1% _IO_file_overflow
+       0   0.0% 100.0%        4   0.1% _IO_file_write
+       0   0.0% 100.0%        1   0.0% __default_morecore
+       0   0.0% 100.0%        2   0.1% __fprintf_chk
+       0   0.0% 100.0%     3974  99.8% __libc_start_main
+       0   0.0% 100.0%        1   0.0% __sbrk
+       0   0.0% 100.0%        4   0.1% __sprintf_chk
+       0   0.0% 100.0%        2   0.1% _cpp_get_fresh_line (inline)
+       0   0.0% 100.0%       10   0.3% _cpp_lex_token
+       0   0.0% 100.0%       12   0.3% _obstack_begin
+       0   0.0% 100.0%     3974  99.8% _start
+       0   0.0% 100.0%        1   0.0% add_alias_set_conflicts (inline)
+       0   0.0% 100.0%        3   0.1% add_branch_dependences (inline)
+       0   0.0% 100.0%        1   0.0% add_control_edge
+       0   0.0% 100.0%        2   0.1% add_dependence
+       0   0.0% 100.0%        2   0.1% add_dependence (inline)
+       0   0.0% 100.0%        1   0.0% add_dependence_list.constprop.0
+       0   0.0% 100.0%        1   0.0% add_dependence_list.constprop.0 (inline)
+       0   0.0% 100.0%        2   0.1% add_dependence_list_and_free.constprop.0
+       0   0.0% 100.0%        1   0.0% add_dependence_list_and_free.constprop.0 (inline)
+       0   0.0% 100.0%        6   0.2% add_edge
+       0   0.0% 100.0%        1   0.0% add_graph_edge (inline)
+       0   0.0% 100.0%        1   0.0% add_graph_edge.isra.0.part.0
+       0   0.0% 100.0%        2   0.1% add_insn_after
+       0   0.0% 100.0%        3   0.1% add_insn_allocno_copies (inline)
+       0   0.0% 100.0%        1   0.0% add_insn_before
+       0   0.0% 100.0%        1   0.0% add_insn_mem_dependence
+       0   0.0% 100.0%        5   0.1% add_new_name_mapping
+       0   0.0% 100.0%        8   0.2% add_or_update_dep_1
+       0   0.0% 100.0%        1   0.0% add_reg_note
+       0   0.0% 100.0%        1   0.0% add_stack_var_conflict (inline)
+       0   0.0% 100.0%        1   0.0% add_to_dominance_info
+       0   0.0% 100.0%        1   0.0% add_to_evolution
+       0   0.0% 100.0%        1   0.0% add_to_exp_gen.isra.0
+       0   0.0% 100.0%        1   0.0% add_to_exp_gen.isra.0 (inline)
+       0   0.0% 100.0%        1   0.0% add_to_ops_vec (inline)
+       0   0.0% 100.0%        4   0.1% add_to_repl_tbl (inline)
+       0   0.0% 100.0%        5   0.1% adjust_address_1
+       0   0.0% 100.0%        2   0.1% adjust_range_with_scev (inline)
+       0   0.0% 100.0%        3   0.1% advance_one_cycle (inline)
+       0   0.0% 100.0%        3   0.1% advance_state
+       0   0.0% 100.0%        1   0.0% alias_get_name
+       0   0.0% 100.0%        4   0.1% aliasing_component_refs_p
+       0   0.0% 100.0%        1   0.0% all_callers_have_enough_arguments_p (inline)
+       0   0.0% 100.0%        1   0.0% alloc_aux_for_edges
+       0   0.0% 100.0%       12   0.3% alloc_cprop_mem (inline)
+       0   0.0% 100.0%        1   0.0% alloc_expression_id (inline)
+       0   0.0% 100.0%        1   0.0% alloc_loop (inline)
+       0   0.0% 100.0%        1   0.0% alloc_pre_mem (inline)
+       0   0.0% 100.0%        1   0.0% alloc_reg_note (inline)
+       0   0.0% 100.0%        1   0.0% alloc_use (inline)
+       0   0.0% 100.0%        1   0.0% allocate_vn_table
+       0   0.0% 100.0%        1   0.0% allocno_reload_assign
+       0   0.0% 100.0%        7   0.2% alter_reg
+       0   0.0% 100.0%        1   0.0% analyze_all_param_acesses (inline)
+       0   0.0% 100.0%        3   0.1% analyze_evolution_in_loop (inline)
+       0   0.0% 100.0%        4   0.1% analyze_function@50a080
+       0   0.0% 100.0%        5   0.1% analyze_function@5133b0
+       0   0.0% 100.0%        2   0.1% analyze_function@5152b0
+       0   0.0% 100.0%        2   0.1% analyze_memory_references (inline)
+       0   0.0% 100.0%        1   0.0% analyze_modified_params (inline)
+       0   0.0% 100.0%        9   0.2% analyze_scalar_evolution
+       0   0.0% 100.0%        8   0.2% analyze_scalar_evolution_1
+       0   0.0% 100.0%        8   0.2% analyze_scalar_evolution_in_loop (inline)
+       0   0.0% 100.0%        1   0.0% analyze_variable (inline)
+       0   0.0% 100.0%        2   0.1% anti_dependence
+       0   0.0% 100.0%        6   0.2% ao_ref_alias_set (inline)
+       0   0.0% 100.0%       35   0.9% ao_ref_base (inline)
+       0   0.0% 100.0%        1   0.0% ao_ref_init_from_ptr_and_size (inline)
+       0   0.0% 100.0%        7   0.2% apply_change_group
+       0   0.0% 100.0%        1   0.0% apply_change_group (inline)
+       0   0.0% 100.0%        1   0.0% apply_return_prediction (inline)
+       0   0.0% 100.0%        5   0.1% approx_reg_cost (inline)
+       0   0.0% 100.0%        2   0.1% asm_noperands
+       0   0.0% 100.0%        1   0.0% assemble_constant_contents (inline)
+       0   0.0% 100.0%       15   0.4% assemble_external
+       0   0.0% 100.0%        3   0.1% assemble_integer
+       0   0.0% 100.0%        3   0.1% assemble_integer_with_op (inline)
+       0   0.0% 100.0%        4   0.1% assemble_name
+       0   0.0% 100.0%        1   0.0% assemble_variable
+       0   0.0% 100.0%        5   0.1% assign_dfs_numbers (inline)
+       0   0.0% 100.0%        1   0.0% assign_discriminator (inline)
+       0   0.0% 100.0%        1   0.0% assign_discriminator.part.0
+       0   0.0% 100.0%        3   0.1% assign_parm_find_stack_rtl (inline)
+       0   0.0% 100.0%        2   0.1% assign_parm_setup_reg (inline)
+       0   0.0% 100.0%        6   0.2% assign_parms
+       0   0.0% 100.0%        1   0.0% assign_parms_initialize_all (inline)
+       0   0.0% 100.0%        2   0.1% associate_equivalences_with_edges (inline)
+       0   0.0% 100.0%        1   0.0% avail_expr_eq
+       0   0.0% 100.0%        2   0.1% avoid_constant_pool_reference (inline)
+       0   0.0% 100.0%        1   0.0% bb_to_key (inline)
+       0   0.0% 100.0%        1   0.0% bit_from_pos (inline)
+       0   0.0% 100.0%        4   0.1% bitmap_find_leader
+       0   0.0% 100.0%        1   0.0% bitmap_insert_into_set
+       0   0.0% 100.0%        1   0.0% bitmap_insert_into_set (inline)
+       0   0.0% 100.0%        3   0.1% bitmap_insert_into_set_1 (inline)
+       0   0.0% 100.0%        2   0.1% bitmap_set_and (inline)
+       0   0.0% 100.0%        2   0.1% bitmap_set_and.part.0
+       0   0.0% 100.0%        2   0.1% bitmap_set_contains_expr (inline)
+       0   0.0% 100.0%        2   0.1% bitmap_set_equal (inline)
+       0   0.0% 100.0%        1   0.0% bitmap_set_free (inline)
+       0   0.0% 100.0%        5   0.1% bitmap_set_new (inline)
+       0   0.0% 100.0%        4   0.1% bitmap_set_replace_value (inline)
+       0   0.0% 100.0%        4   0.1% bitmap_set_subtract_values (inline)
+       0   0.0% 100.0%        7   0.2% bitmap_value_insert_into_set (inline)
+       0   0.0% 100.0%        2   0.1% bitmap_value_insert_into_set.isra.0
+       0   0.0% 100.0%        6   0.2% bitmap_value_replace_in_set
+       0   0.0% 100.0%        1   0.0% block_label (inline)
+       0   0.0% 100.0%        2   0.1% bound_difference (inline)
+       0   0.0% 100.0%        1   0.0% break_up_subtract_bb
+       0   0.0% 100.0%        1   0.0% build3_stat
+       0   0.0% 100.0%        1   0.0% build_access_from_expr_1
+       0   0.0% 100.0%        1   0.0% build_accesses_from_assign
+       0   0.0% 100.0%        4   0.1% build_allocno_conflicts
+       0   0.0% 100.0%        2   0.1% build_array_type
+       0   0.0% 100.0%        8   0.2% build_assert_expr_for (inline)
+       0   0.0% 100.0%        1   0.0% build_c_cast
+       0   0.0% 100.0%        2   0.1% build_cgraph_edges
+       0   0.0% 100.0%        4   0.1% build_conflicts (inline)
+       0   0.0% 100.0%        1   0.0% build_decl_stat
+       0   0.0% 100.0%        1   0.0% build_decl_stat (inline)
+       0   0.0% 100.0%        4   0.1% build_fold_addr_expr_loc
+       0   0.0% 100.0%        2   0.1% build_fold_addr_expr_with_type_loc (inline)
+       0   0.0% 100.0%        1   0.0% build_function_call_vec
+       0   0.0% 100.0%        4   0.1% build_gimple_cfg (inline)
+       0   0.0% 100.0%        1   0.0% build_index_type
+       0   0.0% 100.0%        1   0.0% build_modify_expr
+       0   0.0% 100.0%        4   0.1% build_nonstandard_integer_type
+       0   0.0% 100.0%       71   1.8% build_single_def_use_links (inline)
+       0   0.0% 100.0%        5   0.1% build_ssa_conflict_graph (inline)
+       0   0.0% 100.0%       16   0.4% build_ssa_operands (inline)
+       0   0.0% 100.0%        1   0.0% build_stmt
+       0   0.0% 100.0%        1   0.0% build_stmt.constprop.0
+       0   0.0% 100.0%        1   0.0% build_type_no_quals
+       0   0.0% 100.0%        1   0.0% build_unary_op
+       0   0.0% 100.0%        1   0.0% build_vl_exp_stat
+       0   0.0% 100.0%        1   0.0% bypass_block (inline)
+       0   0.0% 100.0%        2   0.1% bypass_p
+       0   0.0% 100.0%        3   0.1% c_add_case_label
+       0   0.0% 100.0%        1   0.0% c_cast_expr
+       0   0.0% 100.0%       48   1.2% c_common_parse_file
+       0   0.0% 100.0%        3   0.1% c_common_signed_type (inline)
+       0   0.0% 100.0%        1   0.0% c_end_compound_stmt
+       0   0.0% 100.0%        1   0.0% c_finish_goto_label
+       0   0.0% 100.0%        1   0.0% c_finish_return
+       0   0.0% 100.0%        6   0.2% c_fully_fold
+       0   0.0% 100.0%       19   0.5% c_lex_one_token
+       0   0.0% 100.0%       47   1.2% c_parse_file
+       0   0.0% 100.0%        1   0.0% c_parser_attributes
+       0   0.0% 100.0%       15   0.4% c_parser_binary_expression
+       0   0.0% 100.0%        7   0.2% c_parser_braced_init
+       0   0.0% 100.0%       19   0.5% c_parser_c99_block_statement (inline)
+       0   0.0% 100.0%       11   0.3% c_parser_cast_expression
+       0   0.0% 100.0%       35   0.9% c_parser_compound_statement
+       0   0.0% 100.0%       35   0.9% c_parser_compound_statement_nostart
+       0   0.0% 100.0%        1   0.0% c_parser_condition
+       0   0.0% 100.0%       13   0.3% c_parser_condition (inline)
+       0   0.0% 100.0%       15   0.4% c_parser_conditional_expression
+       0   0.0% 100.0%       46   1.2% c_parser_declaration_or_fndef
+       0   0.0% 100.0%        3   0.1% c_parser_declspecs
+       0   0.0% 100.0%        2   0.1% c_parser_do_statement (inline)
+       0   0.0% 100.0%        8   0.2% c_parser_else_body (inline)
+       0   0.0% 100.0%        2   0.1% c_parser_expr_list
+       0   0.0% 100.0%       16   0.4% c_parser_expr_no_commas.constprop.0
+       0   0.0% 100.0%       16   0.4% c_parser_expression
+       0   0.0% 100.0%       15   0.4% c_parser_expression_conv (inline)
+       0   0.0% 100.0%        2   0.1% c_parser_external_declaration
+       0   0.0% 100.0%        4   0.1% c_parser_for_statement (inline)
+       0   0.0% 100.0%       13   0.3% c_parser_if_body (inline)
+       0   0.0% 100.0%       24   0.6% c_parser_if_statement (inline)
+       0   0.0% 100.0%        7   0.2% c_parser_initelt (inline)
+       0   0.0% 100.0%        7   0.2% c_parser_initializer (inline)
+       0   0.0% 100.0%        7   0.2% c_parser_initval
+       0   0.0% 100.0%        5   0.1% c_parser_label
+       0   0.0% 100.0%       11   0.3% c_parser_next_token_is (inline)
+       0   0.0% 100.0%        1   0.0% c_parser_next_token_is_keyword (inline)
+       0   0.0% 100.0%        1   0.0% c_parser_next_token_is_not (inline)
+       0   0.0% 100.0%       13   0.3% c_parser_paren_condition (inline)
+       0   0.0% 100.0%        2   0.1% c_parser_peek_2nd_token (inline)
+       0   0.0% 100.0%       17   0.4% c_parser_peek_token (inline)
+       0   0.0% 100.0%        6   0.2% c_parser_postfix_expression_after_primary
+       0   0.0% 100.0%       33   0.8% c_parser_statement_after_labels
+       0   0.0% 100.0%        2   0.1% c_parser_struct_or_union_specifier (inline)
+       0   0.0% 100.0%       16   0.4% c_parser_switch_statement (inline)
+       0   0.0% 100.0%       47   1.2% c_parser_translation_unit (inline)
+       0   0.0% 100.0%        1   0.0% c_parser_type_name
+       0   0.0% 100.0%       11   0.3% c_parser_unary_expression
+       0   0.0% 100.0%        3   0.1% c_parser_while_statement (inline)
+       0   0.0% 100.0%        1   0.0% c_wrap_maybe_const
+       0   0.0% 100.0%     3926  98.6% c_write_global_declarations
+       0   0.0% 100.0%        3   0.1% cached_nonzero_bits
+       0   0.0% 100.0%        2   0.1% cached_num_sign_bit_copies (inline)
+       0   0.0% 100.0%        2   0.1% calculate_allocno_spill_cost (inline)
+       0   0.0% 100.0%        1   0.0% call_expr_flags
+       0   0.0% 100.0%        5   0.1% call_may_clobber_ref_p_1
+       0   0.0% 100.0%        1   0.0% callsite_has_enough_arguments_p (inline)
+       0   0.0% 100.0%        1   0.0% can_assign_to_reg_without_clobbers_p
+       0   0.0% 100.0%        1   0.0% can_fallthru
+       0   0.0% 100.0%        2   0.1% can_throw_internal
+       0   0.0% 100.0%        2   0.1% can_value_number_call (inline)
+       0   0.0% 100.0%       10   0.3% canon_hash (inline)
+       0   0.0% 100.0%        1   0.0% canonicalize_base_object_address (inline)
+       0   0.0% 100.0%        6   0.2% canonicalize_condition
+       0   0.0% 100.0%        4   0.1% canonicalize_loop_induction_variables (inline)
+       0   0.0% 100.0%        6   0.2% ccp_finalize (inline)
+       0   0.0% 100.0%        6   0.2% ccp_initialize (inline)
+       0   0.0% 100.0%        3   0.1% ccp_visit_stmt
+       0   0.0% 100.0%        1   0.0% cfg_blocks_get (inline)
+       0   0.0% 100.0%       22   0.6% cfg_layout_finalize
+       0   0.0% 100.0%        3   0.1% cfg_layout_initialize
+       0   0.0% 100.0%        1   0.0% cfg_layout_redirect_edge_and_branch
+       0   0.0% 100.0%       48   1.2% cgraph_analyze_function
+       0   0.0% 100.0%       48   1.2% cgraph_analyze_functions
+       0   0.0% 100.0%        1   0.0% cgraph_call_node_removal_hooks (inline)
+       0   0.0% 100.0%        2   0.1% cgraph_clone_edge
+       0   0.0% 100.0%        1   0.0% cgraph_clone_inlined_nodes
+       0   0.0% 100.0%        1   0.0% cgraph_clone_node
+       0   0.0% 100.0%        5   0.1% cgraph_decide_inlining
+       0   0.0% 100.0%        2   0.1% cgraph_decide_inlining_incrementally
+       0   0.0% 100.0%        4   0.1% cgraph_decide_inlining_of_small_functions (inline)
+       0   0.0% 100.0%        9   0.2% cgraph_early_inlining
+       0   0.0% 100.0%        1   0.0% cgraph_estimate_growth (inline)
+       0   0.0% 100.0%     3719  93.4% cgraph_expand_all_functions (inline)
+       0   0.0% 100.0%     3719  93.4% cgraph_expand_function
+       0   0.0% 100.0%     3926  98.6% cgraph_finalize_compilation_unit
+       0   0.0% 100.0%        1   0.0% cgraph_free_edge (inline)
+       0   0.0% 100.0%       22   0.6% cgraph_lower_function (inline)
+       0   0.0% 100.0%        1   0.0% cgraph_mark_inline_edge
+       0   0.0% 100.0%        2   0.1% cgraph_materialize_all_clones
+       0   0.0% 100.0%        1   0.0% cgraph_materialize_clone (inline)
+       0   0.0% 100.0%        1   0.0% cgraph_node_remove_callees
+       0   0.0% 100.0%     3879  97.4% cgraph_optimize (inline)
+       0   0.0% 100.0%     3879  97.4% cgraph_optimize.part.0
+       0   0.0% 100.0%        1   0.0% cgraph_redirect_edge_call_stmt_to_callee
+       0   0.0% 100.0%        1   0.0% cgraph_redirect_edge_call_stmt_to_callee (inline)
+       0   0.0% 100.0%        1   0.0% cgraph_release_function_body
+       0   0.0% 100.0%        2   0.1% cgraph_remove_node
+       0   0.0% 100.0%        2   0.1% cgraph_rtl_info
+       0   0.0% 100.0%        2   0.1% change_address_1
+       0   0.0% 100.0%        2   0.1% change_loop
+       0   0.0% 100.0%        4   0.1% check_stmt (inline)
+       0   0.0% 100.0%        1   0.0% choose_ready (inline)
+       0   0.0% 100.0%        1   0.0% chrec_contains_symbols_defined_in_loop (inline)
+       0   0.0% 100.0%        1   0.0% chrec_contains_symbols_defined_in_loop.part.0 (inline)
+       0   0.0% 100.0%        1   0.0% chrec_convert
+       0   0.0% 100.0%        1   0.0% chrec_convert_1 (inline)
+       0   0.0% 100.0%        2   0.1% chrec_fold_plus_1
+       0   0.0% 100.0%       15   0.4% clean (inline)
+       0   0.0% 100.0%       95   2.4% cleanup_cfg
+       0   0.0% 100.0%       27   0.7% cleanup_control_flow_bb (inline)
+       0   0.0% 100.0%        6   0.2% cleanup_omp_return
+       0   0.0% 100.0%        3   0.1% cleanup_subreg_operands
+       0   0.0% 100.0%       89   2.2% cleanup_tree_cfg
+       0   0.0% 100.0%       55   1.4% cleanup_tree_cfg_bb (inline)
+       0   0.0% 100.0%       85   2.1% cleanup_tree_cfg_noloop (inline)
+       0   0.0% 100.0%        1   0.0% clear_lim_data (inline)
+       0   0.0% 100.0%        2   0.1% clear_modify_mem_tables
+       0   0.0% 100.0%        1   0.0% coalesce_partitions (inline)
+       0   0.0% 100.0%       10   0.3% coalesce_ssa_name
+       0   0.0% 100.0%        4   0.1% collect_finally_tree_1
+       0   0.0% 100.0%        4   0.1% collect_finally_tree_1 (inline)
+       0   0.0% 100.0%       23   0.6% color (inline)
+       0   0.0% 100.0%       19   0.5% color_allocnos (inline)
+       0   0.0% 100.0%       22   0.6% color_pass
+       0   0.0% 100.0%        2   0.1% combine_cond_expr_cond (inline)
+       0   0.0% 100.0%        1   0.0% combine_predictions_for_bb (inline)
+       0   0.0% 100.0%        4   0.1% commit_one_edge_insertion
+       0   0.0% 100.0%        1   0.0% compare_name_with_value
+       0   0.0% 100.0%        3   0.1% compare_names
+       0   0.0% 100.0%        1   0.0% compare_range_with_value (inline)
+       0   0.0% 100.0%        3   0.1% compare_ranges
+       0   0.0% 100.0%        1   0.0% compare_tree_int
+       0   0.0% 100.0%        4   0.1% compare_values
+       0   0.0% 100.0%     3974  99.8% compile_file (inline)
+       0   0.0% 100.0%        1   0.0% component_uses_parent_alias_set
+       0   0.0% 100.0%        1   0.0% component_uses_parent_alias_set (inline)
+       0   0.0% 100.0%        3   0.1% compute_all_dependences
+       0   0.0% 100.0%      105   2.6% compute_antic (inline)
+       0   0.0% 100.0%        2   0.1% compute_antinout_edge
+       0   0.0% 100.0%        2   0.1% compute_argument_addresses (inline)
+       0   0.0% 100.0%       61   1.5% compute_block_dependences (inline)
+       0   0.0% 100.0%       37   0.9% compute_cprop_data (inline)
+       0   0.0% 100.0%        9   0.2% compute_data_dependences_for_bb
+       0   0.0% 100.0%        6   0.2% compute_data_dependences_for_loop
+       0   0.0% 100.0%        9   0.2% compute_dominance_frontiers
+       0   0.0% 100.0%        4   0.1% compute_hash_table (inline)
+       0   0.0% 100.0%        1   0.0% compute_idf
+       0   0.0% 100.0%        2   0.1% compute_inline_parameters
+       0   0.0% 100.0%        3   0.1% compute_inline_parameters (inline)
+       0   0.0% 100.0%        7   0.2% compute_inline_parameters_for_current
+       0   0.0% 100.0%        7   0.2% compute_inline_parameters_for_current (inline)
+       0   0.0% 100.0%        1   0.0% compute_laterin (inline)
+       0   0.0% 100.0%        4   0.1% compute_ld_motion_mems (inline)
+       0   0.0% 100.0%      175   4.4% compute_local_properties
+       0   0.0% 100.0%       78   2.0% compute_may_aliases
+       0   0.0% 100.0%       78   2.0% compute_points_to_sets (inline)
+       0   0.0% 100.0%      185   4.6% compute_pre_data (inline)
+       0   0.0% 100.0%       19   0.5% compute_priorities
+       0   0.0% 100.0%        3   0.1% compute_regs_asm_clobbered (inline)
+       0   0.0% 100.0%        7   0.2% compute_topo_order (inline)
+       0   0.0% 100.0%        8   0.2% cond_move_process_if_block
+       0   0.0% 100.0%        7   0.2% confirm_change_group
+       0   0.0% 100.0%        2   0.1% connect_dest (inline)
+       0   0.0% 100.0%        2   0.1% connect_infinite_loops_to_exit
+       0   0.0% 100.0%        1   0.0% const_binop.constprop.0
+       0   0.0% 100.0%        1   0.0% constant_address_p (inline)
+       0   0.0% 100.0%        1   0.0% constant_multiple_of
+       0   0.0% 100.0%        2   0.1% constprop_register
+       0   0.0% 100.0%        1   0.0% constraint_set_union (inline)
+       0   0.0% 100.0%        1   0.0% constraint_vec_find (inline)
+       0   0.0% 100.0%        6   0.2% contains (inline)
+       0   0.0% 100.0%        1   0.0% convert_affine_scev
+       0   0.0% 100.0%        1   0.0% convert_and_check
+       0   0.0% 100.0%        3   0.1% convert_callers (inline)
+       0   0.0% 100.0%        1   0.0% convert_to_integer
+       0   0.0% 100.0%        2   0.1% copy_bb_p
+       0   0.0% 100.0%        3   0.1% copy_bbs
+       0   0.0% 100.0%       36   0.9% copy_body
+       0   0.0% 100.0%       36   0.9% copy_cfg_body (inline)
+       0   0.0% 100.0%        1   0.0% copy_decl_for_dup_finish (inline)
+       0   0.0% 100.0%       12   0.3% copy_loop_headers
+       0   0.0% 100.0%        4   0.1% copy_node_stat
+       0   0.0% 100.0%        1   0.0% copy_original_table_set (inline)
+       0   0.0% 100.0%        2   0.1% copy_phis_for_bb (inline)
+       0   0.0% 100.0%        1   0.0% copy_result_decl_to_var (inline)
+       0   0.0% 100.0%        5   0.1% copy_rtx_if_shared (inline)
+       0   0.0% 100.0%        1   0.0% copy_to_reg
+       0   0.0% 100.0%        1   0.0% copy_tree_body_r
+       0   0.0% 100.0%       32   0.8% copyprop_hardreg_forward
+       0   0.0% 100.0%        1   0.0% could_have_pointers (inline)
+       0   0.0% 100.0%        5   0.1% count_uses_and_derefs
+       0   0.0% 100.0%        2   0.1% covers_regno_no_parallel_p (inline)
+       0   0.0% 100.0%        2   0.1% covers_regno_p (inline)
+       0   0.0% 100.0%       12   0.3% cpp_get_token_with_location
+       0   0.0% 100.0%        2   0.1% cpp_interpret_string
+       0   0.0% 100.0%        1   0.0% cprop_into_successor_phis (inline)
+       0   0.0% 100.0%        1   0.0% cprop_jump
+       0   0.0% 100.0%        1   0.0% create_access (inline)
+       0   0.0% 100.0%        1   0.0% create_alloc_pool
+       0   0.0% 100.0%        4   0.1% create_allocnos (inline)
+       0   0.0% 100.0%        1   0.0% create_artificial_label
+       0   0.0% 100.0%        5   0.1% create_basic_block
+       0   0.0% 100.0%        1   0.0% create_basic_block (inline)
+       0   0.0% 100.0%        3   0.1% create_basic_block_structure
+       0   0.0% 100.0%        2   0.1% create_bb
+       0   0.0% 100.0%        3   0.1% create_bb_allocnos (inline)
+       0   0.0% 100.0%        4   0.1% create_block_for_threading (inline)
+       0   0.0% 100.0%        1   0.0% create_component_ref_by_pieces (inline)
+       0   0.0% 100.0%        1   0.0% create_component_ref_by_pieces_1
+       0   0.0% 100.0%       12   0.3% create_data_ref
+       0   0.0% 100.0%        4   0.1% create_duplicates
+       0   0.0% 100.0%        1   0.0% create_edge_list
+       0   0.0% 100.0%        1   0.0% create_empty_bb
+       0   0.0% 100.0%        2   0.1% create_expression_by_pieces
+       0   0.0% 100.0%        4   0.1% create_loop_tree_node_allocnos
+       0   0.0% 100.0%        1   0.0% create_loop_tree_node_allocnos (inline)
+       0   0.0% 100.0%        1   0.0% create_mem_ref
+       0   0.0% 100.0%        3   0.1% create_new_def_for
+       0   0.0% 100.0%        4   0.1% create_phi_node
+       0   0.0% 100.0%        2   0.1% create_preheaders.part.0
+       0   0.0% 100.0%        2   0.1% create_reference_ops_from_ref (inline)
+       0   0.0% 100.0%        1   0.0% create_tmp_from_val (inline)
+       0   0.0% 100.0%        3   0.1% create_tmp_var
+       0   0.0% 100.0%        3   0.1% create_tmp_var_name
+       0   0.0% 100.0%        2   0.1% create_tmp_var_raw
+       0   0.0% 100.0%        3   0.1% create_tmp_var_raw (inline)
+       0   0.0% 100.0%        8   0.2% create_variable_info_for
+       0   0.0% 100.0%        3   0.1% cse_condition_code_reg (inline)
+       0   0.0% 100.0%        1   0.0% cse_find_path (inline)
+       0   0.0% 100.0%        4   0.1% cselib_expand_value_rtx
+       0   0.0% 100.0%        5   0.1% cselib_finish
+       0   0.0% 100.0%        1   0.0% cselib_init
+       0   0.0% 100.0%       20   0.5% cselib_invalidate_rtx_note_stores
+       0   0.0% 100.0%        5   0.1% cselib_record_sets (inline)
+       0   0.0% 100.0%        1   0.0% cselib_reset_table
+       0   0.0% 100.0%        3   0.1% curr_insn_locator
+       0   0.0% 100.0%        2   0.1% dead_or_predicable
+       0   0.0% 100.0%        2   0.1% dead_or_set_p
+       0   0.0% 100.0%        2   0.1% dead_or_set_regno_p
+       0   0.0% 100.0%        2   0.1% dead_or_set_regno_p (inline)
+       0   0.0% 100.0%        1   0.0% decl_jump_unsafe (inline)
+       0   0.0% 100.0%        1   0.0% decl_refs_may_alias_p
+       0   0.0% 100.0%        1   0.0% declare_return_variable (inline)
+       0   0.0% 100.0%        1   0.0% def_blocks_free
+       0   0.0% 100.0%        3   0.1% default_assemble_integer
+       0   0.0% 100.0%       12   0.3% defer_or_phi_translate_block (inline)
+       0   0.0% 100.0%        9   0.2% deletable_insn_p_1 (inline)
+       0   0.0% 100.0%        8   0.2% delete_basic_block
+       0   0.0% 100.0%        2   0.1% delete_dep_nodes_in_back_deps (inline)
+       0   0.0% 100.0%        3   0.1% delete_from_dominance_info
+       0   0.0% 100.0%        5   0.1% delete_insn
+       0   0.0% 100.0%        3   0.1% delete_insn_chain (inline)
+       0   0.0% 100.0%        1   0.0% delete_noop_moves (inline)
+       0   0.0% 100.0%        1   0.0% delete_reg_equiv
+       0   0.0% 100.0%        2   0.1% delete_tree_ssa
+       0   0.0% 100.0%        2   0.1% delete_update_ssa
+       0   0.0% 100.0%       18   0.5% dependent_clean (inline)
+       0   0.0% 100.0%        1   0.0% destroy_bb_vec_info
+       0   0.0% 100.0%        1   0.0% determine_biv_step (inline)
+       0   0.0% 100.0%        1   0.0% determine_dominators_for_sons (inline)
+       0   0.0% 100.0%        3   0.1% determine_invariantness (inline)
+       0   0.0% 100.0%        2   0.1% determine_invariantness_stmt
+       0   0.0% 100.0%        3   0.1% determine_use_iv_cost
+       0   0.0% 100.0%        1   0.0% determine_use_iv_cost_address (inline)
+       0   0.0% 100.0%        2   0.1% determine_use_iv_cost_condition
+       0   0.0% 100.0%        3   0.1% determine_use_iv_costs (inline)
+       0   0.0% 100.0%        1   0.0% df_add_problem
+       0   0.0% 100.0%      713  17.9% df_analyze_problem
+       0   0.0% 100.0%        1   0.0% df_bb_refs_collect
+       0   0.0% 100.0%        1   0.0% df_bb_refs_collect (inline)
+       0   0.0% 100.0%        1   0.0% df_chain_add_problem
+       0   0.0% 100.0%       15   0.4% df_chain_create_bb (inline)
+       0   0.0% 100.0%        2   0.1% df_chain_create_bb_process_use.constprop.0 (inline)
+       0   0.0% 100.0%       15   0.4% df_chain_finalize
+       0   0.0% 100.0%        2   0.1% df_chain_fully_remove_problem
+       0   0.0% 100.0%        2   0.1% df_check_and_grow_ref_info (inline)
+       0   0.0% 100.0%        3   0.1% df_entry_block_defs_collect
+       0   0.0% 100.0%       23   0.6% df_finish_pass
+       0   0.0% 100.0%        5   0.1% df_free_collection_rec
+       0   0.0% 100.0%        2   0.1% df_grow_ref_info (inline)
+       0   0.0% 100.0%        2   0.1% df_grow_reg_info
+       0   0.0% 100.0%        1   0.0% df_insn_create_insn_record
+       0   0.0% 100.0%        5   0.1% df_insn_delete (inline)
+       0   0.0% 100.0%       40   1.0% df_insn_refs_verify
+       0   0.0% 100.0%        3   0.1% df_live_alloc
+       0   0.0% 100.0%       18   0.5% df_live_finalize
+       0   0.0% 100.0%       18   0.5% df_live_finalize (inline)
+       0   0.0% 100.0%       16   0.4% df_live_init
+       0   0.0% 100.0%        2   0.1% df_lr_alloc
+       0   0.0% 100.0%      131   3.3% df_lr_finalize
+       0   0.0% 100.0%       24   0.6% df_lr_finalize (inline)
+       0   0.0% 100.0%       22   0.6% df_lr_init
+       0   0.0% 100.0%       12   0.3% df_maybe_reorganize_def_refs
+       0   0.0% 100.0%        4   0.1% df_maybe_reorganize_use_refs
+       0   0.0% 100.0%        2   0.1% df_md_free
+       0   0.0% 100.0%       12   0.3% df_md_local_compute
+       0   0.0% 100.0%        1   0.0% df_md_transfer_function
+       0   0.0% 100.0%       90   2.3% df_note_compute
+       0   0.0% 100.0%        2   0.1% df_notes_rescan
+       0   0.0% 100.0%        2   0.1% df_rd_alloc
+       0   0.0% 100.0%        9   0.2% df_rd_bb_local_compute (inline)
+       0   0.0% 100.0%        1   0.0% df_rd_init_solution
+       0   0.0% 100.0%       21   0.5% df_rd_local_compute
+       0   0.0% 100.0%        7   0.2% df_rd_transfer_function
+       0   0.0% 100.0%        5   0.1% df_record_entry_block_defs
+       0   0.0% 100.0%        5   0.1% df_ref_chain_delete
+       0   0.0% 100.0%        7   0.2% df_ref_change_reg_with_loc
+       0   0.0% 100.0%        4   0.1% df_ref_record.constprop.0
+       0   0.0% 100.0%        2   0.1% df_remove_problem
+       0   0.0% 100.0%        4   0.1% df_reorganize_refs_by_insn
+       0   0.0% 100.0%       12   0.3% df_reorganize_refs_by_reg
+       0   0.0% 100.0%       13   0.3% df_scan_alloc
+       0   0.0% 100.0%        5   0.1% df_scan_free
+       0   0.0% 100.0%        1   0.0% df_simulate_finalize_backwards
+       0   0.0% 100.0%        1   0.0% df_simulate_fixup_sets (inline)
+       0   0.0% 100.0%        7   0.2% df_simulate_one_insn_backwards
+       0   0.0% 100.0%        1   0.0% df_update_entry_block_defs
+       0   0.0% 100.0%        7   0.2% df_update_entry_exit_and_calls
+       0   0.0% 100.0%        4   0.1% dfs_enumerate_from
+       0   0.0% 100.0%        1   0.0% dfs_next_edge (inline)
+       0   0.0% 100.0%        1   0.0% difference_cost
+       0   0.0% 100.0%        1   0.0% digest_init
+       0   0.0% 100.0%        1   0.0% disambiguate_loops_with_multiple_latches
+       0   0.0% 100.0%        1   0.0% disambiguate_multiple_latches (inline)
+       0   0.0% 100.0%        1   0.0% disconnect_dest (inline)
+       0   0.0% 100.0%        1   0.0% discover_nonconstant_array_refs (inline)
+       0   0.0% 100.0%        2   0.1% disjoint_objects_p (inline)
+       0   0.0% 100.0%        3   0.1% do_case
+       0   0.0% 100.0%       22   0.6% do_coloring (inline)
+       0   0.0% 100.0%       11   0.3% do_compare_and_jump
+       0   0.0% 100.0%       13   0.3% do_compare_rtx_and_jump
+       0   0.0% 100.0%     3974  99.8% do_compile (inline)
+       0   0.0% 100.0%        4   0.1% do_complex_constraint (inline)
+       0   0.0% 100.0%        1   0.0% do_ds_constraint (inline)
+       0   0.0% 100.0%        9   0.2% do_jump
+       0   0.0% 100.0%       11   0.3% do_jump_1 (inline)
+       0   0.0% 100.0%        3   0.1% do_local_cprop (inline)
+       0   0.0% 100.0%      278   7.0% do_per_function (inline)
+       0   0.0% 100.0%      129   3.2% do_per_function_toporder (inline)
+       0   0.0% 100.0%        4   0.1% do_reassoc (inline)
+       0   0.0% 100.0%        9   0.2% do_sink
+       0   0.0% 100.0%       25   0.6% do_ssa_ccp
+       0   0.0% 100.0%        1   0.0% do_store_flag (inline)
+       0   0.0% 100.0%       23   0.6% dom_opt_enter_block
+       0   0.0% 100.0%        7   0.2% dom_opt_leave_block
+       0   0.0% 100.0%        3   0.1% dom_thread_across_edge (inline)
+       0   0.0% 100.0%        2   0.1% double_int_mul
+       0   0.0% 100.0%        2   0.1% dr_analyze_indices (inline)
+       0   0.0% 100.0%        9   0.2% dr_analyze_innermost
+       0   0.0% 100.0%        3   0.1% dr_may_alias_p
+       0   0.0% 100.0%        6   0.2% dse_enter_block
+       0   0.0% 100.0%        6   0.2% dse_optimize_stmt (inline)
+       0   0.0% 100.0%        6   0.2% dse_possible_dead_store_p (inline)
+       0   0.0% 100.0%       10   0.3% dse_step0 (inline)
+       0   0.0% 100.0%        1   0.0% dse_step2_init (inline)
+       0   0.0% 100.0%        2   0.1% dse_step2_nospill (inline)
+       0   0.0% 100.0%        5   0.1% dse_step3
+       0   0.0% 100.0%        4   0.1% dse_step4
+       0   0.0% 100.0%        2   0.1% dse_step5_nospill (inline)
+       0   0.0% 100.0%        1   0.0% dse_transfer_function
+       0   0.0% 100.0%        7   0.2% duplicate_block
+       0   0.0% 100.0%       15   0.4% duplicate_computed_gotos
+       0   0.0% 100.0%       15   0.4% duplicate_computed_gotos (inline)
+       0   0.0% 100.0%        3   0.1% duplicate_ssa_name
+       0   0.0% 100.0%        1   0.0% eliminate_const_or_copy
+       0   0.0% 100.0%        3   0.1% eliminate_degenerate_phis
+       0   0.0% 100.0%        3   0.1% eliminate_degenerate_phis_1
+       0   0.0% 100.0%        3   0.1% eliminate_degenerate_phis_1 (inline)
+       0   0.0% 100.0%        3   0.1% eliminate_partially_redundant_load (inline)
+       0   0.0% 100.0%        6   0.2% eliminate_redundant_computations (inline)
+       0   0.0% 100.0%        1   0.0% eliminate_useless_phis (inline)
+       0   0.0% 100.0%        6   0.2% emit_cmp_and_jump_insn_1 (inline)
+       0   0.0% 100.0%        8   0.2% emit_cmp_and_jump_insns
+       0   0.0% 100.0%        7   0.2% emit_insn
+       0   0.0% 100.0%        7   0.2% emit_insn (inline)
+       0   0.0% 100.0%        2   0.1% emit_insn_after_1
+       0   0.0% 100.0%        1   0.0% emit_insn_after_noloc (inline)
+       0   0.0% 100.0%        1   0.0% emit_insn_after_setloc
+       0   0.0% 100.0%        1   0.0% emit_insn_before_noloc (inline)
+       0   0.0% 100.0%        1   0.0% emit_jump_insn
+       0   0.0% 100.0%        1   0.0% emit_jump_insn (inline)
+       0   0.0% 100.0%        2   0.1% emit_jump_insn_after_noloc (inline)
+       0   0.0% 100.0%        2   0.1% emit_jump_insn_after_setloc
+       0   0.0% 100.0%        6   0.2% emit_move_insn_1
+       0   0.0% 100.0%        1   0.0% emit_moves (inline)
+       0   0.0% 100.0%        1   0.0% emit_note
+       0   0.0% 100.0%        1   0.0% emit_note_before
+       0   0.0% 100.0%        6   0.2% emit_push_insn
+       0   0.0% 100.0%        2   0.1% emit_reload_insns
+       0   0.0% 100.0%        1   0.0% end_ifcvt_sequence (inline)
+       0   0.0% 100.0%        5   0.1% end_recording_case_labels
+       0   0.0% 100.0%        6   0.2% entry_and_rtx_equal_p
+       0   0.0% 100.0%        3   0.1% equiv_class_add (inline)
+       0   0.0% 100.0%        2   0.1% equiv_class_label_eq (inline)
+       0   0.0% 100.0%        5   0.1% equiv_class_lookup (inline)
+       0   0.0% 100.0%        1   0.0% establish_preds
+       0   0.0% 100.0%        5   0.1% estimate_function_body_sizes
+       0   0.0% 100.0%        4   0.1% estimate_loops (inline)
+       0   0.0% 100.0%        1   0.0% estimate_loops_at_level
+       0   0.0% 100.0%        1   0.0% estimate_numbers_of_iterations
+       0   0.0% 100.0%        3   0.1% estimate_numbers_of_iterations_loop (inline)
+       0   0.0% 100.0%        4   0.1% estimate_numbers_of_iterations_loop.part.0
+       0   0.0% 100.0%        1   0.0% estimated_loop_iterations_int
+       0   0.0% 100.0%        1   0.0% estimated_loop_iterations_int (inline)
+       0   0.0% 100.0%        3   0.1% estimated_stack_frame_size
+       0   0.0% 100.0%        6   0.2% et_below
+       0   0.0% 100.0%        1   0.0% et_free_pools
+       0   0.0% 100.0%        3   0.1% et_free_tree
+       0   0.0% 100.0%        7   0.2% evaluate_stmt
+       0   0.0% 100.0%       76   1.9% execute_all_ipa_transforms
+       0   0.0% 100.0%        4   0.1% execute_build_cfg
+       0   0.0% 100.0%        6   0.2% execute_cleanup_cfg_post_optimizing
+       0   0.0% 100.0%        5   0.1% execute_cleanup_cfg_pre_ipa
+       0   0.0% 100.0%       20   0.5% execute_copy_prop
+       0   0.0% 100.0%        1   0.0% execute_cse_sincos
+       0   0.0% 100.0%        2   0.1% execute_free_datastructures
+       0   0.0% 100.0%      277   7.0% execute_function_todo
+       0   0.0% 100.0%        1   0.0% execute_init_datastructures
+       0   0.0% 100.0%      140   3.5% execute_ipa_pass_list
+       0   0.0% 100.0%       12   0.3% execute_ipa_summary_passes
+       0   0.0% 100.0%       76   1.9% execute_one_ipa_transform_pass (inline)
+       0   0.0% 100.0%      129   3.2% execute_pass_list (inline)
+       0   0.0% 100.0%      285   7.2% execute_pre
+       0   0.0% 100.0%        8   0.2% execute_reassoc
+       0   0.0% 100.0%      250   6.3% execute_rtl_cprop
+       0   0.0% 100.0%      217   5.5% execute_rtl_pre
+       0   0.0% 100.0%        9   0.2% execute_sink_code (inline)
+       0   0.0% 100.0%       12   0.3% execute_vect_slp
+       0   0.0% 100.0%      121   3.0% execute_vrp
+       0   0.0% 100.0%       31   0.8% expand_assignment.part.0
+       0   0.0% 100.0%        3   0.1% expand_binop
+       0   0.0% 100.0%        3   0.1% expand_binop_directly
+       0   0.0% 100.0%       15   0.4% expand_call
+       0   0.0% 100.0%       43   1.1% expand_call_inline (inline)
+       0   0.0% 100.0%       17   0.4% expand_call_stmt (inline)
+       0   0.0% 100.0%        2   0.1% expand_case
+       0   0.0% 100.0%        3   0.1% expand_compound_operation
+       0   0.0% 100.0%        6   0.2% expand_expr (inline)
+       0   0.0% 100.0%        1   0.0% expand_expr_addr_expr (inline)
+       0   0.0% 100.0%        1   0.0% expand_expr_addr_expr_1
+       0   0.0% 100.0%       29   0.7% expand_expr_real
+       0   0.0% 100.0%       29   0.7% expand_expr_real (inline)
+       0   0.0% 100.0%        7   0.2% expand_expr_real_1 (inline)
+       0   0.0% 100.0%        1   0.0% expand_expr_real_2 (inline)
+       0   0.0% 100.0%        6   0.2% expand_function_start
+       0   0.0% 100.0%       67   1.7% expand_gimple_basic_block (inline)
+       0   0.0% 100.0%       24   0.6% expand_gimple_cond
+       0   0.0% 100.0%       42   1.1% expand_gimple_stmt
+       0   0.0% 100.0%       41   1.0% expand_gimple_stmt_1 (inline)
+       0   0.0% 100.0%        8   0.2% expand_normal (inline)
+       0   0.0% 100.0%        3   0.1% expand_one_register_var (inline)
+       0   0.0% 100.0%        3   0.1% expand_operands
+       0   0.0% 100.0%        1   0.0% expand_phi_nodes
+       0   0.0% 100.0%        1   0.0% expand_return
+       0   0.0% 100.0%        1   0.0% expand_shift
+       0   0.0% 100.0%        1   0.0% expand_vector_operations
+       0   0.0% 100.0%        1   0.0% expand_vector_operations_1 (inline)
+       0   0.0% 100.0%        1   0.0% expensive_function_p
+       0   0.0% 100.0%        2   0.1% expr_equiv_p
+       0   0.0% 100.0%        2   0.1% expr_equiv_p (inline)
+       0   0.0% 100.0%        1   0.0% expr_pred_trans_eq
+       0   0.0% 100.0%        4   0.1% expression_for_id (inline)
+       0   0.0% 100.0%        4   0.1% extend_h_i_d
+       0   0.0% 100.0%        4   0.1% extend_h_i_d (inline)
+       0   0.0% 100.0%        4   0.1% extend_insn (inline)
+       0   0.0% 100.0%        7   0.2% extract_insn_cached
+       0   0.0% 100.0%        6   0.2% extract_insn_cached (inline)
+       0   0.0% 100.0%        2   0.1% extract_range_basic
+       0   0.0% 100.0%        1   0.0% extract_range_from_assert (inline)
+       0   0.0% 100.0%        1   0.0% extract_range_from_unary_expr
+       0   0.0% 100.0%        1   0.0% fibheap_insert
+       0   0.0% 100.0%        1   0.0% fibnode_new (inline)
+       0   0.0% 100.0%       46   1.2% final_scan_insn
+       0   0.0% 100.0%        1   0.0% finalize_record_size (inline)
+       0   0.0% 100.0%        1   0.0% finalize_ssa_defs (inline)
+       0   0.0% 100.0%        9   0.2% finalize_ssa_stmt_operands (inline)
+       0   0.0% 100.0%        1   0.0% find_all_control_dependences (inline)
+       0   0.0% 100.0%       23   0.6% find_assert_locations (inline)
+       0   0.0% 100.0%        2   0.1% find_avail_set (inline)
+       0   0.0% 100.0%       10   0.3% find_base_value
+       0   0.0% 100.0%        2   0.1% find_bivs (inline)
+       0   0.0% 100.0%        6   0.2% find_comparison_args
+       0   0.0% 100.0%        1   0.0% find_control_dependence (inline)
+       0   0.0% 100.0%       12   0.3% find_data_references_in_bb (inline)
+       0   0.0% 100.0%        5   0.1% find_data_references_in_loop
+       0   0.0% 100.0%       12   0.3% find_data_references_in_stmt (inline)
+       0   0.0% 100.0%        2   0.1% find_def_blocks_for (inline)
+       0   0.0% 100.0%       28   0.7% find_defs (inline)
+       0   0.0% 100.0%        1   0.0% find_dummy_reload
+       0   0.0% 100.0%        3   0.1% find_equiv_reg
+       0   0.0% 100.0%        2   0.1% find_givs (inline)
+       0   0.0% 100.0%        1   0.0% find_givs_in_bb (inline)
+       0   0.0% 100.0%        1   0.0% find_givs_in_stmt (inline)
+       0   0.0% 100.0%        1   0.0% find_givs_in_stmt_scev (inline)
+       0   0.0% 100.0%        5   0.1% find_if_case_2 (inline)
+       0   0.0% 100.0%        2   0.1% find_indirect_cycles (inline)
+       0   0.0% 100.0%        4   0.1% find_induction_variables (inline)
+       0   0.0% 100.0%        2   0.1% find_interesting_uses
+       0   0.0% 100.0%        2   0.1% find_interesting_uses_address
+       0   0.0% 100.0%        4   0.1% find_invariant_insn (inline)
+       0   0.0% 100.0%       34   0.9% find_invariants (inline)
+       0   0.0% 100.0%        4   0.1% find_invariants_bb (inline)
+       0   0.0% 100.0%        4   0.1% find_invariants_body (inline)
+       0   0.0% 100.0%        4   0.1% find_invariants_insn (inline)
+       0   0.0% 100.0%        1   0.0% find_invariants_to_move
+       0   0.0% 100.0%        3   0.1% find_leader_in_sets (inline)
+       0   0.0% 100.0%        3   0.1% find_loop_niter
+       0   0.0% 100.0%        3   0.1% find_many_sub_basic_blocks
+       0   0.0% 100.0%        1   0.0% find_mem_conflicts
+       0   0.0% 100.0%       14   0.4% find_obviously_necessary_stmts
+       0   0.0% 100.0%        1   0.0% find_operand_rank (inline)
+       0   0.0% 100.0%        1   0.0% find_optimal_iv_set
+       0   0.0% 100.0%        2   0.1% find_referenced_vars
+       0   0.0% 100.0%        2   0.1% find_referenced_vars_in
+       0   0.0% 100.0%        1   0.0% find_reloads_address
+       0   0.0% 100.0%        1   0.0% find_replaceable_exprs
+       0   0.0% 100.0%        1   0.0% find_replaceable_in_bb (inline)
+       0   0.0% 100.0%        1   0.0% find_taken_edge
+       0   0.0% 100.0%        1   0.0% find_temp_slot_from_address
+       0   0.0% 100.0%        4   0.1% find_traces (inline)
+       0   0.0% 100.0%        4   0.1% find_traces_1_round (inline)
+       0   0.0% 100.0%        8   0.2% find_uses_to_rename (inline)
+       0   0.0% 100.0%        4   0.1% find_uses_to_rename_stmt (inline)
+       0   0.0% 100.0%        2   0.1% find_var_scev_info (inline)
+       0   0.0% 100.0%        3   0.1% find_what_p_points_to (inline)
+       0   0.0% 100.0%        3   0.1% find_what_var_points_to
+       0   0.0% 100.0%       10   0.3% fini_pre (inline)
+       0   0.0% 100.0%        1   0.0% fini_ssa_renamer (inline)
+       0   0.0% 100.0%        1   0.0% finish_record_layout
+       0   0.0% 100.0%        2   0.1% finish_struct
+       0   0.0% 100.0%        3   0.1% finite_loop_p
+       0   0.0% 100.0%        1   0.0% first_imm_use_stmt (inline)
+       0   0.0% 100.0%        4   0.1% fis_get_condition (inline)
+       0   0.0% 100.0%        1   0.0% fix_loop_structure
+       0   0.0% 100.0%        3   0.1% fix_string_type
+       0   0.0% 100.0%        3   0.1% fixup_signed_type
+       0   0.0% 100.0%        1   0.0% fixup_unsigned_type
+       0   0.0% 100.0%        1   0.0% flow_active_insn_p (inline)
+       0   0.0% 100.0%        1   0.0% flow_bb_inside_loop_p
+       0   0.0% 100.0%        1   0.0% flow_loop_free (inline)
+       0   0.0% 100.0%        1   0.0% flow_loop_tree_node_add (inline)
+       0   0.0% 100.0%        1   0.0% flow_loops_free
+       0   0.0% 100.0%        3   0.1% flush_pending_lists
+       0   0.0% 100.0%        2   0.1% fold_build1_stat_loc (inline)
+       0   0.0% 100.0%       12   0.3% fold_build2_stat_loc
+       0   0.0% 100.0%        3   0.1% fold_build2_stat_loc (inline)
+       0   0.0% 100.0%        5   0.1% fold_cond_expr_cond
+       0   0.0% 100.0%        2   0.1% fold_gimple_cond (inline)
+       0   0.0% 100.0%        9   0.2% fold_marked_statements
+       0   0.0% 100.0%        1   0.0% fold_plusminus_mult_expr
+       0   0.0% 100.0%        3   0.1% fold_predicate_in (inline)
+       0   0.0% 100.0%        9   0.2% fold_stmt_1
+       0   0.0% 100.0%        2   0.1% fold_stmt_inplace
+       0   0.0% 100.0%        1   0.0% follow_ssa_edge_binary
+       0   0.0% 100.0%        1   0.0% follow_ssa_edge_in_condition_phi (inline)
+       0   0.0% 100.0%        1   0.0% follow_ssa_edge_in_condition_phi_branch (inline)
+       0   0.0% 100.0%        2   0.1% follow_ssa_edge_in_rhs (inline)
+       0   0.0% 100.0%        3   0.1% force_gimple_operand
+       0   0.0% 100.0%        2   0.1% force_gimple_operand_gsi
+       0   0.0% 100.0%        3   0.1% force_reg
+       0   0.0% 100.0%        3   0.1% force_reg (inline)
+       0   0.0% 100.0%        2   0.1% force_single_succ_latches
+       0   0.0% 100.0%        6   0.2% force_to_mode
+       0   0.0% 100.0%        1   0.0% forget_old_reloads_1
+       0   0.0% 100.0%        2   0.1% forward_propagate_addr_expr
+       0   0.0% 100.0%       10   0.3% forward_propagate_into
+       0   0.0% 100.0%        5   0.1% forward_propagate_into_gimple_cond
+       0   0.0% 100.0%        2   0.1% fprintf (inline)
+       0   0.0% 100.0%        3   0.1% free_INSN_LIST_list
+       0   0.0% 100.0%        2   0.1% free_all_edge_infos (inline)
+       0   0.0% 100.0%        7   0.2% free_alloc_pool
+       0   0.0% 100.0%        1   0.0% free_alloc_pool_if_empty
+       0   0.0% 100.0%        1   0.0% free_alloc_pool_if_empty (inline)
+       0   0.0% 100.0%        4   0.1% free_block_dependencies (inline)
+       0   0.0% 100.0%        1   0.0% free_dependence_relations
+       0   0.0% 100.0%        1   0.0% free_deps_list (inline)
+       0   0.0% 100.0%        7   0.2% free_dominance_info
+       0   0.0% 100.0%        1   0.0% free_for_value_p (inline)
+       0   0.0% 100.0%        1   0.0% free_ldst_entry (inline)
+       0   0.0% 100.0%        1   0.0% free_ldst_mems (inline)
+       0   0.0% 100.0%        1   0.0% free_original_copy_tables
+       0   0.0% 100.0%        5   0.1% free_var_substitution_info (inline)
+       0   0.0% 100.0%        1   0.0% free_vn_table (inline)
+       0   0.0% 100.0%        1   0.0% function_to_pointer_conversion (inline)
+       0   0.0% 100.0%       11   0.3% fwprop_done (inline)
+       0   0.0% 100.0%       76   1.9% fwprop_init
+       0   0.0% 100.0%        2   0.1% gather_mem_refs_in_loops (inline)
+       0   0.0% 100.0%        2   0.1% gather_mem_refs_stmt (inline)
+       0   0.0% 100.0%       13   0.3% gcse_after_reload_main (inline)
+       0   0.0% 100.0%        1   0.0% gen_andsi3
+       0   0.0% 100.0%        1   0.0% gen_ashrsi3
+       0   0.0% 100.0%        1   0.0% gen_cbranchhi4
+       0   0.0% 100.0%        1   0.0% gen_cbranchqi4
+       0   0.0% 100.0%        4   0.1% gen_cbranchsi4
+       0   0.0% 100.0%        1   0.0% gen_epilogue
+       0   0.0% 100.0%        9   0.2% gen_int_mode
+       0   0.0% 100.0%        1   0.0% gen_label_rtx
+       0   0.0% 100.0%        3   0.1% gen_lowpart_common
+       0   0.0% 100.0%        3   0.1% gen_lowpart_if_possible
+       0   0.0% 100.0%        1   0.0% gen_move_insn
+       0   0.0% 100.0%        1   0.0% gen_movqi
+       0   0.0% 100.0%        5   0.1% gen_movsi
+       0   0.0% 100.0%        1   0.0% gen_prologue
+       0   0.0% 100.0%        2   0.1% gen_raw_REG (inline)
+       0   0.0% 100.0%        1   0.0% gen_rtx_CONST_INT
+       0   0.0% 100.0%        9   0.2% gen_rtx_CONST_INT (inline)
+       0   0.0% 100.0%        1   0.0% gen_rtx_MEM
+       0   0.0% 100.0%        1   0.0% gen_rtx_MEM (inline)
+       0   0.0% 100.0%        2   0.1% gen_rtx_REG
+       0   0.0% 100.0%        2   0.1% gen_rtx_fmt_e0_stat
+       0   0.0% 100.0%        2   0.1% gen_rtx_fmt_i00_stat
+       0   0.0% 100.0%        1   0.0% gen_rtx_fmt_iuuB00is_stat
+       0   0.0% 100.0%        3   0.1% general_operand (inline)
+       0   0.0% 100.0%        2   0.1% generate_summary@514310
+       0   0.0% 100.0%        1   0.0% get_attr_mode
+       0   0.0% 100.0%        8   0.2% get_attr_modrm
+       0   0.0% 100.0%        7   0.2% get_attr_type
+       0   0.0% 100.0%        1   0.0% get_computation (inline)
+       0   0.0% 100.0%        1   0.0% get_computation_aff.isra.0
+       0   0.0% 100.0%        2   0.1% get_computation_at (inline)
+       0   0.0% 100.0%        2   0.1% get_computation_cost (inline)
+       0   0.0% 100.0%        2   0.1% get_computation_cost_at
+       0   0.0% 100.0%        9   0.2% get_constraint_for (inline)
+       0   0.0% 100.0%       15   0.4% get_constraint_for_1
+       0   0.0% 100.0%        1   0.0% get_constraint_for_address_of (inline)
+       0   0.0% 100.0%        2   0.1% get_constraint_for_component_ref (inline)
+       0   0.0% 100.0%        2   0.1% get_continuation_for_phi
+       0   0.0% 100.0%        7   0.2% get_continuation_for_phi (inline)
+       0   0.0% 100.0%        5   0.1% get_continuation_for_phi.part.0
+       0   0.0% 100.0%        2   0.1% get_def_blocks_for (inline)
+       0   0.0% 100.0%        1   0.0% get_deref_alias_set
+       0   0.0% 100.0%        2   0.1% get_dup_num (inline)
+       0   0.0% 100.0%        2   0.1% get_eh_landing_pad_from_rtx (inline)
+       0   0.0% 100.0%        3   0.1% get_eh_region_and_lp_from_rtx (inline)
+       0   0.0% 100.0%       14   0.4% get_formal_tmp_var (inline)
+       0   0.0% 100.0%        3   0.1% get_group_info
+       0   0.0% 100.0%        1   0.0% get_identifier
+       0   0.0% 100.0%        1   0.0% get_initial_solution (inline)
+       0   0.0% 100.0%        2   0.1% get_insn_template (inline)
+       0   0.0% 100.0%        5   0.1% get_loop_body
+       0   0.0% 100.0%        1   0.0% get_loop_body_in_dom_order
+       0   0.0% 100.0%        4   0.1% get_loop_body_with_size (inline)
+       0   0.0% 100.0%        5   0.1% get_loop_exit_edges
+       0   0.0% 100.0%       17   0.4% get_mem_attrs
+       0   0.0% 100.0%        6   0.2% get_mem_attrs (inline)
+       0   0.0% 100.0%        8   0.2% get_mode_bounds
+       0   0.0% 100.0%        3   0.1% get_non_trapping (inline)
+       0   0.0% 100.0%        2   0.1% get_or_alloc_constant_value_id
+       0   0.0% 100.0%        1   0.0% get_or_alloc_expr_for
+       0   0.0% 100.0%        1   0.0% get_or_alloc_expr_for_constant
+       0   0.0% 100.0%        6   0.2% get_or_alloc_expression_id (inline)
+       0   0.0% 100.0%        1   0.0% get_rank
+       0   0.0% 100.0%        1   0.0% get_rank (inline)
+       0   0.0% 100.0%        4   0.1% get_reg_attrs (inline)
+       0   0.0% 100.0%        2   0.1% get_representative_for
+       0   0.0% 100.0%        1   0.0% get_rhs_or_phi_arg (inline)
+       0   0.0% 100.0%        1   0.0% get_scalar_evolution (inline)
+       0   0.0% 100.0%       10   0.3% get_vi_for_tree (inline)
+       0   0.0% 100.0%        1   0.0% ggc_alloc_cleared_stat (inline)
+       0   0.0% 100.0%        1   0.0% ggc_calloc
+       0   0.0% 100.0%        5   0.1% gimple_alloc_stat (inline)
+       0   0.0% 100.0%        2   0.1% gimple_alloca_call_p
+       0   0.0% 100.0%        1   0.0% gimple_assign_cast_p (inline)
+       0   0.0% 100.0%        1   0.0% gimple_assign_copy_p
+       0   0.0% 100.0%        2   0.1% gimple_assign_lhs (inline)
+       0   0.0% 100.0%        1   0.0% gimple_assign_nonzero_warnv_p (inline)
+       0   0.0% 100.0%        2   0.1% gimple_assign_rhs_to_tree
+       0   0.0% 100.0%        1   0.0% gimple_assign_ssa_name_copy_p
+       0   0.0% 100.0%        3   0.1% gimple_build_assign_with_ops_stat
+       0   0.0% 100.0%        1   0.0% gimple_build_call_1 (inline)
+       0   0.0% 100.0%        1   0.0% gimple_build_cond
+       0   0.0% 100.0%        4   0.1% gimple_build_with_ops_stat (inline)
+       0   0.0% 100.0%        1   0.0% gimple_call_arg (inline)
+       0   0.0% 100.0%        1   0.0% gimple_call_chain (inline)
+       0   0.0% 100.0%        4   0.1% gimple_call_fn (inline)
+       0   0.0% 100.0%        1   0.0% gimple_call_lhs (inline)
+       0   0.0% 100.0%        1   0.0% gimple_cond_rhs (inline)
+       0   0.0% 100.0%        1   0.0% gimple_cond_set_lhs (inline)
+       0   0.0% 100.0%        1   0.0% gimple_cond_set_rhs (inline)
+       0   0.0% 100.0%        3   0.1% gimple_copy
+       0   0.0% 100.0%        1   0.0% gimple_def_ops (inline)
+       0   0.0% 100.0%        6   0.2% gimple_duplicate_bb
+       0   0.0% 100.0%       11   0.3% gimple_duplicate_sese_region
+       0   0.0% 100.0%       43   1.1% gimple_expand_calls_inline (inline)
+       0   0.0% 100.0%      106   2.7% gimple_expand_cfg
+       0   0.0% 100.0%        4   0.1% gimple_find_edge_insert_loc
+       0   0.0% 100.0%        2   0.1% gimple_has_mem_ops (inline)
+       0   0.0% 100.0%        2   0.1% gimple_has_side_effects
+       0   0.0% 100.0%        1   0.0% gimple_label_label (inline)
+       0   0.0% 100.0%        5   0.1% gimple_merge_blocks
+       0   0.0% 100.0%        2   0.1% gimple_modified_p (inline)
+       0   0.0% 100.0%       16   0.4% gimple_op (inline)
+       0   0.0% 100.0%        1   0.0% gimple_phi_arg_edge (inline)
+       0   0.0% 100.0%        4   0.1% gimple_phi_arg_imm_use_ptr (inline)
+       0   0.0% 100.0%        1   0.0% gimple_regimplify_operands
+       0   0.0% 100.0%        3   0.1% gimple_set_op (inline)
+       0   0.0% 100.0%        9   0.2% gimple_split_edge
+       0   0.0% 100.0%        2   0.1% gimple_statement_structure (inline)
+       0   0.0% 100.0%        1   0.0% gimple_stmt_nonzero_warnv_p (inline)
+       0   0.0% 100.0%        2   0.1% gimple_vuse (inline)
+       0   0.0% 100.0%        2   0.1% gimplify_addr_expr (inline)
+       0   0.0% 100.0%        9   0.2% gimplify_and_add (inline)
+       0   0.0% 100.0%        5   0.1% gimplify_arg
+       0   0.0% 100.0%       17   0.4% gimplify_bind_expr
+       0   0.0% 100.0%       26   0.7% gimplify_body
+       0   0.0% 100.0%        6   0.2% gimplify_call_expr
+       0   0.0% 100.0%        6   0.2% gimplify_compound_lval
+       0   0.0% 100.0%       14   0.4% gimplify_cond_expr
+       0   0.0% 100.0%       26   0.7% gimplify_function_tree
+       0   0.0% 100.0%        1   0.0% gimplify_mem_ref_parts (inline)
+       0   0.0% 100.0%       11   0.3% gimplify_modify_expr
+       0   0.0% 100.0%        1   0.0% gimplify_parameters
+       0   0.0% 100.0%        1   0.0% gimplify_return_expr (inline)
+       0   0.0% 100.0%       19   0.5% gimplify_statement_list (inline)
+       0   0.0% 100.0%       20   0.5% gimplify_stmt
+       0   0.0% 100.0%       22   0.6% gimplify_stmt (inline)
+       0   0.0% 100.0%        5   0.1% gimplify_switch_expr.isra.0
+       0   0.0% 100.0%        1   0.0% gmalloc (inline)
+       0   0.0% 100.0%        1   0.0% graphds_domtree
+       0   0.0% 100.0%        6   0.2% graphds_scc
+       0   0.0% 100.0%        4   0.1% gsi_commit_one_edge_insert (inline)
+       0   0.0% 100.0%        5   0.1% gsi_insert_after
+       0   0.0% 100.0%        1   0.0% gsi_insert_before
+       0   0.0% 100.0%        2   0.1% gsi_last_bb (inline)
+       0   0.0% 100.0%        5   0.1% gsi_start_bb (inline)
+       0   0.0% 100.0%        4   0.1% haifa_init_h_i_d (inline)
+       0   0.0% 100.0%       65   1.6% haifa_sched_init
+       0   0.0% 100.0%        2   0.1% handle_lhs_call (inline)
+       0   0.0% 100.0%        2   0.1% handle_rhs_call (inline)
+       0   0.0% 100.0%        7   0.2% hash_scan_set
+       0   0.0% 100.0%        2   0.1% hash_scan_set (inline)
+       0   0.0% 100.0%        1   0.0% hashable_expr_equal_p (inline)
+       0   0.0% 100.0%       10   0.3% htab_create
+       0   0.0% 100.0%        2   0.1% htab_create_alloc
+       0   0.0% 100.0%       10   0.3% htab_create_alloc (inline)
+       0   0.0% 100.0%        3   0.1% htab_mod (inline)
+       0   0.0% 100.0%        4   0.1% htab_traverse
+       0   0.0% 100.0%        4   0.1% htab_traverse_noresize (inline)
+       0   0.0% 100.0%        1   0.0% identifier_to_locale
+       0   0.0% 100.0%        6   0.2% identify_jump_threads (inline)
+       0   0.0% 100.0%      204   5.1% if_convert
+       0   0.0% 100.0%        2   0.1% if_convertible_loop_p (inline)
+       0   0.0% 100.0%        1   0.0% incdec_operand
+       0   0.0% 100.0%        1   0.0% incdec_operand_1 (inline)
+       0   0.0% 100.0%        7   0.2% indirect_refs_may_alias_p (inline)
+       0   0.0% 100.0%        1   0.0% infer_loop_bounds_from_undefined (inline)
+       0   0.0% 100.0%        6   0.2% infer_value_range (inline)
+       0   0.0% 100.0%        1   0.0% init_alias_vars
+       0   0.0% 100.0%        5   0.1% init_copy_prop (inline)
+       0   0.0% 100.0%        3   0.1% init_costs (inline)
+       0   0.0% 100.0%        1   0.0% init_cumulative_args
+       0   0.0% 100.0%       65   1.6% init_dce (inline)
+       0   0.0% 100.0%        1   0.0% init_deps
+       0   0.0% 100.0%        1   0.0% init_deps_data_vector (inline)
+       0   0.0% 100.0%       15   0.4% init_dom_info
+       0   0.0% 100.0%        3   0.1% init_dont_simulate_again
+       0   0.0% 100.0%        1   0.0% init_emit
+       0   0.0% 100.0%        1   0.0% init_function_start
+       0   0.0% 100.0%        1   0.0% init_insn_lengths (inline)
+       0   0.0% 100.0%        1   0.0% init_lim_data (inline)
+       0   0.0% 100.0%        1   0.0% init_loops_structure
+       0   0.0% 100.0%       11   0.3% init_pre (inline)
+       0   0.0% 100.0%        4   0.1% init_reassoc (inline)
+       0   0.0% 100.0%        5   0.1% init_scc_vn (inline)
+       0   0.0% 100.0%        1   0.0% init_tree_ssa
+       0   0.0% 100.0%        2   0.1% init_update_ssa
+       0   0.0% 100.0%        3   0.1% initialize_data_dependence_relation
+       0   0.0% 100.0%        2   0.1% initialize_flags_in_bb (inline)
+       0   0.0% 100.0%        7   0.2% initialize_hash_element (inline)
+       0   0.0% 100.0%        2   0.1% initialize_hash_element_from_expr (inline)
+       0   0.0% 100.0%        1   0.0% initialize_inlined_parameters (inline)
+       0   0.0% 100.0%        1   0.0% initialize_original_copy_tables
+       0   0.0% 100.0%        4   0.1% inline_forbidden_p (inline)
+       0   0.0% 100.0%        4   0.1% inline_generate_summary
+       0   0.0% 100.0%        1   0.0% inline_indirect_intraprocedural_analysis (inline)
+       0   0.0% 100.0%       52   1.3% inline_transform
+       0   0.0% 100.0%       52   1.3% inline_transform (inline)
+       0   0.0% 100.0%       16   0.4% insert
+       0   0.0% 100.0%       51   1.3% insert (inline)
+       0   0.0% 100.0%        3   0.1% insert_decl_map (inline)
+       0   0.0% 100.0%        1   0.0% insert_expr_in_table@5c2500
+       0   0.0% 100.0%        1   0.0% insert_init_stmt
+       0   0.0% 100.0%        2   0.1% insert_into_complex.isra.0
+       0   0.0% 100.0%        3   0.1% insert_into_preds_of_block
+       0   0.0% 100.0%        1   0.0% insert_one_insn
+       0   0.0% 100.0%        3   0.1% insert_phi_nodes (inline)
+       0   0.0% 100.0%       13   0.3% insert_phi_nodes_for (inline)
+       0   0.0% 100.0%       63   1.6% insert_range_assertions (inline)
+       0   0.0% 100.0%        2   0.1% insert_restore (inline)
+       0   0.0% 100.0%        3   0.1% insert_set_in_table (inline)
+       0   0.0% 100.0%        3   0.1% insert_vi_for_tree (inline)
+       0   0.0% 100.0%        3   0.1% insn_contains_asm (inline)
+       0   0.0% 100.0%        7   0.2% insn_cost (inline)
+       0   0.0% 100.0%        1   0.0% insn_current_length
+       0   0.0% 100.0%       23   0.6% insn_default_length
+       0   0.0% 100.0%        1   0.0% insn_file
+       0   0.0% 100.0%        2   0.1% insn_invalid_p
+       0   0.0% 100.0%        3   0.1% insn_live_p (inline)
+       0   0.0% 100.0%        1   0.0% insn_locators_alloc
+       0   0.0% 100.0%        2   0.1% insn_min_length
+       0   0.0% 100.0%        2   0.1% instantiate_parameters (inline)
+       0   0.0% 100.0%        2   0.1% instantiate_scev
+       0   0.0% 100.0%        1   0.0% instantiate_scev_2 (inline)
+       0   0.0% 100.0%        2   0.1% instantiate_scev_name (inline)
+       0   0.0% 100.0%        1   0.0% instantiate_scev_poly (inline)
+       0   0.0% 100.0%        7   0.2% instantiate_virtual_regs_in_insn (inline)
+       0   0.0% 100.0%        2   0.1% instantiate_virtual_regs_in_rtx
+       0   0.0% 100.0%       14   0.4% internal_get_tmp_var
+       0   0.0% 100.0%        2   0.1% interpret_expr (inline)
+       0   0.0% 100.0%        4   0.1% interpret_gimple_assign (inline)
+       0   0.0% 100.0%        1   0.0% interpret_integer (inline)
+       0   0.0% 100.0%        3   0.1% interpret_loop_phi (inline)
+       0   0.0% 100.0%        4   0.1% interpret_rhs_expr
+       0   0.0% 100.0%       10   0.3% into_cfg_layout_mode
+       0   0.0% 100.0%        1   0.0% invert_br_probabilities
+       0   0.0% 100.0%        7   0.2% invert_jump
+       0   0.0% 100.0%        2   0.1% ipa_detect_param_modifications
+       0   0.0% 100.0%        6   0.2% ipa_early_sra
+       0   0.0% 100.0%        1   0.0% ipa_modify_call_arguments
+       0   0.0% 100.0%      152   3.8% ipa_passes (inline)
+       0   0.0% 100.0%        2   0.1% ipa_utils_reduced_inorder
+       0   0.0% 100.0%        2   0.1% ipcp_analyze_node (inline)
+       0   0.0% 100.0%        1   0.0% ipcp_driver
+       0   0.0% 100.0%        2   0.1% ipcp_generate_summary
+       0   0.0% 100.0%        2   0.1% ipcp_init_stage (inline)
+       0   0.0% 100.0%        1   0.0% ipcp_iterate_stage (inline)
+       0   0.0% 100.0%        1   0.0% ipcp_propagate_stage
+       0   0.0% 100.0%      483  12.1% ira (inline)
+       0   0.0% 100.0%        2   0.1% ira_add_allocno_conflict (inline)
+       0   0.0% 100.0%        1   0.0% ira_add_allocno_copy
+       0   0.0% 100.0%        1   0.0% ira_allocate (inline)
+       0   0.0% 100.0%      120   3.0% ira_build
+       0   0.0% 100.0%       12   0.3% ira_build_conflicts
+       0   0.0% 100.0%       23   0.6% ira_color
+       0   0.0% 100.0%        2   0.1% ira_compress_allocno_live_ranges
+       0   0.0% 100.0%       55   1.4% ira_costs
+       0   0.0% 100.0%       24   0.6% ira_create_allocno_live_ranges
+       0   0.0% 100.0%        4   0.1% ira_emit
+       0   0.0% 100.0%        2   0.1% ira_flattening
+       0   0.0% 100.0%        1   0.0% ira_reassign_pseudos
+       0   0.0% 100.0%        1   0.0% ira_reuse_stack_slot
+       0   0.0% 100.0%        3   0.1% ira_setup_eliminable_regset
+       0   0.0% 100.0%        4   0.1% ira_traverse_loop_tree (inline)
+       0   0.0% 100.0%        2   0.1% ira_traverse_loop_tree.constprop.0
+       0   0.0% 100.0%        6   0.2% is_ctrl_altering_stmt (inline)
+       0   0.0% 100.0%        1   0.0% is_ctrl_stmt
+       0   0.0% 100.0%        2   0.1% is_ctrl_stmt (inline)
+       0   0.0% 100.0%        1   0.0% is_gimple_val
+       0   0.0% 100.0%        1   0.0% is_hidden_global_store
+       0   0.0% 100.0%        1   0.0% is_hidden_global_store (inline)
+       0   0.0% 100.0%        7   0.2% iterate_fix_dominators
+       0   0.0% 100.0%        1   0.0% iterative_hash_exprs_commutative
+       0   0.0% 100.0%        7   0.2% iterative_hash_hashable_expr (inline)
+       0   0.0% 100.0%        7   0.2% iv_analysis_loop_init
+       0   0.0% 100.0%       11   0.3% ix86_adjust_cost (inline)
+       0   0.0% 100.0%       20   0.5% ix86_avoid_jump_mispredicts (inline)
+       0   0.0% 100.0%        1   0.0% ix86_compute_frame_layout
+       0   0.0% 100.0%        1   0.0% ix86_emit_restore_reg_using_pop
+       0   0.0% 100.0%        1   0.0% ix86_emit_save_sse_regs_using_mov
+       0   0.0% 100.0%        2   0.1% ix86_expand_binary_operator
+       0   0.0% 100.0%        6   0.2% ix86_expand_branch
+       0   0.0% 100.0%        3   0.1% ix86_expand_compare
+       0   0.0% 100.0%        1   0.0% ix86_expand_epilogue
+       0   0.0% 100.0%        3   0.1% ix86_expand_int_compare (inline)
+       0   0.0% 100.0%        1   0.0% ix86_expand_move
+       0   0.0% 100.0%        1   0.0% ix86_expand_prologue
+       0   0.0% 100.0%        2   0.1% ix86_fixup_binary_operands
+       0   0.0% 100.0%        1   0.0% ix86_initial_elimination_offset
+       0   0.0% 100.0%       20   0.5% ix86_reorg
+       0   0.0% 100.0%       20   0.5% ix86_reorg (inline)
+       0   0.0% 100.0%        1   0.0% ix86_save_reg.constprop.0
+       0   0.0% 100.0%        7   0.2% jumpif_1
+       0   0.0% 100.0%        4   0.1% jumpifnot_1
+       0   0.0% 100.0%        1   0.0% kill_autoinc_value
+       0   0.0% 100.0%        1   0.0% kill_set_value
+       0   0.0% 100.0%        2   0.1% kill_value
+       0   0.0% 100.0%        1   0.0% label_is_jump_target_p
+       0   0.0% 100.0%        2   0.1% label_rtx_for_bb
+       0   0.0% 100.0%        2   0.1% layout_type.part.0
+       0   0.0% 100.0%        2   0.1% ldst_entry
+       0   0.0% 100.0%        5   0.1% lex_string
+       0   0.0% 100.0%        2   0.1% likely_value (inline)
+       0   0.0% 100.0%        1   0.0% linearize_expr_tree
+       0   0.0% 100.0%        4   0.1% live_track_init (inline)
+       0   0.0% 100.0%        1   0.0% live_track_process_def (inline)
+       0   0.0% 100.0%        1   0.0% live_track_remove_partition (inline)
+       0   0.0% 100.0%        1   0.0% load_killed_in_block_p (inline)
+       0   0.0% 100.0%        1   0.0% load_killed_in_block_p.isra.0
+       0   0.0% 100.0%        3   0.1% local_pure_const
+       0   0.0% 100.0%        3   0.1% local_pure_const (inline)
+       0   0.0% 100.0%        1   0.0% locator_file (inline)
+       0   0.0% 100.0%        1   0.0% lookup_attribute
+       0   0.0% 100.0%       11   0.3% lookup_avail_expr
+       0   0.0% 100.0%        1   0.0% lookup_expr_in_table (inline)
+       0   0.0% 100.0%        1   0.0% lookup_label
+       0   0.0% 100.0%        1   0.0% lookup_label_for_goto
+       0   0.0% 100.0%        1   0.0% lookup_tmp_var (inline)
+       0   0.0% 100.0%        1   0.0% lookup_vi_for_tree (inline)
+       0   0.0% 100.0%       46   1.2% loop_optimizer_init
+       0   0.0% 100.0%        4   0.1% loop_optimizer_init (inline)
+       0   0.0% 100.0%        1   0.0% loop_version
+       0   0.0% 100.0%        4   0.1% lower_eh_constructs
+       0   0.0% 100.0%        1   0.0% lv_adjust_loop_entry_edge (inline)
+       0   0.0% 100.0%        3   0.1% main_tree_if_conversion
+       0   0.0% 100.0%        3   0.1% main_tree_if_conversion (inline)
+       0   0.0% 100.0%        2   0.1% make_blocks (inline)
+       0   0.0% 100.0%        1   0.0% make_cond_expr_edges (inline)
+       0   0.0% 100.0%        2   0.1% make_constraint_to
+       0   0.0% 100.0%        1   0.0% make_copy_constraint (inline)
+       0   0.0% 100.0%        2   0.1% make_edge (inline)
+       0   0.0% 100.0%        2   0.1% make_edges (inline)
+       0   0.0% 100.0%        2   0.1% make_escape_constraint (inline)
+       0   0.0% 100.0%        2   0.1% make_forwarder_block
+       0   0.0% 100.0%        7   0.2% make_insn_raw (inline)
+       0   0.0% 100.0%        1   0.0% make_jump_insn_raw (inline)
+       0   0.0% 100.0%        1   0.0% make_label (inline)
+       0   0.0% 100.0%        2   0.1% make_node_stat (inline)
+       0   0.0% 100.0%        4   0.1% make_phi_node
+       0   0.0% 100.0%        2   0.1% make_single_succ_edge
+       0   0.0% 100.0%        4   0.1% make_ssa_name (inline)
+       0   0.0% 100.0%        4   0.1% make_tree_vec_stat (inline)
+       0   0.0% 100.0%        1   0.0% mark_address_taken (inline)
+       0   0.0% 100.0%       14   0.4% mark_aliased_reaching_defs_necessary
+       0   0.0% 100.0%        7   0.2% mark_all_reaching_defs_necessary (inline)
+       0   0.0% 100.0%       26   0.7% mark_all_vars_used (inline)
+       0   0.0% 100.0%        2   0.1% mark_block_for_update.part.0
+       0   0.0% 100.0%        1   0.0% mark_control_dependent_edges_necessary (inline)
+       0   0.0% 100.0%        1   0.0% mark_control_dependent_edges_necessary.isra.0.part.0
+       0   0.0% 100.0%        2   0.1% mark_def_interesting.part.0
+       0   0.0% 100.0%        7   0.2% mark_def_site_blocks (inline)
+       0   0.0% 100.0%        7   0.2% mark_def_sites_block
+       0   0.0% 100.0%        1   0.0% mark_elimination
+       0   0.0% 100.0%        1   0.0% mark_insn (inline)
+       0   0.0% 100.0%        1   0.0% mark_nonreg_stores_1
+       0   0.0% 100.0%        1   0.0% mark_nonreg_stores_1 (inline)
+       0   0.0% 100.0%        1   0.0% mark_oprs_set (inline)
+       0   0.0% 100.0%        2   0.1% mark_phi_for_rewrite.isra.0
+       0   0.0% 100.0%        1   0.0% mark_referenced_regs
+       0   0.0% 100.0%        1   0.0% mark_reg_as_referenced
+       0   0.0% 100.0%        1   0.0% mark_replaceable (inline)
+       0   0.0% 100.0%        1   0.0% mark_set (inline)
+       0   0.0% 100.0%        4   0.1% mark_symbol_ref_as_used
+       0   0.0% 100.0%        6   0.2% mark_use_interesting (inline)
+       0   0.0% 100.0%        6   0.2% may_trap_p
+       0   0.0% 100.0%        8   0.2% maybe_add_or_update_dep_1 (inline)
+       0   0.0% 100.0%        1   0.0% maybe_fold_offset_to_reference
+       0   0.0% 100.0%        4   0.1% maybe_fold_stmt_indirect (inline)
+       0   0.0% 100.0%        4   0.1% maybe_get_identifier
+       0   0.0% 100.0%        1   0.0% maybe_output_constant_def_contents (inline)
+       0   0.0% 100.0%        5   0.1% maybe_register_def (inline)
+       0   0.0% 100.0%        5   0.1% maybe_skip_until
+       0   0.0% 100.0%        7   0.2% mem_attrs_htab_eq (inline)
+       0   0.0% 100.0%        2   0.1% memory_address_addr_space_p
+       0   0.0% 100.0%       12   0.3% memory_address_addr_space_p (inline)
+       0   0.0% 100.0%        1   0.0% memory_address_length.part.0
+       0   0.0% 100.0%        1   0.0% mems_conflict_for_gcse_p
+       0   0.0% 100.0%        8   0.2% merge_blocks
+       0   0.0% 100.0%        1   0.0% merge_equiv_classes.isra.0
+       0   0.0% 100.0%        1   0.0% merge_graph_nodes (inline)
+       0   0.0% 100.0%        1   0.0% merge_latch_edges (inline)
+       0   0.0% 100.0%        1   0.0% modified_in_p
+       0   0.0% 100.0%        3   0.1% modify_function (inline)
+       0   0.0% 100.0%        2   0.1% move_complex_constraints (inline)
+       0   0.0% 100.0%        1   0.0% move_computations (inline)
+       0   0.0% 100.0%        1   0.0% move_computations_stmt
+       0   0.0% 100.0%       35   0.9% move_loop_invariants
+       0   0.0% 100.0%       35   0.9% move_single_loop_invariants (inline)
+       0   0.0% 100.0%        1   0.0% move_spill_restore (inline)
+       0   0.0% 100.0%        1   0.0% movement_possibility
+       0   0.0% 100.0%        1   0.0% movement_possibility (inline)
+       0   0.0% 100.0%        2   0.1% names_replaced_by (inline)
+       0   0.0% 100.0%        3   0.1% nearest_common_dominator
+       0   0.0% 100.0%        1   0.0% nearest_common_dominator (inline)
+       0   0.0% 100.0%        2   0.1% needs_to_live_in_memory
+       0   0.0% 100.0%        1   0.0% negate_expr (inline)
+       0   0.0% 100.0%        2   0.1% new_bb_vec_info (inline)
+       0   0.0% 100.0%        3   0.1% new_cselib_val (inline)
+       0   0.0% 100.0%        3   0.1% new_elt_list (inline)
+       0   0.0% 100.0%        4   0.1% new_elt_loc_list (inline)
+       0   0.0% 100.0%        1   0.0% new_graph
+       0   0.0% 100.0%        4   0.1% new_var_info
+       0   0.0% 100.0%        5   0.1% next_active_insn
+       0   0.0% 100.0%        2   0.1% next_referenced_var (inline)
+       0   0.0% 100.0%        1   0.0% no_seg_address_operand
+       0   0.0% 100.0%        1   0.0% no_seg_address_operand_1 (inline)
+       0   0.0% 100.0%        1   0.0% noce_get_condition
+       0   0.0% 100.0%        2   0.1% noce_process_if_block
+       0   0.0% 100.0%        1   0.0% noce_try_cmove (inline)
+       0   0.0% 100.0%        9   0.2% nonzero_bits
+       0   0.0% 100.0%       11   0.3% nonzero_bits (inline)
+       0   0.0% 100.0%        6   0.2% note_dep (inline)
+       0   0.0% 100.0%        4   0.1% note_mem_dep (inline)
+       0   0.0% 100.0%        3   0.1% note_reg_use (inline)
+       0   0.0% 100.0%        3   0.1% note_stores.constprop.1
+       0   0.0% 100.0%        1   0.0% notice_source_line (inline)
+       0   0.0% 100.0%        1   0.0% notice_special_calls
+       0   0.0% 100.0%        4   0.1% notreg_cost (inline)
+       0   0.0% 100.0%        1   0.0% nt_init_block
+       0   0.0% 100.0%        2   0.1% num_sign_bit_copies (inline)
+       0   0.0% 100.0%        2   0.1% num_sign_bit_copies1 (inline)
+       0   0.0% 100.0%        3   0.1% number_of_iterations_cond
+       0   0.0% 100.0%        3   0.1% number_of_iterations_exit
+       0   0.0% 100.0%       11   0.3% number_of_iterations_exit (inline)
+       0   0.0% 100.0%        8   0.2% number_of_iterations_exit.part.0
+       0   0.0% 100.0%        1   0.0% number_of_iterations_le (inline)
+       0   0.0% 100.0%        1   0.0% number_of_iterations_lt
+       0   0.0% 100.0%        1   0.0% number_of_latch_executions
+       0   0.0% 100.0%        2   0.1% number_of_latch_executions (inline)
+       0   0.0% 100.0%        1   0.0% number_of_latch_executions.part.0
+       0   0.0% 100.0%        2   0.1% obstack_free
+       0   0.0% 100.0%        1   0.0% offset_address
+       0   0.0% 100.0%      207   5.2% one_pre_gcse_pass (inline)
+       0   0.0% 100.0%        4   0.1% onlyjump_p
+       0   0.0% 100.0%        2   0.1% op_iter_init_def (inline)
+       0   0.0% 100.0%        8   0.2% op_iter_init_tree (inline)
+       0   0.0% 100.0%        4   0.1% op_iter_init_use (inline)
+       0   0.0% 100.0%        1   0.0% oprs_anticipatable_p (inline)
+       0   0.0% 100.0%        1   0.0% oprs_unchanged_p@2deed0
+       0   0.0% 100.0%        1   0.0% oprs_unchanged_p@5c21d0
+       0   0.0% 100.0%        5   0.1% optimize_bb_for_size_p (inline)
+       0   0.0% 100.0%        5   0.1% optimize_bb_for_speed_p
+       0   0.0% 100.0%       53   1.3% optimize_inline_calls
+       0   0.0% 100.0%       12   0.3% order_regs_for_reload (inline)
+       0   0.0% 100.0%        4   0.1% outgoing_edges_match (inline)
+       0   0.0% 100.0%        5   0.1% outof_cfg_layout_mode
+       0   0.0% 100.0%        1   0.0% output_212
+       0   0.0% 100.0%        1   0.0% output_693
+       0   0.0% 100.0%       11   0.3% output_addr_const
+       0   0.0% 100.0%       10   0.3% output_address
+       0   0.0% 100.0%        1   0.0% output_addressed_constants
+       0   0.0% 100.0%       33   0.8% output_asm_insn (inline)
+       0   0.0% 100.0%        5   0.1% output_asm_label (inline)
+       0   0.0% 100.0%        4   0.1% output_constant (inline)
+       0   0.0% 100.0%        4   0.1% output_constant.part.0
+       0   0.0% 100.0%        1   0.0% output_constant_def
+       0   0.0% 100.0%        1   0.0% output_constant_def_contents
+       0   0.0% 100.0%        4   0.1% output_constructor
+       0   0.0% 100.0%        4   0.1% output_constructor_regular_field (inline)
+       0   0.0% 100.0%        2   0.1% output_dependence
+       0   0.0% 100.0%        3   0.1% output_init_element
+       0   0.0% 100.0%       24   0.6% output_operand
+       0   0.0% 100.0%        4   0.1% parser_build_binary_op
+       0   0.0% 100.0%        1   0.0% partition_view_init
+       0   0.0% 100.0%        1   0.0% partition_view_normal
+       0   0.0% 100.0%        1   0.0% pass_init_dump_file
+       0   0.0% 100.0%        1   0.0% patch_jump_insn
+       0   0.0% 100.0%        1   0.0% peephole2_insns
+       0   0.0% 100.0%       71   1.8% perform_tree_ssa_dce
+       0   0.0% 100.0%       15   0.4% perform_var_substitution (inline)
+       0   0.0% 100.0%       29   0.7% phi_translate (inline)
+       0   0.0% 100.0%       38   1.0% phi_translate_set
+       0   0.0% 100.0%        2   0.1% pointer_map_create
+       0   0.0% 100.0%        2   0.1% pointer_set_insert
+       0   0.0% 100.0%        6   0.2% pop_allocnos_from_stack (inline)
+       0   0.0% 100.0%        1   0.0% pop_file_scope
+       0   0.0% 100.0%        1   0.0% pre_edge_insert (inline)
+       0   0.0% 100.0%       10   0.3% pre_edge_lcm
+       0   0.0% 100.0%        6   0.2% pre_expr_reaches_here_p (inline)
+       0   0.0% 100.0%        7   0.2% pre_gcse (inline)
+       0   0.0% 100.0%        6   0.2% pre_insert_copies (inline)
+       0   0.0% 100.0%        3   0.1% predict_loops (inline)
+       0   0.0% 100.0%        1   0.0% predict_paths_for_bb
+       0   0.0% 100.0%        1   0.0% predict_paths_leading_to (inline)
+       0   0.0% 100.0%        2   0.1% prepare_def_site_for
+       0   0.0% 100.0%        1   0.0% prepare_function_start
+       0   0.0% 100.0%        4   0.1% prepare_use_sites_for (inline)
+       0   0.0% 100.0%        1   0.0% preserve_temp_slots
+       0   0.0% 100.0%        2   0.1% print_reg
+       0   0.0% 100.0%       19   0.5% priority (inline)
+       0   0.0% 100.0%        1   0.0% priority.part.0 (inline)
+       0   0.0% 100.0%        3   0.1% process_all_all_constraints
+       0   0.0% 100.0%       13   0.3% process_assert_insertions_for (inline)
+       0   0.0% 100.0%       39   1.0% process_bb_for_costs.isra.0
+       0   0.0% 100.0%        4   0.1% process_init_element
+       0   0.0% 100.0%       35   0.9% process_scc (inline)
+       0   0.0% 100.0%        2   0.1% prop_set_simulate_again (inline)
+       0   0.0% 100.0%        1   0.0% propagate@512720
+       0   0.0% 100.0%        2   0.1% propagate@516b10
+       0   0.0% 100.0%        1   0.0% propagate_copies (inline)
+       0   0.0% 100.0%        1   0.0% propagate_info_to_inlined_callees
+       0   0.0% 100.0%        5   0.1% propagate_rtx
+       0   0.0% 100.0%        3   0.1% propagate_rtx_1
+       0   0.0% 100.0%        2   0.1% prune_bbs_to_update_dominators (inline)
+       0   0.0% 100.0%        1   0.0% push_member_name (inline)
+       0   0.0% 100.0%        1   0.0% push_only_colorable (inline)
+       0   0.0% 100.0%        3   0.1% put_allocno_into_bucket (inline)
+       0   0.0% 100.0%        2   0.1% queue_to_ready (inline)
+       0   0.0% 100.0%        2   0.1% rank_for_schedule
+       0   0.0% 100.0%        2   0.1% ready_sort
+       0   0.0% 100.0%       20   0.5% rebuild_jump_labels
+       0   0.0% 100.0%        1   0.0% recog_33.isra.0
+       0   0.0% 100.0%        1   0.0% recog_35 (inline)
+       0   0.0% 100.0%        1   0.0% recog_37.isra.0
+       0   0.0% 100.0%        2   0.1% recog_43
+       0   0.0% 100.0%        2   0.1% recog_for_combine
+       0   0.0% 100.0%        1   0.0% record_component_aliases
+       0   0.0% 100.0%        3   0.1% record_conditions.isra.0
+       0   0.0% 100.0%        5   0.1% record_edge_info (inline)
+       0   0.0% 100.0%        1   0.0% record_equivalences_from_phis (inline)
+       0   0.0% 100.0%        3   0.1% record_equivalences_from_stmt (inline)
+       0   0.0% 100.0%        4   0.1% record_in_finally_tree (inline)
+       0   0.0% 100.0%        1   0.0% record_insns (inline)
+       0   0.0% 100.0%        4   0.1% record_jump_equiv (inline)
+       0   0.0% 100.0%        1   0.0% record_last_set_info@2df2e0
+       0   0.0% 100.0%        1   0.0% record_last_set_info@5c2b90
+       0   0.0% 100.0%        1   0.0% record_loop_exits
+       0   0.0% 100.0%        2   0.1% record_opr_changes
+       0   0.0% 100.0%        1   0.0% record_references_in_initializer
+       0   0.0% 100.0%        2   0.1% record_temporary_equivalences_from_stmts_at_dest (inline)
+       0   0.0% 100.0%        1   0.0% redirect_branch_edge
+       0   0.0% 100.0%       10   0.3% redirect_edge_and_branch
+       0   0.0% 100.0%        1   0.0% redirect_edge_and_branch (inline)
+       0   0.0% 100.0%        1   0.0% redirect_edge_succ
+       0   0.0% 100.0%        2   0.1% redirect_edge_succ_nodup
+       0   0.0% 100.0%        1   0.0% redirect_edge_var_map_clear
+       0   0.0% 100.0%        2   0.1% redirect_edge_var_map_clear (inline)
+       0   0.0% 100.0%        1   0.0% redirect_edge_var_map_vector
+       0   0.0% 100.0%        4   0.1% redirect_immediate_dominators
+       0   0.0% 100.0%        2   0.1% referenced_var_check_and_insert (inline)
+       0   0.0% 100.0%        1   0.0% refs_may_alias_p
+       0   0.0% 100.0%        4   0.1% reg_mentioned_p
+       0   0.0% 100.0%        4   0.1% reg_mentioned_p (inline)
+       0   0.0% 100.0%        1   0.0% reg_mentioned_p.part.0 (inline)
+       0   0.0% 100.0%        6   0.2% reg_scan
+       0   0.0% 100.0%        2   0.1% reg_set_p
+       0   0.0% 100.0%        5   0.1% reginfo_init
+       0   0.0% 100.0%        1   0.0% register_edge_assert_for
+       0   0.0% 100.0%        2   0.1% register_new_name_mapping (inline)
+       0   0.0% 100.0%        1   0.0% register_new_update_set (inline)
+       0   0.0% 100.0%        3   0.1% register_new_update_single (inline)
+       0   0.0% 100.0%       35   0.9% regmove_optimize
+       0   0.0% 100.0%        6   0.2% regstat_compute_calls_crossed
+       0   0.0% 100.0%        2   0.1% reinstall_phi_args (inline)
+       0   0.0% 100.0%        1   0.0% release_defs
+       0   0.0% 100.0%        1   0.0% release_ssa_name
+       0   0.0% 100.0%        4   0.1% reload_cse_move2add
+       0   0.0% 100.0%        7   0.2% reload_cse_noop_set_p (inline)
+       0   0.0% 100.0%       81   2.0% reload_cse_regs (inline)
+       0   0.0% 100.0%       76   1.9% reload_cse_regs_1
+       0   0.0% 100.0%       44   1.1% reload_cse_simplify (inline)
+       0   0.0% 100.0%        3   0.1% remap_decl (inline)
+       0   0.0% 100.0%        3   0.1% remap_decl.part.0
+       0   0.0% 100.0%        9   0.2% remap_gimple_op_r
+       0   0.0% 100.0%       13   0.3% remap_gimple_stmt
+       0   0.0% 100.0%        2   0.1% remap_ssa_name (inline)
+       0   0.0% 100.0%        3   0.1% remap_type
+       0   0.0% 100.0%        3   0.1% remove_allocno_from_bucket_and_push (inline)
+       0   0.0% 100.0%        1   0.0% remove_bb
+       0   0.0% 100.0%        1   0.0% remove_cgraph_callee_edges
+       0   0.0% 100.0%        3   0.1% remove_edge_and_dominated_blocks
+       0   0.0% 100.0%        2   0.1% remove_edge_raw
+       0   0.0% 100.0%       10   0.3% remove_forwarder_block (inline)
+       0   0.0% 100.0%        1   0.0% remove_forwarder_block_with_phi (inline)
+       0   0.0% 100.0%        1   0.0% remove_local_expressions_from_table
+       0   0.0% 100.0%        1   0.0% remove_phi_nodes_and_edges_for_unreachable_block (inline)
+       0   0.0% 100.0%        2   0.1% remove_pseudo_from_table
+       0   0.0% 100.0%        2   0.1% remove_referenced_var
+       0   0.0% 100.0%       12   0.3% remove_ssa_form (inline)
+       0   0.0% 100.0%       11   0.3% reorder_basic_blocks
+       0   0.0% 100.0%       11   0.3% reorder_basic_blocks (inline)
+       0   0.0% 100.0%        4   0.1% repair_loop_structures (inline)
+       0   0.0% 100.0%        1   0.0% repl_map_free
+       0   0.0% 100.0%        4   0.1% replace_equiv_address_nv
+       0   0.0% 100.0%        1   0.0% replace_oldest_value_mem (inline)
+       0   0.0% 100.0%        3   0.1% replace_uses_by
+       0   0.0% 100.0%        2   0.1% replace_uses_in (inline)
+       0   0.0% 100.0%        1   0.0% rescan_loop_exit (inline)
+       0   0.0% 100.0%        1   0.0% rescan_loop_exit.part.0
+       0   0.0% 100.0%        1   0.0% rescan_loop_exit.part.0.constprop.0
+       0   0.0% 100.0%        1   0.0% reserve_phi_args_for_new_edge
+       0   0.0% 100.0%        2   0.1% reset_opr_set_tables (inline)
+       0   0.0% 100.0%        3   0.1% resolve_mixers (inline)
+       0   0.0% 100.0%        2   0.1% rest_of_clean_state
+       0   0.0% 100.0%      108   2.7% rest_of_handle_combine
+       0   0.0% 100.0%      119   3.0% rest_of_handle_cse
+       0   0.0% 100.0%        6   0.2% rest_of_handle_cse (inline)
+       0   0.0% 100.0%       91   2.3% rest_of_handle_cse2
+       0   0.0% 100.0%       62   1.6% rest_of_handle_cse_after_global_opts
+       0   0.0% 100.0%        6   0.2% rest_of_handle_df_finish
+       0   0.0% 100.0%       51   1.3% rest_of_handle_df_initialize
+       0   0.0% 100.0%      160   4.0% rest_of_handle_dse
+       0   0.0% 100.0%       19   0.5% rest_of_handle_fast_dce
+       0   0.0% 100.0%      123   3.1% rest_of_handle_fast_dce (inline)
+       0   0.0% 100.0%       48   1.2% rest_of_handle_final
+       0   0.0% 100.0%       16   0.4% rest_of_handle_gcse2
+       0   0.0% 100.0%       33   0.8% rest_of_handle_if_after_combine
+       0   0.0% 100.0%       40   1.0% rest_of_handle_if_after_reload
+       0   0.0% 100.0%      136   3.4% rest_of_handle_if_conversion
+       0   0.0% 100.0%       14   0.4% rest_of_handle_initialize_regs
+       0   0.0% 100.0%      483  12.1% rest_of_handle_ira
+       0   0.0% 100.0%        8   0.2% rest_of_handle_jump2
+       0   0.0% 100.0%       20   0.5% rest_of_handle_machine_reorg
+       0   0.0% 100.0%       14   0.4% rest_of_handle_peephole2
+       0   0.0% 100.0%       81   2.0% rest_of_handle_postreload
+       0   0.0% 100.0%       81   2.0% rest_of_handle_postreload (inline)
+       0   0.0% 100.0%       35   0.9% rest_of_handle_reorder_blocks
+       0   0.0% 100.0%      198   5.0% rest_of_handle_sched2
+       0   0.0% 100.0%      198   5.0% rest_of_handle_sched2 (inline)
+       0   0.0% 100.0%        9   0.2% rest_of_handle_shorten_branches
+       0   0.0% 100.0%        6   0.2% rest_of_handle_split_after_reload
+       0   0.0% 100.0%        5   0.1% rest_of_handle_split_all_insns
+       0   0.0% 100.0%        7   0.2% rest_of_handle_split_before_sched2
+       0   0.0% 100.0%       47   1.2% rest_of_handle_stack_adjustments
+       0   0.0% 100.0%       15   0.4% rest_of_handle_thread_prologue_and_epilogue
+       0   0.0% 100.0%        1   0.0% rest_of_pass_free_cfg
+       0   0.0% 100.0%       14   0.4% rewrite_blocks
+       0   0.0% 100.0%        4   0.1% rewrite_constraints (inline)
+       0   0.0% 100.0%        1   0.0% rewrite_enter_block
+       0   0.0% 100.0%        9   0.2% rewrite_into_loop_closed_ssa
+       0   0.0% 100.0%       13   0.3% rewrite_into_ssa
+       0   0.0% 100.0%       13   0.3% rewrite_out_of_ssa
+       0   0.0% 100.0%        1   0.0% rewrite_stmt (inline)
+       0   0.0% 100.0%        7   0.2% rewrite_update_enter_block (inline)
+       0   0.0% 100.0%        6   0.2% rewrite_update_stmt (inline)
+       0   0.0% 100.0%        2   0.1% rewrite_use (inline)
+       0   0.0% 100.0%        1   0.0% rewrite_use_address (inline)
+       0   0.0% 100.0%        1   0.0% rewrite_use_nonlinear_expr (inline)
+       0   0.0% 100.0%        2   0.1% rewrite_uses (inline)
+       0   0.0% 100.0%        1   0.0% rli_size_so_far (inline)
+       0   0.0% 100.0%        3   0.1% rtl_create_basic_block
+       0   0.0% 100.0%        3   0.1% rtl_delete_block
+       0   0.0% 100.0%        3   0.1% rtl_loop_done
+       0   0.0% 100.0%        4   0.1% rtl_loop_init
+       0   0.0% 100.0%       35   0.9% rtl_move_loop_invariants
+       0   0.0% 100.0%        1   0.0% rtl_redirect_edge_and_branch
+       0   0.0% 100.0%        7   0.2% rtl_unswitch
+       0   0.0% 100.0%       17   0.4% run_fast_dce
+       0   0.0% 100.0%      107   2.7% run_fast_df_dce
+       0   0.0% 100.0%        8   0.2% run_tree_predictive_commoning
+       0   0.0% 100.0%        1   0.0% run_warn_unused_result
+       0   0.0% 100.0%        5   0.1% safe_hash (inline)
+       0   0.0% 100.0%        6   0.2% save_inline_function_body
+       0   0.0% 100.0%        1   0.0% sbitmap_alloc
+       0   0.0% 100.0%        1   0.0% sbitmap_ones (inline)
+       0   0.0% 100.0%        1   0.0% sbitmap_vector_ones
+       0   0.0% 100.0%        1   0.0% sbitmap_vector_zero
+       0   0.0% 100.0%        1   0.0% sbitmap_zero (inline)
+       0   0.0% 100.0%        1   0.0% scan_function.constprop.1
+       0   0.0% 100.0%        1   0.0% scan_stores_nospill (inline)
+       0   0.0% 100.0%        4   0.1% scev_const_prop
+       0   0.0% 100.0%        1   0.0% scev_finalize
+       0   0.0% 100.0%        2   0.1% scev_probably_wraps_p
+       0   0.0% 100.0%       53   1.3% sched_analyze
+       0   0.0% 100.0%        1   0.0% sched_deps_init
+       0   0.0% 100.0%        4   0.1% sched_extend_ready_list
+       0   0.0% 100.0%        1   0.0% sched_finish
+       0   0.0% 100.0%        1   0.0% sched_finish_ready_list
+       0   0.0% 100.0%        1   0.0% sched_get_condition_with_rev (inline)
+       0   0.0% 100.0%       59   1.5% sched_init
+       0   0.0% 100.0%        1   0.0% sched_init_luids (inline)
+       0   0.0% 100.0%        1   0.0% sched_insns_conditions_mutex_p
+       0   0.0% 100.0%       62   1.6% sched_rgn_compute_dependencies
+       0   0.0% 100.0%        5   0.1% sched_scan
+       0   0.0% 100.0%       40   1.0% schedule_block
+       0   0.0% 100.0%      198   5.0% schedule_insns (inline)
+       0   0.0% 100.0%      198   5.0% schedule_insns.part.0
+       0   0.0% 100.0%      132   3.3% schedule_region (inline)
+       0   0.0% 100.0%        1   0.0% sd_finish_insn
+       0   0.0% 100.0%        1   0.0% sd_init_insn
+       0   0.0% 100.0%       14   0.4% select_reload_regs (inline)
+       0   0.0% 100.0%        1   0.0% set_allocno_live
+       0   0.0% 100.0%        1   0.0% set_bb_original
+       0   0.0% 100.0%        1   0.0% set_control_dependence_map_bit (inline)
+       0   0.0% 100.0%        3   0.1% set_current_def (inline)
+       0   0.0% 100.0%        1   0.0% set_def_block
+       0   0.0% 100.0%        2   0.1% set_def_block (inline)
+       0   0.0% 100.0%        5   0.1% set_edge_can_fallthru_flag
+       0   0.0% 100.0%        1   0.0% set_immediate_dominator
+       0   0.0% 100.0%        1   0.0% set_immediate_dominator (inline)
+       0   0.0% 100.0%        1   0.0% set_initial_elim_offsets (inline)
+       0   0.0% 100.0%        1   0.0% set_initial_label_offsets (inline)
+       0   0.0% 100.0%        2   0.1% set_lattice_value
+       0   0.0% 100.0%        3   0.1% set_live_p (inline)
+       0   0.0% 100.0%        2   0.1% set_mem_alias_set
+       0   0.0% 100.0%        3   0.1% set_mem_align
+       0   0.0% 100.0%       16   0.4% set_mem_attributes_minus_bitpos
+       0   0.0% 100.0%        1   0.0% set_mem_attrs_for_spill
+       0   0.0% 100.0%        4   0.1% set_min_and_max_values_for_integral_type (inline)
+       0   0.0% 100.0%        2   0.1% set_nonzero_bits_and_sign_copies
+       0   0.0% 100.0%        3   0.1% set_of (inline)
+       0   0.0% 100.0%       19   0.5% set_priorities
+       0   0.0% 100.0%        1   0.0% set_reg_attrs_for_decl_rtl
+       0   0.0% 100.0%        3   0.1% set_reg_attrs_for_decl_rtl (inline)
+       0   0.0% 100.0%        3   0.1% set_rtl (inline)
+       0   0.0% 100.0%        1   0.0% set_scalar_evolution (inline)
+       0   0.0% 100.0%        1   0.0% set_union_with_increment (inline)
+       0   0.0% 100.0%        1   0.0% set_unique_reg_note
+       0   0.0% 100.0%        1   0.0% setup_allocno_cover_class_and_costs (inline)
+       0   0.0% 100.0%        3   0.1% setup_allocno_left_conflicts_size (inline)
+       0   0.0% 100.0%        1   0.0% setup_one_parameter
+       0   0.0% 100.0%        1   0.0% setup_reg_renumber (inline)
+       0   0.0% 100.0%        2   0.1% shallow_copy_rtx_stat
+       0   0.0% 100.0%        4   0.1% shallow_copy_rtx_stat (inline)
+       0   0.0% 100.0%        1   0.0% shared_bitmap_lookup (inline)
+       0   0.0% 100.0%        1   0.0% shorten_compare
+       0   0.0% 100.0%        9   0.2% simple_iv
+       0   0.0% 100.0%        4   0.1% simplify_and_const_int
+       0   0.0% 100.0%        4   0.1% simplify_and_const_int_1 (inline)
+       0   0.0% 100.0%        1   0.0% simplify_binary_expression
+       0   0.0% 100.0%        3   0.1% simplify_comparison
+       0   0.0% 100.0%        4   0.1% simplify_control_stmt_condition (inline)
+       0   0.0% 100.0%        8   0.2% simplify_gen_binary
+       0   0.0% 100.0%        5   0.1% simplify_gen_relational
+       0   0.0% 100.0%        1   0.0% simplify_if_then_else
+       0   0.0% 100.0%        3   0.1% simplify_logical (inline)
+       0   0.0% 100.0%        5   0.1% simplify_relational_operation (inline)
+       0   0.0% 100.0%        1   0.0% simplify_replace_fn_rtx
+       0   0.0% 100.0%        7   0.2% simplify_set (inline)
+       0   0.0% 100.0%        3   0.1% simplify_shift_const (inline)
+       0   0.0% 100.0%        1   0.0% simplify_unary_expression (inline)
+       0   0.0% 100.0%        1   0.0% simplify_unary_operation
+       0   0.0% 100.0%        1   0.0% simplify_using_initial_conditions.isra.0
+       0   0.0% 100.0%        1   0.0% simplify_using_outer_evolutions
+       0   0.0% 100.0%        1   0.0% simplify_while_replacing
+       0   0.0% 100.0%       34   0.9% simulate_block (inline)
+       0   0.0% 100.0%        2   0.1% single_incoming_edge_ignoring_loop_edges (inline)
+       0   0.0% 100.0%        1   0.0% sink_code_in_bb
+       0   0.0% 100.0%        3   0.1% size_binop_loc
+       0   0.0% 100.0%       50   1.3% solve_constraints
+       0   0.0% 100.0%       13   0.3% solve_graph
+       0   0.0% 100.0%        1   0.0% sort_conflict_id_allocno_map (inline)
+       0   0.0% 100.0%        1   0.0% sort_scc (inline)
+       0   0.0% 100.0%        1   0.0% splay_tree_insert
+       0   0.0% 100.0%        4   0.1% splay_tree_lookup
+       0   0.0% 100.0%        1   0.0% splay_tree_remove
+       0   0.0% 100.0%        5   0.1% splay_tree_splay (inline)
+       0   0.0% 100.0%        3   0.1% split_block
+       0   0.0% 100.0%        1   0.0% split_block_after_labels (inline)
+       0   0.0% 100.0%        2   0.1% split_constant_offset
+       0   0.0% 100.0%        2   0.1% split_critical_edges
+       0   0.0% 100.0%       13   0.3% split_edge
+       0   0.0% 100.0%       14   0.4% split_insn
+       0   0.0% 100.0%        1   0.0% split_loop_exit_edge
+       0   0.0% 100.0%        4   0.1% sprintf (inline)
+       0   0.0% 100.0%        1   0.0% sreal_init
+       0   0.0% 100.0%        1   0.0% ssa_operand_alloc (inline)
+       0   0.0% 100.0%        5   0.1% ssa_prop_init (inline)
+       0   0.0% 100.0%       42   1.1% ssa_propagate
+       0   0.0% 100.0%        2   0.1% ssa_redirect_edge
+       0   0.0% 100.0%        2   0.1% start_recording_case_labels
+       0   0.0% 100.0%        9   0.2% state_transition
+       0   0.0% 100.0%        5   0.1% stmt_may_clobber_ref_p
+       0   0.0% 100.0%       23   0.6% stmt_may_clobber_ref_p_1
+       0   0.0% 100.0%       15   0.4% stmt_may_clobber_ref_p_1 (inline)
+       0   0.0% 100.0%       21   0.5% store_expr
+       0   0.0% 100.0%        3   0.1% store_field
+       0   0.0% 100.0%        3   0.1% store_field (inline)
+       0   0.0% 100.0%        8   0.2% store_one_arg
+       0   0.0% 100.0%        4   0.1% strict_memory_address_addr_space_p
+       0   0.0% 100.0%        1   0.0% strict_memory_address_addr_space_p (inline)
+       0   0.0% 100.0%        1   0.0% strip_offset (inline)
+       0   0.0% 100.0%        1   0.0% strip_offset_1
+       0   0.0% 100.0%        1   0.0% surely_varying_stmt_p (inline)
+       0   0.0% 100.0%        2   0.1% tablejump_p
+       0   0.0% 100.0%        3   0.1% tablejump_p (inline)
+       0   0.0% 100.0%        1   0.0% temp_slot_address_compute_hash (inline)
+       0   0.0% 100.0%        7   0.2% thread_across_edge
+       0   0.0% 100.0%        4   0.1% thread_block
+       0   0.0% 100.0%        3   0.1% thread_jump (inline)
+       0   0.0% 100.0%       10   0.3% thread_prologue_and_epilogue_insns (inline)
+       0   0.0% 100.0%        4   0.1% thread_through_all_blocks
+       0   0.0% 100.0%        2   0.1% threadedge_initialize_values
+       0   0.0% 100.0%     3974  99.8% toplev_main
+       0   0.0% 100.0%        1   0.0% tree_bb_level_predictions (inline)
+       0   0.0% 100.0%        9   0.2% tree_complete_unroll_inner
+       0   0.0% 100.0%       12   0.3% tree_estimate_probability
+       0   0.0% 100.0%        1   0.0% tree_estimate_probability_bb (inline)
+       0   0.0% 100.0%       16   0.4% tree_estimate_probability_driver
+       0   0.0% 100.0%        7   0.2% tree_function_versioning
+       0   0.0% 100.0%        3   0.1% tree_if_conversion (inline)
+       0   0.0% 100.0%        4   0.1% tree_inlinable_function_p
+       0   0.0% 100.0%        3   0.1% tree_int_cst_compare
+       0   0.0% 100.0%        3   0.1% tree_lower_complex
+       0   0.0% 100.0%       22   0.6% tree_lowering_passes
+       0   0.0% 100.0%        1   0.0% tree_optimize_tail_calls_1
+       0   0.0% 100.0%        8   0.2% tree_predictive_commoning
+       0   0.0% 100.0%        7   0.2% tree_predictive_commoning_loop (inline)
+       0   0.0% 100.0%     3719  93.4% tree_rest_of_compilation
+       0   0.0% 100.0%        3   0.1% tree_sign_nop_conversion (inline)
+       0   0.0% 100.0%       15   0.4% tree_ssa_dce_loop
+       0   0.0% 100.0%       44   1.1% tree_ssa_dominator_optimize
+       0   0.0% 100.0%       10   0.3% tree_ssa_dse
+       0   0.0% 100.0%       14   0.4% tree_ssa_iv_optimize
+       0   0.0% 100.0%        2   0.1% tree_ssa_iv_optimize_init (inline)
+       0   0.0% 100.0%       12   0.3% tree_ssa_iv_optimize_loop (inline)
+       0   0.0% 100.0%        6   0.2% tree_ssa_lim
+       0   0.0% 100.0%        1   0.0% tree_ssa_loop_bounds
+       0   0.0% 100.0%        6   0.2% tree_ssa_loop_im
+       0   0.0% 100.0%        7   0.2% tree_ssa_loop_init
+       0   0.0% 100.0%       14   0.4% tree_ssa_loop_ivopts
+       0   0.0% 100.0%        3   0.1% tree_ssa_phiopt_worker
+       0   0.0% 100.0%        4   0.1% tree_ssa_uncprop
+       0   0.0% 100.0%        3   0.1% tree_ssa_unswitch_loops
+       0   0.0% 100.0%        4   0.1% tree_unroll_loops_completely
+       0   0.0% 100.0%        1   0.0% tree_unswitch_loop (inline)
+       0   0.0% 100.0%        3   0.1% tree_unswitch_single_loop
+       0   0.0% 100.0%        4   0.1% true_dependence
+       0   0.0% 100.0%        1   0.0% try_add_cand_for (inline)
+       0   0.0% 100.0%        9   0.2% try_crossjump_bb
+       0   0.0% 100.0%        1   0.0% try_inline
+       0   0.0% 100.0%       18   0.5% try_ready
+       0   0.0% 100.0%        3   0.1% try_replace_reg
+       0   0.0% 100.0%       13   0.3% try_split
+       0   0.0% 100.0%        2   0.1% try_to_simplify (inline)
+       0   0.0% 100.0%        1   0.0% unchain_one_elt_list (inline)
+       0   0.0% 100.0%        4   0.1% unchecked_make_edge
+       0   0.0% 100.0%        3   0.1% unify_nodes
+       0   0.0% 100.0%        3   0.1% unite_pointer_equivalences (inline)
+       0   0.0% 100.0%        1   0.0% unshare_aff_combination
+       0   0.0% 100.0%        1   0.0% unshare_all_rtl
+       0   0.0% 100.0%        7   0.2% unshare_all_rtl_1 (inline)
+       0   0.0% 100.0%        8   0.2% unshare_all_rtl_again
+       0   0.0% 100.0%        2   0.1% unshare_body (inline)
+       0   0.0% 100.0%        7   0.2% unshare_expr
+       0   0.0% 100.0%        1   0.0% unshare_expr (inline)
+       0   0.0% 100.0%        7   0.2% unswitch_loops
+       0   0.0% 100.0%        7   0.2% unswitch_single_loop
+       0   0.0% 100.0%        2   0.1% unvisit_body (inline)
+       0   0.0% 100.0%        3   0.1% update_callee_keys.isra.0
+       0   0.0% 100.0%        3   0.1% update_caller_keys (inline)
+       0   0.0% 100.0%        3   0.1% update_forwarder_flag (inline)
+       0   0.0% 100.0%        1   0.0% update_label_decls (inline)
+       0   0.0% 100.0%        1   0.0% update_ld_motion_stores.isra.0
+       0   0.0% 100.0%        4   0.1% update_modified_stmt (inline)
+       0   0.0% 100.0%       78   2.0% update_ssa
+       0   0.0% 100.0%       15   0.4% update_stmt (inline)
+       0   0.0% 100.0%        4   0.1% update_stmt_if_modified (inline)
+       0   0.0% 100.0%        1   0.0% update_temp_slot_address
+       0   0.0% 100.0%        2   0.1% update_value_range (inline)
+       0   0.0% 100.0%        1   0.0% use_killed_between (inline)
+       0   0.0% 100.0%        1   0.0% use_register_for_decl
+       0   0.0% 100.0%        1   0.0% validate_equiv_mem
+       0   0.0% 100.0%        1   0.0% validate_equiv_mem (inline)
+       0   0.0% 100.0%        1   0.0% validate_replace_rtx
+       0   0.0% 100.0%        1   0.0% validate_replace_src_group
+       0   0.0% 100.0%        7   0.2% value_id_constant_p
+       0   0.0% 100.0%        1   0.0% valueize_shared_reference_ops_from_ref (inline)
+       0   0.0% 100.0%        1   0.0% varpool_analyze_pending_decls
+       0   0.0% 100.0%        5   0.1% varpool_assemble_decl (inline)
+       0   0.0% 100.0%        5   0.1% varpool_assemble_pending_decls
+       0   0.0% 100.0%        5   0.1% varpool_assemble_pending_decls (inline)
+       0   0.0% 100.0%        1   0.0% vec_gc_p_reserve_exact
+       0   0.0% 100.0%       25   0.6% vec_heap_o_reserve_1 (inline)
+       0   0.0% 100.0%        3   0.1% vec_heap_o_reserve_exact
+       0   0.0% 100.0%        7   0.2% vec_heap_p_reserve_exact
+       0   0.0% 100.0%        9   0.2% vect_analyze_data_refs
+       0   0.0% 100.0%        1   0.0% vect_analyze_loop
+       0   0.0% 100.0%        1   0.0% vect_analyze_loop_form
+       0   0.0% 100.0%       12   0.3% vect_slp_analyze_bb
+       0   0.0% 100.0%        1   0.0% vectorize_loops
+       0   0.0% 100.0%        2   0.1% verify_changes
+       0   0.0% 100.0%        5   0.1% visit_assignment
+       0   0.0% 100.0%        1   0.0% visit_binary_op (inline)
+       0   0.0% 100.0%        3   0.1% visit_cond_stmt (inline)
+       0   0.0% 100.0%        1   0.0% visit_phi
+       0   0.0% 100.0%       17   0.4% visit_reference_op_load
+       0   0.0% 100.0%        7   0.2% visit_reference_op_store (inline)
+       0   0.0% 100.0%        1   0.0% visit_unary_op
+       0   0.0% 100.0%        1   0.0% visit_unary_op (inline)
+       0   0.0% 100.0%        1   0.0% vn_get_expr_for
+       0   0.0% 100.0%        2   0.1% vn_nary_op_insert_pieces
+       0   0.0% 100.0%        2   0.1% vn_nary_op_insert_stmt
+       0   0.0% 100.0%        4   0.1% vn_nary_op_lookup_pieces
+       0   0.0% 100.0%        1   0.0% vn_phi_insert (inline)
+       0   0.0% 100.0%        6   0.2% vn_reference_insert
+       0   0.0% 100.0%        3   0.1% vn_reference_insert_pieces
+       0   0.0% 100.0%        1   0.0% vn_reference_lookup_1 (inline)
+       0   0.0% 100.0%        4   0.1% vn_reference_lookup_pieces
+       0   0.0% 100.0%        4   0.1% vrp_evaluate_conditional
+       0   0.0% 100.0%        4   0.1% vrp_evaluate_conditional_warnv_with_ops (inline)
+       0   0.0% 100.0%        3   0.1% vrp_fold_stmt
+       0   0.0% 100.0%        2   0.1% vrp_initialize (inline)
+       0   0.0% 100.0%        3   0.1% vrp_meet
+       0   0.0% 100.0%        2   0.1% vrp_stmt_computes_nonzero (inline)
+       0   0.0% 100.0%        7   0.2% vrp_visit_assignment_or_call (inline)
+       0   0.0% 100.0%        2   0.1% vrp_visit_cond_stmt (inline)
+       0   0.0% 100.0%        9   0.2% vrp_visit_stmt
+       0   0.0% 100.0%        4   0.1% walk_gimple_seq
+       0   0.0% 100.0%        3   0.1% walk_gimple_stmt (inline)
+       0   0.0% 100.0%       21   0.5% walk_non_aliased_vuses
+       0   0.0% 100.0%        1   0.0% want_to_gcse_p
+       0   0.0% 100.0%        1   0.0% whole_program_function_and_variable_visibility
+       0   0.0% 100.0%        4   0.1% write_dependence_p (inline)
