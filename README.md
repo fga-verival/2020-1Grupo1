@@ -1,4 +1,4 @@
-# Trabalho Final de Testes de Software 2020
+# Trabalho Final de Testes de Software 2020 - Grupo 1
 
 Neste trabalho foi feito uma análise no desempenho do compilador GNU Compiler Collection (GCC) utilizando a técnica de *software profiling*. Para tal, utilizamos o *profiler* oficial da Google, *gperftools*,  visando a identificação de possíveis funções do GCC onde hajam gargalos e, possíveis oportunidades de otimização. Os arquivos de entradas (inputs) do *profiler* que serão utilizados para tais análises são provindas da suite de *benchmarks* da organização *Standard Performance Evaluation Corporation* (SPEC).
 
